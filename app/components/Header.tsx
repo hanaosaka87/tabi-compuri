@@ -6,6 +6,7 @@ import { supabase } from '@/lib/supabase'
 
 const NAV = [
   { href: '/dashboard', label: 'マップ' },
+  { href: '/city', label: '市区町村' },
   { href: '/diary', label: '日記' },
   { href: '/ranking', label: 'ランキング' },
   { href: '/badges', label: 'バッジ' },

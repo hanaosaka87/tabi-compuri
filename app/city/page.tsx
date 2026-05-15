@@ -1,0 +1,142 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
+import { supabase } from '@/lib/supabase'
+import { PREFECTURES } from '@/lib/prefectures'
+import Header from '@/app/components/Header'
+
+type City = { id: string; name: string }
+
+export default function CityPage() {
+  const router = useRouter()
+  const [userId, setUserId] = useState<string | null>(null)
+  const [selectedPref, setSelectedPref] = useState(13)
+  const [cities, setCities] = useState<City[]>([])
+  const [visitedCodes, setVisitedCodes] = useState<Set<string>>(new Set())
+  const [loadingCities, setLoadingCities] = useState(false)
+  const [loadingPage, setLoadingPage] = useState(true)
+  const [totalVisited, setTotalVisited] = useState(0)
+
+  useEffect(() => {
+    const init = async () => {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) { router.push('/login'); return }
+      setUserId(user.id)
+      const { count } = await supabase
+        .from('city_visits')
+        .select('*', { count: 'exact', head: true })
+        .eq('user_id', user.id)
+      setTotalVisited(count ?? 0)
+      setLoadingPage(false)
+    }
+    init()
+  }, [router])
+
+  useEffect(() => {
+    if (!userId) return
+    const load = async () => {
+      setLoadingCities(true)
+      const [citiesRes, visitsRes] = await Promise.all([
+        fetch(`/api/cities?pref=${selectedPref}`).then((r) => r.json()),
+        supabase.from('city_visits').select('city_code').eq('user_id', userId).eq('prefecture_code', selectedPref),
+      ])
+      setCities(citiesRes)
+      setVisitedCodes(new Set((visitsRes.data ?? []).map((v: { city_code: string }) => v.city_code)))
+      setLoadingCities(false)
+    }
+    load()
+  }, [selectedPref, userId])
+
+  const handleToggle = async (city: City) => {
+    if (!userId) return
+    if (visitedCodes.has(city.id)) {
+      await supabase.from('city_visits').delete().eq('user_id', userId).eq('city_code', city.id)
+      setVisitedCodes((prev) => { const s = new Set(prev); s.delete(city.id); return s })
+      setTotalVisited((n) => n - 1)
+    } else {
+      await supabase.from('city_visits').insert({
+        user_id: userId,
+        city_code: city.id,
+        city_name: city.name,
+        prefecture_code: selectedPref,
+        visited_at: new Date().toISOString().split('T')[0],
+      })
+      setVisitedCodes((prev) => new Set(prev).add(city.id))
+      setTotalVisited((n) => n + 1)
+    }
+  }
+
+  const prefName = PREFECTURES.find((p) => p.code === selectedPref)?.name ?? ''
+  const visitedInPref = visitedCodes.size
+
+  if (loadingPage) return (
+    <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
+  )
+
+  return (
+    <main className="min-h-screen bg-slate-900 text-white">
+      <Header />
+      <div className="max-w-3xl mx-auto px-6 py-8">
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <h1 className="text-2xl font-bold">🏘 市区町村制覇</h1>
+            <p className="text-slate-400 text-sm mt-1">累計 <span className="text-emerald-400 font-bold">{totalVisited}</span> 市区町村を制覇中</p>
+          </div>
+        </div>
+
+        {/* 都道府県セレクター */}
+        <div className="mb-6">
+          <label className="text-slate-400 text-sm mb-2 block">都道府県を選択</label>
+          <select
+            value={selectedPref}
+            onChange={(e) => setSelectedPref(Number(e.target.value))}
+            className="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-400 transition"
+          >
+            {PREFECTURES.map((p) => (
+              <option key={p.code} value={p.code}>{p.name}</option>
+            ))}
+          </select>
+        </div>
+
+        {/* 制覇ステータス */}
+        {!loadingCities && cities.length > 0 && (
+          <div className="bg-gradient-to-r from-emerald-900/50 to-slate-800/50 border border-emerald-500/20 rounded-2xl px-5 py-4 mb-6">
+            <p className="text-slate-400 text-sm">{prefName}の制覇状況</p>
+            <p className="text-2xl font-bold mt-1">
+              {visitedInPref}
+              <span className="text-slate-400 text-base font-normal"> / {cities.length} 市区町村</span>
+            </p>
+            <div className="w-full bg-slate-700 rounded-full h-2 mt-2">
+              <div
+                className="bg-emerald-500 h-2 rounded-full transition-all duration-500"
+                style={{ width: `${Math.round((visitedInPref / cities.length) * 100)}%` }}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* 市区町村グリッド */}
+        {loadingCities ? (
+          <div className="text-center py-16 text-slate-500">読み込み中...</div>
+        ) : (
+          <div className="flex flex-wrap gap-2">
+            {cities.map((city) => (
+              <button
+                key={city.id}
+                onClick={() => handleToggle(city)}
+                className={`px-3 py-2 rounded-xl text-sm font-medium transition border ${
+                  visitedCodes.has(city.id)
+                    ? 'bg-emerald-500 border-emerald-500 text-white'
+                    : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
+                }`}
+              >
+                {visitedCodes.has(city.id) ? '✓ ' : ''}{city.name}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    </main>
+  )
+}
