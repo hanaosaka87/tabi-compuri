@@ -15,6 +15,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "旅コンプリ | 日本全国制覇アプリ",
   description: "日本47都道府県を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。",
+  openGraph: {
+    title: "旅コンプリ | 日本全国制覇アプリ",
+    description: "日本47都道府県を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。",
+    url: "https://tabi-compuri.hana.trickster.biz",
+    siteName: "旅コンプリ",
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "旅コンプリ | 日本全国制覇アプリ",
+    description: "日本47都道府県を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。",
+  },
 };
 
 export default function RootLayout({

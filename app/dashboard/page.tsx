@@ -154,7 +154,18 @@ export default function DashboardPage() {
                   </p>
                   <p className="text-xs text-slate-500 truncate">{badge.description}</p>
                 </div>
-                {badge.earned && <span className="ml-auto text-emerald-400 text-xs flex-shrink-0">獲得済</span>}
+                {badge.earned && (
+                  <button
+                    onClick={() => {
+                      const text = `${badge.emoji} 旅コンプリで「${badge.label}」バッジを獲得しました！ #旅コンプリ\nhttps://tabi-compuri.hana.trickster.biz`
+                      window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
+                    }}
+                    className="ml-auto text-slate-500 hover:text-sky-400 transition flex-shrink-0 text-base"
+                    title="Xでシェア"
+                  >
+                    𝕏
+                  </button>
+                )}
               </div>
             ))}
           </div>

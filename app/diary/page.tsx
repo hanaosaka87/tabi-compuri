@@ -294,13 +294,26 @@ export default function DiaryPage() {
                         <p className="text-slate-400 text-sm mt-1 line-clamp-2">{diary.body}</p>
                       )}
                     </div>
-                    <button
-                      onClick={() => handleDelete(diary)}
-                      className="text-slate-600 hover:text-red-400 transition text-lg flex-shrink-0 mt-1"
-                      title="削除"
-                    >
-                      🗑
-                    </button>
+                    <div className="flex items-center gap-2 flex-shrink-0 mt-1">
+                      <button
+                        onClick={() => {
+                          const date = diary.visited_date ? ` (${diary.visited_date})` : ''
+                          const text = `📔 ${diary.title}${date} #旅コンプリ\nhttps://tabi-compuri.hana.trickster.biz`
+                          window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
+                        }}
+                        className="text-slate-600 hover:text-sky-400 transition text-base"
+                        title="Xでシェア"
+                      >
+                        𝕏
+                      </button>
+                      <button
+                        onClick={() => handleDelete(diary)}
+                        className="text-slate-600 hover:text-red-400 transition text-lg"
+                        title="削除"
+                      >
+                        🗑
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
