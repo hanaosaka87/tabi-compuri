@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES, getPrefectureName } from '@/lib/prefectures'
+import Header from '@/app/components/Header'
 
 type Diary = {
   id: string
@@ -119,11 +119,6 @@ export default function DiaryPage() {
     setDiaries((prev) => prev.filter((d) => d.id !== diary.id))
   }
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut()
-    router.push('/')
-  }
-
   const handleCancelForm = () => {
     setShowForm(false)
     setForm(EMPTY_FORM)
@@ -138,17 +133,7 @@ export default function DiaryPage() {
 
   return (
     <main className="min-h-screen bg-slate-900 text-white">
-      <header className="flex items-center justify-between px-6 py-4 border-b border-white/10 bg-slate-900/80 sticky top-0 z-10">
-        <div className="flex items-center gap-2">
-          <span className="text-xl">🗾</span>
-          <span className="text-lg font-bold">旅コンプリ</span>
-        </div>
-        <nav className="flex items-center gap-4 text-sm">
-          <Link href="/dashboard" className="text-slate-400 hover:text-white transition">マップ</Link>
-          <Link href="/ranking" className="text-slate-400 hover:text-white transition">ランキング</Link>
-          <button onClick={handleLogout} className="text-slate-400 hover:text-white transition">ログアウト</button>
-        </nav>
-      </header>
+      <Header />
 
       <div className="max-w-2xl mx-auto px-6 py-8">
         <div className="flex items-center justify-between mb-6">

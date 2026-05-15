@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
+import Header from '@/app/components/Header'
 
 type RankEntry = {
   userId: string
@@ -65,28 +65,13 @@ export default function RankingPage() {
     init()
   }, [router])
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut()
-    router.push('/')
-  }
-
   if (loading) return (
     <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
   )
 
   return (
     <main className="min-h-screen bg-slate-900 text-white">
-      <header className="flex items-center justify-between px-6 py-4 border-b border-white/10 bg-slate-900/80 sticky top-0 z-10">
-        <div className="flex items-center gap-2">
-          <span className="text-xl">🗾</span>
-          <span className="text-lg font-bold">旅コンプリ</span>
-        </div>
-        <nav className="flex items-center gap-4 text-sm">
-          <Link href="/dashboard" className="text-slate-400 hover:text-white transition">マップ</Link>
-          <Link href="/diary" className="text-slate-400 hover:text-white transition">日記</Link>
-          <button onClick={handleLogout} className="text-slate-400 hover:text-white transition">ログアウト</button>
-        </nav>
-      </header>
+      <Header />
 
       <div className="max-w-2xl mx-auto px-6 py-8">
         <h1 className="text-2xl font-bold mb-2">🏆 都道府県制覇ランキング</h1>

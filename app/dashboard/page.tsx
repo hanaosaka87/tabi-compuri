@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES } from '@/lib/prefectures'
 import { calcBadges } from '@/lib/badges'
+import Header from '@/app/components/Header'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -38,11 +38,6 @@ export default function DashboardPage() {
     }
   }
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut()
-    router.push('/')
-  }
-
   const visitCount = visitedCodes.size
   const percent = Math.round((visitCount / 47) * 100)
 
@@ -63,18 +58,7 @@ export default function DashboardPage() {
 
   return (
     <main className="min-h-screen bg-slate-900 text-white">
-      {/* ヘッダー */}
-      <header className="flex items-center justify-between px-6 py-4 border-b border-white/10 bg-slate-900/80 sticky top-0 z-10">
-        <div className="flex items-center gap-2">
-          <span className="text-xl">🗾</span>
-          <span className="text-lg font-bold">旅コンプリ</span>
-        </div>
-        <nav className="flex items-center gap-4 text-sm">
-          <Link href="/diary" className="text-slate-400 hover:text-white transition">日記</Link>
-          <Link href="/ranking" className="text-slate-400 hover:text-white transition">ランキング</Link>
-          <button onClick={handleLogout} className="text-slate-400 hover:text-white transition">ログアウト</button>
-        </nav>
-      </header>
+      <Header />
 
       <div className="max-w-3xl mx-auto px-6 py-8">
         {/* 制覇ステータス */}
