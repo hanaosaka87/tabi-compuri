@@ -9,12 +9,17 @@ export default function Home() {
           <span className="text-2xl">🗾</span>
           <span className="text-xl font-bold tracking-wide">旅コンプリ</span>
         </div>
-        <Link
-          href="/login"
-          className="bg-emerald-500 hover:bg-emerald-400 text-white px-5 py-2 rounded-full text-sm font-medium transition"
-        >
-          ログイン
-        </Link>
+        <nav className="flex items-center gap-4 text-sm">
+          <Link href="/dashboard" className="text-slate-400 hover:text-white transition hidden sm:block">マップを体験</Link>
+          <Link href="/ranking" className="text-slate-400 hover:text-white transition hidden sm:block">ランキング</Link>
+          <Link href="/badges" className="text-slate-400 hover:text-white transition hidden sm:block">バッジ</Link>
+          <Link
+            href="/login"
+            className="bg-emerald-500 hover:bg-emerald-400 text-white px-5 py-2 rounded-full text-sm font-medium transition"
+          >
+            ログイン
+          </Link>
+        </nav>
       </header>
 
       {/* ヒーローセクション */}
