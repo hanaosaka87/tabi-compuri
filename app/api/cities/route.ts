@@ -1,17 +1,26 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { getPrefectureFullName } from '@/lib/prefectures'
 
 export async function GET(req: NextRequest) {
   const pref = req.nextUrl.searchParams.get('pref')
   if (!pref) return NextResponse.json({ error: 'pref is required' }, { status: 400 })
 
-  const code = String(pref).padStart(2, '0')
+  const prefName = getPrefectureFullName(Number(pref))
+  if (!prefName) return NextResponse.json([], { status: 400 })
+
   try {
     const res = await fetch(
-      `https://www.land.mlit.go.jp/webland/api/CitySearch?area=${code}`,
+      `https://geoapi.heartrails.com/api/json?method=getCities&prefecture=${encodeURIComponent(prefName)}`,
       { next: { revalidate: 86400 } }
     )
     const json = await res.json()
-    return NextResponse.json(json.data ?? [])
+    const cities = (json?.response?.location ?? []).map(
+      (item: { city: string }) => ({
+        id: `${pref}_${item.city}`,
+        name: item.city,
+      })
+    )
+    return NextResponse.json(cities)
   } catch {
     return NextResponse.json([], { status: 500 })
   }
