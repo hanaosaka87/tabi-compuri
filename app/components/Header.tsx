@@ -20,10 +20,6 @@ export default function Header() {
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => setLoggedIn(!!data.user))
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_, session) => {
-      setLoggedIn(!!session)
-    })
-    return () => subscription.unsubscribe()
   }, [])
 
   const handleLogout = async () => {
