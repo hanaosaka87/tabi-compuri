@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES } from '@/lib/prefectures'
+import { calcBadges } from '@/lib/badges'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -132,6 +133,32 @@ export default function DashboardPage() {
             </div>
           </div>
         ))}
+
+        {/* バッジ */}
+        <div className="mt-4">
+          <h2 className="text-lg font-bold mb-4">🏅 バッジ</h2>
+          <div className="grid grid-cols-2 gap-3">
+            {calcBadges(visitedCodes).map((badge) => (
+              <div
+                key={badge.id}
+                className={`flex items-center gap-3 px-4 py-3 rounded-2xl border transition ${
+                  badge.earned
+                    ? 'bg-emerald-500/10 border-emerald-500/40'
+                    : 'bg-white/5 border-white/10 opacity-40'
+                }`}
+              >
+                <span className="text-2xl">{badge.emoji}</span>
+                <div className="min-w-0">
+                  <p className={`text-sm font-bold truncate ${badge.earned ? 'text-white' : 'text-slate-500'}`}>
+                    {badge.label}
+                  </p>
+                  <p className="text-xs text-slate-500 truncate">{badge.description}</p>
+                </div>
+                {badge.earned && <span className="ml-auto text-emerald-400 text-xs flex-shrink-0">獲得済</span>}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </main>
   )
