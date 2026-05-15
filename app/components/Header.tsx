@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
 import { supabase } from '@/lib/supabase'
 
 const NAV = [
@@ -15,6 +16,15 @@ const NAV = [
 export default function Header() {
   const pathname = usePathname()
   const router = useRouter()
+  const [loggedIn, setLoggedIn] = useState<boolean | null>(null)
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => setLoggedIn(!!data.user))
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_, session) => {
+      setLoggedIn(!!session)
+    })
+    return () => subscription.unsubscribe()
+  }, [])
 
   const handleLogout = async () => {
     await supabase.auth.signOut()
@@ -41,12 +51,18 @@ export default function Header() {
             {item.label}
           </Link>
         ))}
-        <button
-          onClick={handleLogout}
-          className="text-slate-400 hover:text-white transition"
-        >
-          ログアウト
-        </button>
+        {loggedIn ? (
+          <button onClick={handleLogout} className="text-slate-400 hover:text-white transition">
+            ログアウト
+          </button>
+        ) : (
+          <Link
+            href="/login"
+            className="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-1.5 rounded-full text-sm font-medium transition"
+          >
+            ログインして始める
+          </Link>
+        )}
       </nav>
     </header>
   )
