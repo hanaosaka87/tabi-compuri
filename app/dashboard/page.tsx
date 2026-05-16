@@ -8,6 +8,7 @@ import { calcBadges } from '@/lib/badges'
 import Header from '@/app/components/Header'
 import ShareModal from '@/app/components/ShareModal'
 import ShareIcons from '@/app/components/ShareIcons'
+import AiRecommend from '@/app/components/AiRecommend'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -183,6 +184,15 @@ export default function DashboardPage() {
             </div>
           )}
         </div>
+
+        {/* ── AI旅提案 ── */}
+        {!isGuest && (
+          <AiRecommend
+            visitedCodes={Array.from(visitedCodes)}
+            spotCount={totalSpotVisited}
+            cityCount={cityCount}
+          />
+        )}
 
         {/* ── スポット別制覇カード ── */}
         <h2 className="text-sm font-bold text-slate-400 mb-3">スポット制覇</h2>
