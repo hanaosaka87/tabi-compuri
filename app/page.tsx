@@ -39,6 +39,12 @@ export default function Home() {
         >
           無料ではじめる →
         </Link>
+        <Link
+          href="/dashboard"
+          className="text-slate-400 hover:text-white text-sm underline underline-offset-4 transition"
+        >
+          まずはゲストで体験する
+        </Link>
       </section>
 
       {/* 機能紹介 */}
