@@ -4,6 +4,7 @@ import michiNoEkiData from '@/lib/spots/michi-no-eki.json'
 import onsenData from '@/lib/spots/onsen.json'
 import leisureData from '@/lib/spots/leisure.json'
 import zooAqData from '@/lib/spots/zoo-aquarium.json'
+import castleData from '@/lib/spots/castle.json'
 
 const CATEGORIES = [
   {
@@ -21,6 +22,14 @@ const CATEGORIES = [
     description: '名湯・秘湯を巡る温泉制覇',
     total: (onsenData as unknown[]).length,
     href: '/spots/onsen',
+  },
+  {
+    id: 'castle',
+    label: 'お城',
+    icon: '🏯',
+    description: '全国の城・城跡を制覇しよう',
+    total: (castleData as unknown[]).length,
+    href: '/spots/castle',
   },
   {
     id: 'leisure',

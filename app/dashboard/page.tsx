@@ -12,6 +12,7 @@ const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', 
 const SPOT_CATEGORIES = [
   { id: 'michi-no-eki', label: '道の駅', icon: '🚗', total: 1238, href: '/spots/michi-no-eki' },
   { id: 'onsen', label: '温泉', icon: '♨️', total: 1774, href: '/spots/onsen' },
+  { id: 'castle', label: 'お城', icon: '🏯', total: 1782, href: '/spots/castle' },
   { id: 'leisure', label: '遊園地', icon: '🎡', total: 186, href: '/spots/leisure' },
   { id: 'zoo-aquarium', label: '動物園・水族館', icon: '🦁', total: 264, href: '/spots/zoo-aquarium' },
 ]
@@ -178,7 +179,7 @@ export default function DashboardPage() {
 
         {/* ── スポット別制覇カード ── */}
         <h2 className="text-sm font-bold text-slate-400 mb-3">スポット制覇</h2>
-        <div className="grid grid-cols-2 gap-3 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
           {SPOT_CATEGORIES.map((cat) => {
             const visited = isGuest ? 0 : (spotCounts[cat.id] ?? 0)
             const pct = Math.round((visited / cat.total) * 100)
