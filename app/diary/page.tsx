@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES, getPrefectureName } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
@@ -19,11 +19,12 @@ type Diary = {
 const EMPTY_FORM = { prefecture_code: 1, title: '', body: '', visited_date: '' }
 
 export default function DiaryPage() {
-  const router = useRouter()
   const [userId, setUserId] = useState<string | null>(null)
+  const [isGuest, setIsGuest] = useState(false)
   const [diaries, setDiaries] = useState<Diary[]>([])
   const [loading, setLoading] = useState(true)
   const [showForm, setShowForm] = useState(false)
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [form, setForm] = useState(EMPTY_FORM)
   const [photoFile, setPhotoFile] = useState<File | null>(null)
   const [photoPreview, setPhotoPreview] = useState<string | null>(null)
@@ -34,13 +35,17 @@ export default function DiaryPage() {
   useEffect(() => {
     const init = async () => {
       const { data: { user } } = await supabase.auth.getUser()
-      if (!user) { router.push('/login'); return }
+      if (!user) {
+        setIsGuest(true)
+        setLoading(false)
+        return
+      }
       setUserId(user.id)
       await fetchDiaries(user.id)
       setLoading(false)
     }
     init()
-  }, [router])
+  }, [])
 
   const fetchDiaries = async (uid: string) => {
     const { data } = await supabase
@@ -135,11 +140,41 @@ export default function DiaryPage() {
     <main className="min-h-screen bg-slate-900 text-white">
       <Header />
 
+      {/* ゲストバナー */}
+      {isGuest && (
+        <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-4 py-3 flex items-center justify-between">
+          <p className="text-emerald-400 text-sm">📔 ゲストモードで閲覧中 — 日記を書くにはログインが必要です</p>
+          <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-1.5 rounded-full text-xs font-bold transition flex-shrink-0 ml-4">
+            ログインして始める
+          </Link>
+        </div>
+      )}
+
+      {/* ログイン促進モーダル */}
+      {showLoginPrompt && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 px-6" onClick={() => setShowLoginPrompt(false)}>
+          <div className="bg-slate-800 border border-white/10 rounded-2xl p-8 max-w-sm w-full text-center" onClick={(e) => e.stopPropagation()}>
+            <div className="text-5xl mb-4">📔</div>
+            <h2 className="text-xl font-bold mb-2">日記を書くにはログインが必要です</h2>
+            <p className="text-slate-400 text-sm mb-6">無料登録して旅の思い出を記録しましょう！</p>
+            <Link href="/login" className="block bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3 rounded-xl transition mb-3">
+              ログイン / 新規登録
+            </Link>
+            <button onClick={() => setShowLoginPrompt(false)} className="text-slate-500 text-sm hover:text-slate-300 transition">
+              引き続き見る
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="max-w-2xl mx-auto px-6 py-8">
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-2xl font-bold">📔 旅日記</h1>
           <button
-            onClick={() => showForm ? handleCancelForm() : setShowForm(true)}
+            onClick={() => {
+              if (isGuest) { setShowLoginPrompt(true); return }
+              showForm ? handleCancelForm() : setShowForm(true)
+            }}
             className="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-2 rounded-xl text-sm font-medium transition"
           >
             {showForm ? 'キャンセル' : '＋ 日記を書く'}
@@ -245,7 +280,16 @@ export default function DiaryPage() {
         )}
 
         {/* 日記一覧 */}
-        {diaries.length === 0 ? (
+        {isGuest ? (
+          <div className="text-center py-16 text-slate-500">
+            <div className="text-5xl mb-4">📔</div>
+            <p>旅の思い出を記録しよう</p>
+            <p className="text-sm mt-2 mb-6">ログインすると日記を書いて保存できます</p>
+            <Link href="/login" className="inline-block bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-6 py-3 rounded-xl transition">
+              無料ではじめる
+            </Link>
+          </div>
+        ) : diaries.length === 0 ? (
           <div className="text-center py-16 text-slate-500">
             <div className="text-5xl mb-4">📔</div>
             <p>まだ日記がありません</p>

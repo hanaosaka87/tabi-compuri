@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
@@ -9,8 +9,9 @@ import Header from '@/app/components/Header'
 type City = { id: string; name: string }
 
 export default function CityPage() {
-  const router = useRouter()
   const [userId, setUserId] = useState<string | null>(null)
+  const [isGuest, setIsGuest] = useState(false)
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [selectedPref, setSelectedPref] = useState(13)
   const [cities, setCities] = useState<City[]>([])
   const [visitedCodes, setVisitedCodes] = useState<Set<string>>(new Set())
@@ -21,7 +22,11 @@ export default function CityPage() {
   useEffect(() => {
     const init = async () => {
       const { data: { user } } = await supabase.auth.getUser()
-      if (!user) { router.push('/login'); return }
+      if (!user) {
+        setIsGuest(true)
+        setLoadingPage(false)
+        return
+      }
       setUserId(user.id)
       const { count } = await supabase
         .from('city_visits')
@@ -31,12 +36,19 @@ export default function CityPage() {
       setLoadingPage(false)
     }
     init()
-  }, [router])
+  }, [])
 
   useEffect(() => {
-    if (!userId) return
     const load = async () => {
       setLoadingCities(true)
+      if (isGuest) {
+        const citiesRes = await fetch(`/api/cities?pref=${selectedPref}`).then((r) => r.json())
+        setCities(citiesRes)
+        setVisitedCodes(new Set())
+        setLoadingCities(false)
+        return
+      }
+      if (!userId) return
       const [citiesRes, visitsRes] = await Promise.all([
         fetch(`/api/cities?pref=${selectedPref}`).then((r) => r.json()),
         supabase.from('city_visits').select('city_code').eq('user_id', userId).eq('prefecture_code', selectedPref),
@@ -46,10 +58,10 @@ export default function CityPage() {
       setLoadingCities(false)
     }
     load()
-  }, [selectedPref, userId])
+  }, [selectedPref, userId, isGuest])
 
   const handleToggle = async (city: City) => {
-    if (!userId) return
+    if (!userId) { setShowLoginPrompt(true); return }
     if (visitedCodes.has(city.id)) {
       await supabase.from('city_visits').delete().eq('user_id', userId).eq('city_code', city.id)
       setVisitedCodes((prev) => { const s = new Set(prev); s.delete(city.id); return s })
@@ -77,11 +89,43 @@ export default function CityPage() {
   return (
     <main className="min-h-screen bg-slate-900 text-white">
       <Header />
+
+      {/* ゲストバナー */}
+      {isGuest && (
+        <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-4 py-3 flex items-center justify-between">
+          <p className="text-emerald-400 text-sm">🏘 ゲストモードで閲覧中 — 市区町村を記録するにはログインが必要です</p>
+          <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-1.5 rounded-full text-xs font-bold transition flex-shrink-0 ml-4">
+            ログインして始める
+          </Link>
+        </div>
+      )}
+
+      {/* ログイン促進モーダル */}
+      {showLoginPrompt && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 px-6" onClick={() => setShowLoginPrompt(false)}>
+          <div className="bg-slate-800 border border-white/10 rounded-2xl p-8 max-w-sm w-full text-center" onClick={(e) => e.stopPropagation()}>
+            <div className="text-5xl mb-4">🏘</div>
+            <h2 className="text-xl font-bold mb-2">記録するにはログインが必要です</h2>
+            <p className="text-slate-400 text-sm mb-6">無料登録して市区町村制覇を始めましょう！</p>
+            <Link href="/login" className="block bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3 rounded-xl transition mb-3">
+              ログイン / 新規登録
+            </Link>
+            <button onClick={() => setShowLoginPrompt(false)} className="text-slate-500 text-sm hover:text-slate-300 transition">
+              引き続き見る
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="max-w-3xl mx-auto px-6 py-8">
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="text-2xl font-bold">🏘 市区町村制覇</h1>
-            <p className="text-slate-400 text-sm mt-1">累計 <span className="text-emerald-400 font-bold">{totalVisited}</span> 市区町村を制覇中</p>
+            {isGuest ? (
+              <p className="text-slate-400 text-sm mt-1">全国1,741市区町村を制覇しよう</p>
+            ) : (
+              <p className="text-slate-400 text-sm mt-1">累計 <span className="text-emerald-400 font-bold">{totalVisited}</span> 市区町村を制覇中</p>
+            )}
           </div>
         </div>
 
