@@ -19,21 +19,33 @@ export const viewport: Viewport = {
   themeColor: '#10b981',
 }
 
+const BASE_URL = 'https://tabi-compuri.hana.trickster.biz'
+
 export const metadata: Metadata = {
-  title: "旅コンプリ | 日本全国制覇アプリ",
-  description: "日本47都道府県を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。",
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: '旅コンプリ | 日本全国制覇アプリ',
+    template: '%s | 旅コンプリ',
+  },
+  description: '47都道府県・市区町村・道の駅・温泉・お城など全国スポットを制覇しよう。旅の思い出を記録してランキングに挑戦できる無料の旅行制覇アプリ。',
+  keywords: ['旅行', '旅行アプリ', '都道府県制覇', '旅行記録', '道の駅', '温泉', 'お城', '制覇', 'ゲーミフィケーション', '旅コンプリ', '日本一周', '旅行好き'],
+  authors: [{ name: '株式会社華' }],
+  creator: '株式会社華',
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+  alternates: { canonical: BASE_URL },
   openGraph: {
-    title: "旅コンプリ | 日本全国制覇アプリ",
-    description: "日本47都道府県を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。",
-    url: "https://tabi-compuri.hana.trickster.biz",
-    siteName: "旅コンプリ",
-    locale: "ja_JP",
-    type: "website",
+    title: '旅コンプリ | 日本全国制覇アプリ',
+    description: '47都道府県・市区町村・道の駅・温泉・お城を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。',
+    url: BASE_URL,
+    siteName: '旅コンプリ',
+    locale: 'ja_JP',
+    type: 'website',
   },
   twitter: {
-    card: "summary",
-    title: "旅コンプリ | 日本全国制覇アプリ",
-    description: "日本47都道府県を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。",
+    card: 'summary_large_image',
+    title: '旅コンプリ | 日本全国制覇アプリ',
+    description: '47都道府県・市区町村・道の駅・温泉・お城を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。',
+    site: '@tabi_compuri',
   },
 };
 

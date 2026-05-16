@@ -1,5 +1,11 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Header from '@/app/components/Header'
+
+export const metadata: Metadata = {
+  title: 'スポット制覇',
+  description: '道の駅・温泉・お城・遊園地・動物園など全国5,244か所のスポットを制覇しよう。',
+}
 import michiNoEkiData from '@/lib/spots/michi-no-eki.json'
 import onsenData from '@/lib/spots/onsen.json'
 import leisureData from '@/lib/spots/leisure.json'
