@@ -1,0 +1,1850 @@
+[
+  {
+    "id": "zoo-2097319",
+    "name": "IPCわんわん動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-939132",
+    "name": "赤塚山公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-373134",
+    "name": "秋田市大森山動物園",
+    "prefecture_code": 5,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-488543",
+    "name": "秋吉台サファリランド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-144468",
+    "name": "阿蘇カドリー・ドミニオン",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-599324",
+    "name": "熱川バナナワニ園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2114839",
+    "name": "足立区生物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4475462",
+    "name": "アトア",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4083",
+    "name": "アドベンチャーワールド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3942320",
+    "name": "奄美アイランド植物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4773788",
+    "name": "嵐山モンキーパークいわたやま",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-431936",
+    "name": "アルプス公園 (松本市)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3962055",
+    "name": "アロハガーデンたてやま",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1620655",
+    "name": "飯田市立動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-558032",
+    "name": "池田市立五月山動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-887050",
+    "name": "池田動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-559623",
+    "name": "いしかわ動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2636199",
+    "name": "伊豆アニマルキングダム",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2700476",
+    "name": "IZoo",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-734888",
+    "name": "伊豆シャボテン動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-343407",
+    "name": "市川市動植物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1498629",
+    "name": "市原ぞうの国",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-718141",
+    "name": "到津の森公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-522532",
+    "name": "井の頭自然文化園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3830964",
+    "name": "うだ・アニマルパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3690890",
+    "name": "宇都宮動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-346390",
+    "name": "江戸川区自然動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-242566",
+    "name": "愛媛県立とべ動物園",
+    "prefecture_code": 38,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-241453",
+    "name": "大内山動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4231232",
+    "name": "大島公園動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2805859",
+    "name": "大塔かもしか牧場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1785158",
+    "name": "大町山岳博物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1266363",
+    "name": "大牟田市動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2646593",
+    "name": "岡崎市東公園動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2885295",
+    "name": "岡山県自然保護センター",
+    "prefecture_code": 33,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-474241",
+    "name": "沖縄こどもの国",
+    "prefecture_code": 47,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2810964",
+    "name": "長尾鶏センター",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-558066",
+    "name": "おびひろ動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-803642",
+    "name": "オホーツクとっかりセンター",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-67933",
+    "name": "恩賜上野動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-564746",
+    "name": "鹿児島市平川動物公園",
+    "prefecture_code": 46,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4962519",
+    "name": "霞ヶ浦どうぶつとみんなのいえ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3342385",
+    "name": "河北町児童動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1976876",
+    "name": "臥竜公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-739389",
+    "name": "北きつね牧場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2887223",
+    "name": "きびじつるの里",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-585014",
+    "name": "キャンベルタウン野鳥の森",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-557475",
+    "name": "九州自然動物公園アフリカンサファリ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-375008",
+    "name": "京都市動物園",
+    "prefecture_code": 26,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2055595",
+    "name": "桐生が岡動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1218450",
+    "name": "金華山リス村",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2007577",
+    "name": "草津熱帯圏",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-262904",
+    "name": "釧路市動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-953627",
+    "name": "熊本市動植物園",
+    "prefecture_code": 43,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-141197",
+    "name": "鞍ケ池公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2654509",
+    "name": "グリーンパーク・響灘緑地",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-786614",
+    "name": "久留米市鳥類センター",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-558349",
+    "name": "高知県立のいち動物公園",
+    "prefecture_code": 39,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1827468",
+    "name": "甲府市遊亀公園附属動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-231906",
+    "name": "神戸市立王子動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-588471",
+    "name": "神戸どうぶつ王国",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1578860",
+    "name": "五桂池ふるさと村",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1060486",
+    "name": "こもれび森のイバライド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-650634",
+    "name": "小諸市動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-712391",
+    "name": "西海国立公園九十九島動植物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-161922",
+    "name": "埼玉県こども動物自然公園",
+    "prefecture_code": 11,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-321531",
+    "name": "札幌市円山動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-578686",
+    "name": "鯖江市西山動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4231226",
+    "name": "狭山市立智光山公園こども動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-207965",
+    "name": "地獄谷野猿公苑",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-900750",
+    "name": "渋川動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1963002",
+    "name": "ジャパンスネークセンター",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-583842",
+    "name": "周南市徳山動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1983943",
+    "name": "しろとり動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-183240",
+    "name": "ズーラシア",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-633720",
+    "name": "須坂市動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2425987",
+    "name": "生態科学研究機構",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-67948",
+    "name": "仙台市八木山動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-5216867",
+    "name": "袖ヶ浦ふれあいどうぶつ縁",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1284808",
+    "name": "たいよう (キリン)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2524220",
+    "name": "高岡古城公園動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-733641",
+    "name": "高宕山自然動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-299102",
+    "name": "高崎山自然動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1765990",
+    "name": "ダチョウ王国",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-752124",
+    "name": "ダチョウらんど",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-14484",
+    "name": "多摩動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2892959",
+    "name": "丹頂鶴自然公園 (鶴田町)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2760491",
+    "name": "智光山公園こども動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-83032",
+    "name": "千葉市動物公園",
+    "prefecture_code": 12,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-754134",
+    "name": "銚子渓",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-491438",
+    "name": "東京ドイツ村",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-110279",
+    "name": "東武動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-121446",
+    "name": "常盤公園 (宇部市)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-797231",
+    "name": "徳島市総合動植物公園",
+    "prefecture_code": 36,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-558284",
+    "name": "とくしま動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-274770",
+    "name": "富山市ファミリーパーク",
+    "prefecture_code": 16,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4944313",
+    "name": "豊田市旭高原自然活用村",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-353130",
+    "name": "豊橋総合動植物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-306133",
+    "name": "長崎バイオパーク",
+    "prefecture_code": 42,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2914342",
+    "name": "流しカワウソ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-720289",
+    "name": "長野市城山動物園",
+    "prefecture_code": 20,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-650786",
+    "name": "長野市茶臼山動物園",
+    "prefecture_code": 20,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3522887",
+    "name": "那須サファリパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2053145",
+    "name": "那須どうぶつ王国",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1039116",
+    "name": "成田ゆめ牧場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-3228797",
+    "name": "NIFREL",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-265164",
+    "name": "日本平動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-130478",
+    "name": "日本モンキーセンター",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-130479",
+    "name": "日本モンキーパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-856241",
+    "name": "ネオパークオキナワ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1975528",
+    "name": "ノースサファリサッポロ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-38408",
+    "name": "野毛山動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-579952",
+    "name": "浜松市動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2068668",
+    "name": "羽村市動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1172199",
+    "name": "繁殖賞",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2153927",
+    "name": "東公園 (岡崎市)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4258472",
+    "name": "東筑波ユートピア",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-137581",
+    "name": "東山動植物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-272611",
+    "name": "日立市かみね動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1217677",
+    "name": "BIGHOPガーデンモール印西",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-558041",
+    "name": "姫路市立動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2805858",
+    "name": "百間山渓谷かもしか牧場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-312942",
+    "name": "兵庫県立赤穂海浜公園",
+    "prefecture_code": 28,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-45265",
+    "name": "ひらかたパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-373719",
+    "name": "広島市安佐動物公園",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-576739",
+    "name": "福岡市動植物園",
+    "prefecture_code": 40,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2210565",
+    "name": "福知山市動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-583861",
+    "name": "福山市立動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-307119",
+    "name": "富士サファリパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4698555",
+    "name": "北海道産いきもの保全プロジェクト",
+    "prefecture_code": 1,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-505055",
+    "name": "マザー牧場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2153894",
+    "name": "町田リス園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2233617",
+    "name": "松江フォーゲルパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2074719",
+    "name": "万力公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2051389",
+    "name": "宮城蔵王キツネ村",
+    "prefecture_code": 4,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-564724",
+    "name": "宮崎市フェニックス自然動物園",
+    "prefecture_code": 45,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4696781",
+    "name": "ミンファ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-560749",
+    "name": "盛岡市動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-4130147",
+    "name": "弥生いこいの広場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-184317",
+    "name": "夢見ヶ崎動物公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2233943",
+    "name": "ヨーデルの森",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1167233",
+    "name": "横浜市立金沢動物園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-182987",
+    "name": "よこはま動物園ズーラシア",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-30049",
+    "name": "楽寿園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-842730",
+    "name": "ラクテンチ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-2928370",
+    "name": "ワールド牧場",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-1261978",
+    "name": "和歌山城公園動物園",
+    "prefecture_code": 30,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "zoo-558305",
+    "name": "わんぱーくこうちアニマルランド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-331396",
+    "name": "日本の水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4829591",
+    "name": "AOAO SAPPORO",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-760798",
+    "name": "青森県営浅虫水族館",
+    "prefecture_code": 2,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-373909",
+    "name": "秋田県立男鹿水族館",
+    "prefecture_code": 5,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3277634",
+    "name": "アクアテラス錦ヶ丘",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1630632",
+    "name": "アクア東条",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-241429",
+    "name": "アクア・トトぎふ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-384938",
+    "name": "アクアパーク品川",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-285727",
+    "name": "あくあぴあ芥川",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3619572",
+    "name": "アクアマリンいなわしろカワセミ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-561867",
+    "name": "アクアマリンふくしま",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-371719",
+    "name": "アクアワールド・大洗",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-627466",
+    "name": "あわしまマリンパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1506065",
+    "name": "飯島魁",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-715036",
+    "name": "いおワールドかごしま水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4447009",
+    "name": "壱岐イルカパークアンドリゾート",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-139420",
+    "name": "伊豆・三津シーパラダイス",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3935851",
+    "name": "板橋区立熱帯環境植物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2022974",
+    "name": "伊万里湾カブトガニの館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3904859",
+    "name": "イヨボヤ会館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-358442",
+    "name": "魚津水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2185671",
+    "name": "うみたま体験パーク「つくみイルカ島」",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1773000",
+    "name": "越前松島水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-207410",
+    "name": "愛媛県立長浜高等学校",
+    "prefecture_code": 38,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-299083",
+    "name": "大分マリーンパレス水族館",
+    "prefecture_code": 44,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-219679",
+    "name": "沖縄美ら海水族館",
+    "prefecture_code": 47,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-683479",
+    "name": "おたる水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-47661",
+    "name": "海遊館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-83312",
+    "name": "葛西臨海水族園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3266503",
+    "name": "かすみがうら市水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2032556",
+    "name": "桂浜水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1121572",
+    "name": "かにっこ館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-190271",
+    "name": "鴨川シーワールド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2743671",
+    "name": "かわいい水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4164746",
+    "name": "カワスイ 川崎水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1589897",
+    "name": "城崎マリンワールド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2537206",
+    "name": "京都水族館",
+    "prefecture_code": 26,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-354543",
+    "name": "京都大学フィールド科学教育研究センター瀬戸臨海実験所水族館",
+    "prefecture_code": 26,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1108649",
+    "name": "ぎょぎょランド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3450855",
+    "name": "桐生が岡水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-281153",
+    "name": "串本海中公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-516765",
+    "name": "九十九島パールシーリゾート",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-284239",
+    "name": "くじらの博物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4220627",
+    "name": "高知県立足摺海洋館",
+    "prefecture_code": 39,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4906654",
+    "name": "神戸須磨シーワールド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-577233",
+    "name": "埼玉県立桶川西高等学校",
+    "prefecture_code": 11,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2026090",
+    "name": "さいたま水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-685513",
+    "name": "相模川ふれあい科学館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-318658",
+    "name": "サケのふるさと 千歳水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-74147",
+    "name": "サンシャイン水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3898575",
+    "name": "シーライフ名古屋",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-699116",
+    "name": "滋賀県立琵琶湖博物館",
+    "prefecture_code": 25,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3986201",
+    "name": "四国水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-732770",
+    "name": "しながわ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-352141",
+    "name": "島根県立しまね海洋館",
+    "prefecture_code": 32,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2326563",
+    "name": "四万十川学習センターおさかな館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-815646",
+    "name": "下田海中水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-328655",
+    "name": "下関市立しものせき水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-677603",
+    "name": "上越市立水族博物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-566693",
+    "name": "市立室蘭水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-180639",
+    "name": "新江ノ島水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-248460",
+    "name": "新さっぽろサンピアザ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3788462",
+    "name": "宍道湖自然館ゴビウス",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-608596",
+    "name": "新屋島水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2957871",
+    "name": "すさみ町立エビとカニの水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2574926",
+    "name": "すみだ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4008710",
+    "name": "世界一ちっちゃな水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1107987",
+    "name": "ゼロ距離水族館伊勢シーパラダイス",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3000116",
+    "name": "仙台うみの杜水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2817904",
+    "name": "Sony Aquarium",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1414808",
+    "name": "竹島水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-624549",
+    "name": "蓼科アミューズメント水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-896852",
+    "name": "玉野市立玉野海洋博物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-358475",
+    "name": "鶴岡市立加茂水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3822013",
+    "name": "DMMかりゆし水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3904899",
+    "name": "寺泊水族博物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1964224",
+    "name": "東海大学海洋科学博物館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4523915",
+    "name": "TOKYO GIANTS TOWN",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1153931",
+    "name": "東京大学大学院理学系研究科附属臨海実験所",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-798881",
+    "name": "栃木県なかがわ水遊園",
+    "prefecture_code": 9,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-363806",
+    "name": "鳥羽水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-393530",
+    "name": "長崎ペンギン水族館",
+    "prefecture_code": 42,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3702782",
+    "name": "なぎさ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2713778",
+    "name": "“渚の駅”たてやま",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-185215",
+    "name": "名古屋港水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-143985",
+    "name": "新潟市水族館 マリンピア日本海",
+    "prefecture_code": 15,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2707864",
+    "name": "沼津港深海水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-541549",
+    "name": "のとじま臨海公園水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1062160",
+    "name": "登別マリンパークニクス",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-849311",
+    "name": "箱根園水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-5167455",
+    "name": "ひみラボ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1602086",
+    "name": "姫路市立水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1248926",
+    "name": "碧南海浜水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3341004",
+    "name": "まかどシーマリンパーク",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4437956",
+    "name": "マリホ水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-631168",
+    "name": "マリンワールド海の中道",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1446163",
+    "name": "道の駅紀宝町ウミガメ公園",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4859153",
+    "name": "みなとやま水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-505565",
+    "name": "南知多ビーチランド",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-736022",
+    "name": "宮島水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3845483",
+    "name": "むろと廃校水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-708019",
+    "name": "もぐらんぴあ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2044292",
+    "name": "モラスコむぎ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-3268762",
+    "name": "森浦湾くじらの海",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4556254",
+    "name": "森の水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1135431",
+    "name": "山梨県立富士湧水の里水族館",
+    "prefecture_code": 19,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2731509",
+    "name": "山の水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-4611552",
+    "name": "横浜開運水族館フォーチュンアクアリウム",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-133007",
+    "name": "横浜・八景島シーパラダイス",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-260817",
+    "name": "和歌山県立自然博物館",
+    "prefecture_code": 30,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-738650",
+    "name": "わくわく海中水族館シードーナツ",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1254053",
+    "name": "稚内市立ノシャップ寒流水族館",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2333039",
+    "name": "太田實 (実業家)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-2687834",
+    "name": "神前和人",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1167717",
+    "name": "中村元 (水族館プロデューサー)",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "aquarium-1680302",
+    "name": "村上龍男",
+    "prefecture_code": 0,
+    "lat": null,
+    "lon": null
+  }
+]
