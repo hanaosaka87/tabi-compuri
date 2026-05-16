@@ -174,11 +174,12 @@ export default function Home() {
         {/* スポット統計 */}
         <section className="bg-white/5 border-y border-white/10 py-12 px-6 text-center">
           <p className="text-slate-400 text-sm mb-2">制覇できるスポット総数</p>
-          <p className="text-4xl font-bold text-emerald-400 mb-6">5,244<span className="text-slate-400 text-xl font-normal">か所以上</span></p>
-          <div className="inline-grid grid-cols-3 sm:grid-cols-5 gap-4 sm:gap-8">
+          <p className="text-4xl font-bold text-emerald-400 mb-6">8,291<span className="text-slate-400 text-xl font-normal">か所以上</span></p>
+          <div className="inline-grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
             {[
               { num: '47', label: '都道府県', icon: '🗾' },
               { num: '1,741', label: '市区町村', icon: '🏘' },
+              { num: '3,047', label: '神社', icon: '⛩️' },
               { num: '1,782', label: 'お城', icon: '🏯' },
               { num: '1,774', label: '温泉', icon: '♨️' },
               { num: '1,238', label: '道の駅', icon: '🚗' },

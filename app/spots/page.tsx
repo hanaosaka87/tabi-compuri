@@ -11,6 +11,7 @@ import onsenData from '@/lib/spots/onsen.json'
 import leisureData from '@/lib/spots/leisure.json'
 import zooAqData from '@/lib/spots/zoo-aquarium.json'
 import castleData from '@/lib/spots/castle.json'
+import shrineData from '@/lib/spots/shrine-temple.json'
 
 const CATEGORIES = [
   {
@@ -36,6 +37,14 @@ const CATEGORIES = [
     description: '全国の城・城跡を制覇しよう',
     total: (castleData as unknown[]).length,
     href: '/spots/castle',
+  },
+  {
+    id: 'shrine',
+    label: '神社',
+    icon: '⛩️',
+    description: '全国の神社・パワースポットを制覇',
+    total: (shrineData as unknown[]).length,
+    href: '/spots/shrine',
   },
   {
     id: 'leisure',
