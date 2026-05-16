@@ -12,6 +12,7 @@ import leisureData from '@/lib/spots/leisure.json'
 import zooAqData from '@/lib/spots/zoo-aquarium.json'
 import castleData from '@/lib/spots/castle.json'
 import shrineData from '@/lib/spots/shrine-temple.json'
+import heritageData from '@/lib/spots/japan-heritage.json'
 
 const CATEGORIES = [
   {
@@ -45,6 +46,14 @@ const CATEGORIES = [
     description: '全国の神社・パワースポットを制覇',
     total: (shrineData as unknown[]).length,
     href: '/spots/shrine',
+  },
+  {
+    id: 'japan-heritage',
+    label: '日本遺産',
+    icon: '🏛️',
+    description: '日本遺産に認定された文化財・史跡を制覇',
+    total: (heritageData as unknown[]).length,
+    href: '/spots/japan-heritage',
   },
   {
     id: 'leisure',

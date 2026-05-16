@@ -52,7 +52,7 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
   }
 
   const filtered = spots.filter(s => {
-    const matchPref = selectedPref === 'all' || s.prefecture_code === Number(selectedPref) || s.prefecture_code === 0
+    const matchPref = selectedPref === 'all' || (s.prefecture_code !== 0 && s.prefecture_code === Number(selectedPref))
     const matchSearch = search === '' || s.name.includes(search)
     return matchPref && matchSearch
   })

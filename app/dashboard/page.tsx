@@ -17,6 +17,7 @@ const SPOT_CATEGORIES = [
   { id: 'onsen', label: '温泉', icon: '♨️', total: 1774, href: '/spots/onsen' },
   { id: 'castle', label: 'お城', icon: '🏯', total: 1782, href: '/spots/castle' },
   { id: 'shrine', label: '神社', icon: '⛩️', total: 3047, href: '/spots/shrine' },
+  { id: 'japan-heritage', label: '日本遺産', icon: '🏛️', total: 463, href: '/spots/japan-heritage' },
   { id: 'leisure', label: '遊園地', icon: '🎡', total: 186, href: '/spots/leisure' },
   { id: 'zoo-aquarium', label: '動物園・水族館', icon: '🦁', total: 264, href: '/spots/zoo-aquarium' },
 ]
