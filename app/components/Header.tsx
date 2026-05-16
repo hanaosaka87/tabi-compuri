@@ -28,6 +28,8 @@ export default function Header() {
     router.push('/')
   }
 
+  const isActive = (href: string) => pathname === href || pathname.startsWith(href + '/')
+
   return (
     <>
       {/* トップヘッダー */}
@@ -53,9 +55,14 @@ export default function Header() {
             </Link>
           ))}
           {loggedIn ? (
-            <button onClick={handleLogout} className="text-slate-400 hover:text-white transition">
-              ログアウト
-            </button>
+            <>
+              <Link href="/profile" className={`transition text-sm ${isActive('/profile') ? 'text-white font-medium' : 'text-slate-400 hover:text-white'}`}>
+                👤 プロフィール
+              </Link>
+              <button onClick={handleLogout} className="text-slate-400 hover:text-white transition text-sm">
+                ログアウト
+              </button>
+            </>
           ) : (
             <Link
               href="/login"

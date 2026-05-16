@@ -7,6 +7,7 @@ import Header from '@/app/components/Header'
 
 type RankEntry = {
   userId: string
+  username: string
   count: number
   rank: number
   isMe: boolean
@@ -21,7 +22,7 @@ const getRankLabel = (count: number) => {
   return { label: '🎒 旅のはじまり', color: 'text-slate-400' }
 }
 
-const shortId = (uid: string) => `旅人 #${uid.slice(0, 6).toUpperCase()}`
+const displayName = (entry: RankEntry) => entry.username || `旅人 #${entry.userId.slice(0, 6).toUpperCase()}`
 
 export default function RankingPage() {
   const [ranking, setRanking] = useState<RankEntry[]>([])
@@ -35,16 +36,23 @@ export default function RankingPage() {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) setIsGuest(true)
 
-      const { data, error } = await supabase.from('visits').select('user_id')
-      if (error) {
+      const [visitsRes, profilesRes] = await Promise.all([
+        supabase.from('visits').select('user_id'),
+        supabase.from('profiles').select('id, username'),
+      ])
+      if (visitsRes.error) {
         setError('ランキングの取得に失敗しました')
         setLoading(false)
         return
       }
 
-      // user_id ごとに集計
+      const usernameMap: Record<string, string> = {}
+      for (const p of profilesRes.data ?? []) {
+        if (p.username) usernameMap[p.id] = p.username
+      }
+
       const countMap: Record<string, number> = {}
-      for (const row of data ?? []) {
+      for (const row of visitsRes.data ?? []) {
         countMap[row.user_id] = (countMap[row.user_id] ?? 0) + 1
       }
 
@@ -52,6 +60,7 @@ export default function RankingPage() {
         .sort(([, a], [, b]) => b - a)
         .map(([userId, count], i) => ({
           userId,
+          username: usernameMap[userId] ?? '',
           count,
           rank: i + 1,
           isMe: user ? userId === user.id : false,
@@ -82,7 +91,14 @@ export default function RankingPage() {
       )}
 
       <div className="max-w-2xl mx-auto px-6 py-8">
-        <h1 className="text-2xl font-bold mb-2">🏆 都道府県制覇ランキング</h1>
+        <div className="flex items-center justify-between mb-2">
+          <h1 className="text-2xl font-bold">🏆 都道府県制覇ランキング</h1>
+          {!isGuest && (
+            <Link href="/profile" className="text-slate-400 hover:text-white text-xs transition flex items-center gap-1">
+              👤 名前を設定
+            </Link>
+          )}
+        </div>
         <p className="text-slate-400 text-sm mb-6">訪問数が多い旅人ほど上位に表示されます</p>
 
         {error && (
@@ -98,7 +114,7 @@ export default function RankingPage() {
             <div className="flex items-center gap-3">
               <span className="text-3xl font-bold text-emerald-400">{myRank.rank}位</span>
               <div>
-                <p className="font-bold">{shortId(myRank.userId)} <span className="text-emerald-400 text-xs">（あなた）</span></p>
+                <p className="font-bold">{displayName(myRank)} <span className="text-emerald-400 text-xs">（あなた）</span></p>
                 <p className="text-slate-400 text-sm">{myRank.count}都道府県制覇</p>
               </div>
               <div className="ml-auto text-right">
@@ -140,7 +156,7 @@ export default function RankingPage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-medium text-sm">
-                      {shortId(entry.userId)}
+                      {displayName(entry)}
                       {entry.isMe && <span className="text-emerald-400 text-xs ml-1">（あなた）</span>}
                     </p>
                     <p className={`text-xs ${rl.color}`}>{rl.label}</p>
