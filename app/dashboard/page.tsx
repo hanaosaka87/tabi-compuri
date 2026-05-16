@@ -7,6 +7,7 @@ import { PREFECTURES } from '@/lib/prefectures'
 import { calcBadges } from '@/lib/badges'
 import Header from '@/app/components/Header'
 import ShareModal from '@/app/components/ShareModal'
+import ShareIcons from '@/app/components/ShareIcons'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -156,24 +157,16 @@ export default function DashboardPage() {
 
         {/* ── 全体制覇サマリー ── */}
         <div className="bg-gradient-to-br from-slate-800 to-emerald-950 border border-emerald-500/20 rounded-2xl p-5 mb-5">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <p className="text-slate-400 text-xs mb-0.5">現在のランク</p>
-              <p className={`text-base font-bold ${rank.color}`}>{rank.label}</p>
-            </div>
-            {!isGuest && (
-              <button
-                onClick={() => openShare(shareText)}
-                className="flex items-center gap-1.5 bg-black/40 hover:bg-black/60 text-white px-3 py-1.5 rounded-full text-xs transition border border-white/10"
-              >
-                <span>↑</span> シェア
-              </button>
-            )}
+          <div className="mb-4">
+            <p className="text-slate-400 text-xs mb-0.5">現在のランク</p>
+            <p className={`text-base font-bold ${rank.color}`}>{rank.label}</p>
           </div>
 
           <StatRow icon="🗾" label="都道府県" visited={isGuest ? 0 : prefCount} total={47} />
           <StatRow icon="🏘" label="市区町村" visited={isGuest ? 0 : cityCount} total={TOTAL_CITIES} />
           <StatRow icon="📍" label="スポット合計" visited={isGuest ? 0 : totalSpotVisited} total={TOTAL_SPOTS} />
+
+          {!isGuest && <ShareIcons text={shareText} />}
 
           {!isGuest && earnedBadges.length > 0 && (
             <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
