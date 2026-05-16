@@ -9,6 +9,7 @@ type RankEntry = {
   userId: string
   username: string
   count: number
+  spotCount: number
   rank: number
   isMe: boolean
 }
@@ -36,9 +37,10 @@ export default function RankingPage() {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) setIsGuest(true)
 
-      const [visitsRes, profilesRes] = await Promise.all([
+      const [visitsRes, profilesRes, spotsRes] = await Promise.all([
         supabase.from('visits').select('user_id'),
         supabase.from('profiles').select('id, username'),
+        supabase.from('spot_visits').select('user_id'),
       ])
       if (visitsRes.error) {
         setError('ランキングの取得に失敗しました')
@@ -56,12 +58,18 @@ export default function RankingPage() {
         countMap[row.user_id] = (countMap[row.user_id] ?? 0) + 1
       }
 
+      const spotMap: Record<string, number> = {}
+      for (const row of spotsRes.data ?? []) {
+        spotMap[row.user_id] = (spotMap[row.user_id] ?? 0) + 1
+      }
+
       const sorted: RankEntry[] = Object.entries(countMap)
         .sort(([, a], [, b]) => b - a)
         .map(([userId, count], i) => ({
           userId,
           username: usernameMap[userId] ?? '',
           count,
+          spotCount: spotMap[userId] ?? 0,
           rank: i + 1,
           isMe: user ? userId === user.id : false,
         }))
@@ -115,7 +123,7 @@ export default function RankingPage() {
               <span className="text-3xl font-bold text-emerald-400">{myRank.rank}位</span>
               <div>
                 <p className="font-bold">{displayName(myRank)} <span className="text-emerald-400 text-xs">（あなた）</span></p>
-                <p className="text-slate-400 text-sm">{myRank.count}都道府県制覇</p>
+                <p className="text-slate-400 text-sm">{myRank.count}都道府県 · {myRank.spotCount}スポット制覇</p>
               </div>
               <div className="ml-auto text-right">
                 <p className={`text-sm font-bold ${getRankLabel(myRank.count).color}`}>
@@ -162,7 +170,10 @@ export default function RankingPage() {
                     <p className={`text-xs ${rl.color}`}>{rl.label}</p>
                   </div>
                   <div className="text-right flex-shrink-0">
-                    <p className="font-bold text-white">{entry.count}<span className="text-slate-400 text-xs font-normal"> / 47</span></p>
+                    <p className="font-bold text-white tabular-nums">{entry.count}<span className="text-slate-400 text-xs font-normal"> 都道府県</span></p>
+                    {entry.spotCount > 0 && (
+                      <p className="text-slate-500 text-xs tabular-nums">📍 {entry.spotCount} スポット</p>
+                    )}
                   </div>
                 </div>
               )
