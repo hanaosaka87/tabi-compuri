@@ -6,6 +6,7 @@ import { supabase } from '@/lib/supabase'
 import { PREFECTURES } from '@/lib/prefectures'
 import { calcBadges } from '@/lib/badges'
 import Header from '@/app/components/Header'
+import ShareModal from '@/app/components/ShareModal'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -59,6 +60,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true)
   const [isGuest, setIsGuest] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
+  const [showShareModal, setShowShareModal] = useState(false)
 
   useEffect(() => {
     const init = async () => {
@@ -102,11 +104,26 @@ export default function DashboardPage() {
   const badges = calcBadges(visitedCodes)
   const earnedBadges = badges.filter((b) => b.earned)
 
+  const shareText = prefCount === 47
+    ? `🏆 旅コンプリで日本全国47都道府県を制覇しました！ #旅コンプリ`
+    : `🗾 旅コンプリで${prefCount}/47都道府県を制覇中！${rank.label} #旅コンプリ`
+
+  const [shareModalText, setShareModalText] = useState('')
+
+  const openShare = (text: string) => { setShareModalText(text); setShowShareModal(true) }
+
   if (loading) return (
     <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
   )
 
   return (
+    <>
+    {showShareModal && (
+      <ShareModal
+        text={shareModalText}
+        onClose={() => setShowShareModal(false)}
+      />
+    )}
     <main className="min-h-screen bg-slate-900 text-white pb-24">
       <Header />
 
@@ -146,13 +163,10 @@ export default function DashboardPage() {
             </div>
             {!isGuest && (
               <button
-                onClick={() => {
-                  const text = `🗾 旅コンプリで${prefCount}/47都道府県を制覇中！${rank.label} #旅コンプリ\nhttps://tabi-compuri.hana.trickster.biz`
-                  window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
-                }}
+                onClick={() => openShare(shareText)}
                 className="flex items-center gap-1.5 bg-black/40 hover:bg-black/60 text-white px-3 py-1.5 rounded-full text-xs transition border border-white/10"
               >
-                <span>𝕏</span> シェア
+                <span>↑</span> シェア
               </button>
             )}
           </div>
@@ -257,14 +271,11 @@ export default function DashboardPage() {
               </div>
               {badge.earned && (
                 <button
-                  onClick={() => {
-                    const text = `${badge.emoji} 旅コンプリで「${badge.label}」バッジを獲得しました！ #旅コンプリ\nhttps://tabi-compuri.hana.trickster.biz`
-                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
-                  }}
-                  className="ml-auto text-slate-500 hover:text-sky-400 transition flex-shrink-0 text-base"
-                  title="Xでシェア"
+                  onClick={() => openShare(`${badge.emoji} 旅コンプリで「${badge.label}」バッジを獲得しました！ #旅コンプリ`)}
+                  className="ml-auto text-slate-500 hover:text-emerald-400 transition flex-shrink-0 text-base"
+                  title="シェア"
                 >
-                  𝕏
+                  ↑
                 </button>
               )}
             </div>
@@ -272,5 +283,6 @@ export default function DashboardPage() {
         </div>
       </div>
     </main>
+    </>
   )
 }
