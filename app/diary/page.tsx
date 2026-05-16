@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES, getPrefectureName } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
+import ShareModal from '@/app/components/ShareModal'
 
 type Diary = {
   id: string
@@ -30,6 +31,7 @@ export default function DiaryPage() {
   const [photoPreview, setPhotoPreview] = useState<string | null>(null)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
+  const [shareText, setShareText] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -168,8 +170,17 @@ export default function DiaryPage() {
       )}
 
       <div className="max-w-2xl mx-auto px-6 py-8">
+        {shareText && (
+          <ShareModal text={shareText} onClose={() => setShareText('')} />
+        )}
+
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-2xl font-bold">📔 旅日記</h1>
+          <div>
+            <h1 className="text-2xl font-bold">📔 旅日記</h1>
+            {diaries.length > 0 && (
+              <p className="text-slate-400 text-xs mt-0.5">{diaries.length}件の記録</p>
+            )}
+          </div>
           <button
             onClick={() => {
               if (isGuest) { setShowLoginPrompt(true); return }
@@ -327,13 +338,12 @@ export default function DiaryPage() {
                       <button
                         onClick={() => {
                           const date = diary.visited_date ? ` (${diary.visited_date})` : ''
-                          const text = `📔 ${diary.title}${date} #旅コンプリ\nhttps://tabi-compuri.hana.trickster.biz`
-                          window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
+                          setShareText(`📔 ${getPrefectureName(diary.prefecture_code)}の旅「${diary.title}」${date} #旅コンプリ`)
                         }}
-                        className="text-slate-600 hover:text-sky-400 transition text-base"
-                        title="Xでシェア"
+                        className="text-slate-600 hover:text-emerald-400 transition text-base"
+                        title="シェア"
                       >
-                        𝕏
+                        ↑
                       </button>
                       <button
                         onClick={() => handleDelete(diary)}
