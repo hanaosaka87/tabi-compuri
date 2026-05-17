@@ -10,6 +10,7 @@ type RankEntry = {
   username: string
   count: number
   spotCount: number
+  score: number
   rank: number
   isMe: boolean
 }
@@ -64,15 +65,20 @@ export default function RankingPage() {
       }
 
       const sorted: RankEntry[] = Object.entries(countMap)
-        .sort(([, a], [, b]) => b - a)
-        .map(([userId, count], i) => ({
-          userId,
-          username: usernameMap[userId] ?? '',
-          count,
-          spotCount: spotMap[userId] ?? 0,
-          rank: i + 1,
-          isMe: user ? userId === user.id : false,
-        }))
+        .map(([userId, count]) => {
+          const spotCount = spotMap[userId] ?? 0
+          return {
+            userId,
+            username: usernameMap[userId] ?? '',
+            count,
+            spotCount,
+            score: count * 10 + spotCount,
+            rank: 0,
+            isMe: user ? userId === user.id : false,
+          }
+        })
+        .sort((a, b) => b.score - a.score)
+        .map((entry, i) => ({ ...entry, rank: i + 1 }))
 
       setRanking(sorted)
       const me = user ? (sorted.find((r) => r.isMe) ?? null) : null
@@ -100,14 +106,15 @@ export default function RankingPage() {
 
       <div className="max-w-2xl mx-auto px-6 py-8">
         <div className="flex items-center justify-between mb-2">
-          <h1 className="text-2xl font-bold">🏆 都道府県制覇ランキング</h1>
+          <h1 className="text-2xl font-bold">🏆 総合ランキング</h1>
           {!isGuest && (
             <Link href="/profile" className="text-slate-400 hover:text-white text-xs transition flex items-center gap-1">
               👤 名前を設定
             </Link>
           )}
         </div>
-        <p className="text-slate-400 text-sm mb-6">訪問数が多い旅人ほど上位に表示されます</p>
+        <p className="text-slate-400 text-sm mb-1">都道府県×10 + スポット数 の総合スコアで順位を決定</p>
+        <p className="text-slate-600 text-xs mb-6">都道府県1件 ＝ スポット10件分</p>
 
         {error && (
           <div className="bg-red-900/30 border border-red-500/30 rounded-xl p-4 text-red-400 text-sm mb-6">
@@ -123,12 +130,11 @@ export default function RankingPage() {
               <span className="text-3xl font-bold text-emerald-400">{myRank.rank}位</span>
               <div>
                 <p className="font-bold">{displayName(myRank)} <span className="text-emerald-400 text-xs">（あなた）</span></p>
-                <p className="text-slate-400 text-sm">{myRank.count}都道府県 · {myRank.spotCount}スポット制覇</p>
+                <p className="text-slate-400 text-sm">{myRank.count}都道府県 · {myRank.spotCount}スポット</p>
               </div>
               <div className="ml-auto text-right">
-                <p className={`text-sm font-bold ${getRankLabel(myRank.count).color}`}>
-                  {getRankLabel(myRank.count).label}
-                </p>
+                <p className="text-emerald-400 font-bold tabular-nums">{myRank.score.toLocaleString()}<span className="text-slate-500 text-xs font-normal"> pt</span></p>
+                <p className={`text-xs ${getRankLabel(myRank.count).color}`}>{getRankLabel(myRank.count).label}</p>
               </div>
             </div>
           </div>
@@ -170,10 +176,8 @@ export default function RankingPage() {
                     <p className={`text-xs ${rl.color}`}>{rl.label}</p>
                   </div>
                   <div className="text-right flex-shrink-0">
-                    <p className="font-bold text-white tabular-nums">{entry.count}<span className="text-slate-400 text-xs font-normal"> 都道府県</span></p>
-                    {entry.spotCount > 0 && (
-                      <p className="text-slate-500 text-xs tabular-nums">📍 {entry.spotCount} スポット</p>
-                    )}
+                    <p className="font-bold text-emerald-400 tabular-nums">{entry.score.toLocaleString()}<span className="text-slate-500 text-xs font-normal"> pt</span></p>
+                    <p className="text-slate-500 text-xs tabular-nums">{entry.count}都道府県 · {entry.spotCount}スポット</p>
                   </div>
                 </div>
               )

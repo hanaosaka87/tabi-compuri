@@ -12,12 +12,13 @@ export default function CityPage() {
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
-  const [selectedPref, setSelectedPref] = useState(13)
+  const [selectedPref, setSelectedPref] = useState(27)
   const [cities, setCities] = useState<City[]>([])
   const [visitedCodes, setVisitedCodes] = useState<Set<string>>(new Set())
   const [loadingCities, setLoadingCities] = useState(false)
   const [loadingPage, setLoadingPage] = useState(true)
   const [totalVisited, setTotalVisited] = useState(0)
+  const [search, setSearch] = useState('')
 
   useEffect(() => {
     const init = async () => {
@@ -81,6 +82,7 @@ export default function CityPage() {
 
   const prefName = PREFECTURES.find((p) => p.code === selectedPref)?.name ?? ''
   const visitedInPref = visitedCodes.size
+  const filteredCities = cities.filter(c => search === '' || c.name.includes(search))
 
   if (loadingPage) return (
     <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
@@ -129,18 +131,24 @@ export default function CityPage() {
           </div>
         </div>
 
-        {/* 都道府県セレクター */}
-        <div className="mb-6">
-          <label className="text-slate-400 text-sm mb-2 block">都道府県を選択</label>
+        {/* 都道府県セレクター + 検索 */}
+        <div className="flex gap-2 mb-6">
           <select
             value={selectedPref}
-            onChange={(e) => setSelectedPref(Number(e.target.value))}
-            className="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-400 transition"
+            onChange={(e) => { setSelectedPref(Number(e.target.value)); setSearch('') }}
+            className="flex-1 bg-slate-800 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-400 transition"
           >
             {PREFECTURES.map((p) => (
               <option key={p.code} value={p.code}>{p.name}</option>
             ))}
           </select>
+          <input
+            type="text"
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder="市区町村を検索..."
+            className="flex-1 bg-slate-800 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-400 transition"
+          />
         </div>
 
         {/* 制覇ステータス */}
@@ -165,7 +173,7 @@ export default function CityPage() {
           <div className="text-center py-16 text-slate-500">読み込み中...</div>
         ) : (
           <div className="flex flex-wrap gap-2">
-            {cities.map((city) => (
+            {filteredCities.map((city) => (
               <button
                 key={city.id}
                 onClick={() => handleToggle(city)}

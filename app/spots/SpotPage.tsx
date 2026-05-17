@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
+import CompleteModal from '@/app/components/CompleteModal'
 
 type Spot = { id: string; name: string; prefecture_code: number }
 
@@ -23,6 +24,8 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
   const [loading, setLoading] = useState(true)
   const [selectedPref, setSelectedPref] = useState<number | 'all'>('all')
   const [search, setSearch] = useState('')
+  const [unvisitedOnly, setUnvisitedOnly] = useState(false)
+  const [showComplete, setShowComplete] = useState(false)
 
   useEffect(() => {
     const init = async () => {
@@ -47,14 +50,19 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
         spot_name: spot.name, prefecture_code: spot.prefecture_code,
         visited_at: new Date().toISOString().split('T')[0],
       })
-      setVisitedIds(prev => new Set(prev).add(spot.id))
+      setVisitedIds(prev => {
+        const next = new Set(prev).add(spot.id)
+        if (next.size === spots.length) setShowComplete(true)
+        return next
+      })
     }
   }
 
   const filtered = spots.filter(s => {
     const matchPref = selectedPref === 'all' || (s.prefecture_code !== 0 && s.prefecture_code === Number(selectedPref))
     const matchSearch = search === '' || s.name.includes(search)
-    return matchPref && matchSearch
+    const matchUnvisited = !unvisitedOnly || !visitedIds.has(s.id)
+    return matchPref && matchSearch && matchUnvisited
   })
 
   const totalVisited = visitedIds.size
@@ -65,6 +73,15 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
   return (
     <main className="min-h-screen bg-slate-900 text-white">
       <Header />
+
+      {showComplete && (
+        <CompleteModal
+          emoji={icon}
+          title={`${label}制覇達成！`}
+          message={`全${spots.length}か所をコンプリートしました！🎊`}
+          onClose={() => setShowComplete(false)}
+        />
+      )}
 
       {isGuest && (
         <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-4 py-3 flex items-center justify-between">
@@ -109,7 +126,7 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
         </div>
 
         {/* フィルター */}
-        <div className="flex gap-3 mb-3">
+        <div className="flex gap-2 mb-2 flex-wrap">
           <select
             value={selectedPref}
             onChange={e => setSelectedPref(e.target.value === 'all' ? 'all' : Number(e.target.value))}
@@ -123,8 +140,18 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
             value={search}
             onChange={e => setSearch(e.target.value)}
             placeholder={`${label}名を検索...`}
-            className="flex-1 bg-slate-800 border border-white/10 rounded-xl px-4 py-2 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-400"
+            className="flex-1 min-w-32 bg-slate-800 border border-white/10 rounded-xl px-4 py-2 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-400"
           />
+          <button
+            onClick={() => setUnvisitedOnly(v => !v)}
+            className={`px-3 py-2 rounded-xl text-sm font-medium border flex-shrink-0 transition ${
+              unvisitedOnly
+                ? 'bg-emerald-500/20 border-emerald-500/60 text-emerald-400'
+                : 'bg-white/5 border-white/10 text-slate-400 hover:border-white/30'
+            }`}
+          >
+            未制覇のみ
+          </button>
         </div>
 
         <p className="text-slate-500 text-xs mb-3">{filtered.length.toLocaleString()}件表示</p>

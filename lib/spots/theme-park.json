@@ -124,5 +124,250 @@
     "prefecture_code": 1,
     "lat": null,
     "lon": null
+  },
+  {
+    "id": "theme-park-7-1",
+    "name": "スパリゾートハワイアンズ",
+    "prefecture_code": 7,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-9-1",
+    "name": "東武ワールドスクウェア",
+    "prefecture_code": 9,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-9-2",
+    "name": "EDO WONDERLAND 日光江戸村",
+    "prefecture_code": 9,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-9-3",
+    "name": "那須ハイランドパーク",
+    "prefecture_code": 9,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-11-1",
+    "name": "西武園ゆうえんち",
+    "prefecture_code": 11,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-11-2",
+    "name": "ムーミンバレーパーク",
+    "prefecture_code": 11,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-12-1",
+    "name": "東京ディズニーランド",
+    "prefecture_code": 12,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-12-2",
+    "name": "東京ディズニーシー",
+    "prefecture_code": 12,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-13-1",
+    "name": "サンリオピューロランド",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-13-2",
+    "name": "東京ジョイポリス",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-13-3",
+    "name": "花やしき",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-13-4",
+    "name": "東京ドームシティ アトラクションズ",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-13-5",
+    "name": "キッザニア東京",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-13-6",
+    "name": "よみうりランド",
+    "prefecture_code": 13,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-14-1",
+    "name": "横浜コスモワールド",
+    "prefecture_code": 14,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-19-1",
+    "name": "富士急ハイランド",
+    "prefecture_code": 19,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-22-1",
+    "name": "伊豆ぐらんぱる公園",
+    "prefecture_code": 22,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-23-1",
+    "name": "レゴランド・ジャパン",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-23-2",
+    "name": "ラグーナテンボス",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-24-1",
+    "name": "ナガシマスパーランド",
+    "prefecture_code": 24,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-24-2",
+    "name": "志摩スペイン村",
+    "prefecture_code": 24,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-26-1",
+    "name": "東映太秦映画村",
+    "prefecture_code": 26,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-27-1",
+    "name": "ユニバーサル・スタジオ・ジャパン",
+    "prefecture_code": 27,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-27-2",
+    "name": "ひらかたパーク",
+    "prefecture_code": 27,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-28-1",
+    "name": "キッザニア甲子園",
+    "prefecture_code": 28,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-28-2",
+    "name": "姫路セントラルパーク",
+    "prefecture_code": 28,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-30-1",
+    "name": "ポルトヨーロッパ",
+    "prefecture_code": 30,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-33-1",
+    "name": "鷲羽山ハイランド",
+    "prefecture_code": 33,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-40-1",
+    "name": "キッザニア福岡",
+    "prefecture_code": 40,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-42-1",
+    "name": "ハウステンボス",
+    "prefecture_code": 42,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-43-1",
+    "name": "グリーンランド",
+    "prefecture_code": 43,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-44-1",
+    "name": "ハーモニーランド",
+    "prefecture_code": 44,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-45-1",
+    "name": "シーガイア",
+    "prefecture_code": 45,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-47-1",
+    "name": "琉球村",
+    "prefecture_code": 47,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "theme-park-47-2",
+    "name": "おきなわワールド",
+    "prefecture_code": 47,
+    "lat": null,
+    "lon": null
   }
 ]

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import SnsFollowBanner from '@/app/components/SnsFollowBanner'
 
 export const metadata: Metadata = {
   title: '旅コンプリ | 日本全国制覇アプリ - 無料で都道府県・道の駅・温泉・お城を記録',
@@ -217,10 +216,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SNSフォローバナー */}
-        <div className="max-w-2xl mx-auto px-6 pb-12">
-          <SnsFollowBanner />
-        </div>
 
         {/* フッター */}
         <footer className="text-center text-slate-500 text-sm py-8 border-t border-white/10">

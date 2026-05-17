@@ -17,13 +17,20 @@ export default function BadgesPage() {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) {
         setIsGuest(true)
-        setBadges(calcBadges(new Set()))
+        setBadges(calcBadges(new Set(), {}))
         setLoading(false)
         return
       }
-      const { data } = await supabase.from('visits').select('prefecture_code').eq('user_id', user.id)
-      const codes = new Set<number>((data ?? []).map((v) => v.prefecture_code))
-      const b = calcBadges(codes)
+      const [prefRes, spotRes] = await Promise.all([
+        supabase.from('visits').select('prefecture_code').eq('user_id', user.id),
+        supabase.from('spot_visits').select('category').eq('user_id', user.id),
+      ])
+      const codes = new Set<number>((prefRes.data ?? []).map((v) => v.prefecture_code))
+      const spotCounts: Record<string, number> = {}
+      for (const row of spotRes.data ?? []) {
+        spotCounts[row.category] = (spotCounts[row.category] ?? 0) + 1
+      }
+      const b = calcBadges(codes, spotCounts)
       setBadges(b)
       setEarnedCount(b.filter((x) => x.earned).length)
       setLoading(false)
@@ -35,8 +42,11 @@ export default function BadgesPage() {
     <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
   )
 
+  const prefBadges = badges.filter(b => b.category === 'pref')
+  const spotBadges = badges.filter(b => b.category === 'spot')
+
   return (
-    <main className="min-h-screen bg-slate-900 text-white">
+    <main className="min-h-screen bg-slate-900 text-white pb-8">
       <Header />
 
       {isGuest && (
@@ -63,30 +73,43 @@ export default function BadgesPage() {
           </div>
         </div>
 
+        {/* 都道府県バッジ */}
+        <h2 className="text-sm font-bold text-slate-400 mb-3">🗾 都道府県制覇</h2>
+        <div className="grid grid-cols-2 gap-3 mb-8">
+          {prefBadges.map((badge) => (
+            <BadgeCard key={badge.id} badge={badge} />
+          ))}
+        </div>
+
+        {/* スポットバッジ */}
+        <h2 className="text-sm font-bold text-slate-400 mb-3">📍 スポット制覇</h2>
         <div className="grid grid-cols-2 gap-3">
-          {badges.map((badge) => (
-            <div
-              key={badge.id}
-              className={`flex items-center gap-3 px-4 py-4 rounded-2xl border transition ${
-                badge.earned
-                  ? 'bg-emerald-500/10 border-emerald-500/40'
-                  : 'bg-white/5 border-white/10 opacity-50'
-              }`}
-            >
-              <span className="text-3xl">{badge.emoji}</span>
-              <div className="min-w-0">
-                <p className={`text-sm font-bold ${badge.earned ? 'text-white' : 'text-slate-400'}`}>
-                  {badge.label}
-                </p>
-                <p className="text-xs text-slate-500 mt-0.5">{badge.description}</p>
-              </div>
-              {badge.earned && (
-                <span className="ml-auto text-emerald-400 text-xs flex-shrink-0">✓</span>
-              )}
-            </div>
+          {spotBadges.map((badge) => (
+            <BadgeCard key={badge.id} badge={badge} />
           ))}
         </div>
       </div>
     </main>
+  )
+}
+
+function BadgeCard({ badge }: { badge: Badge }) {
+  return (
+    <div className={`flex items-center gap-3 px-4 py-4 rounded-2xl border transition ${
+      badge.earned
+        ? 'bg-emerald-500/10 border-emerald-500/40'
+        : 'bg-white/5 border-white/10 opacity-50'
+    }`}>
+      <span className="text-3xl">{badge.emoji}</span>
+      <div className="min-w-0">
+        <p className={`text-sm font-bold ${badge.earned ? 'text-white' : 'text-slate-400'}`}>
+          {badge.label}
+        </p>
+        <p className="text-xs text-slate-500 mt-0.5">{badge.description}</p>
+      </div>
+      {badge.earned && (
+        <span className="ml-auto text-emerald-400 text-xs flex-shrink-0">✓</span>
+      )}
+    </div>
   )
 }
