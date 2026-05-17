@@ -9,17 +9,23 @@ import Header from '@/app/components/Header'
 import ShareModal from '@/app/components/ShareModal'
 import ShareIcons from '@/app/components/ShareIcons'
 import AiRecommend from '@/app/components/AiRecommend'
+import CompleteModal from '@/app/components/CompleteModal'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
 const SPOT_CATEGORIES = [
-  { id: 'michi-no-eki', label: '道の駅', icon: '🚗', total: 1238, href: '/spots/michi-no-eki' },
-  { id: 'onsen', label: '温泉', icon: '♨️', total: 1774, href: '/spots/onsen' },
-  { id: 'castle', label: 'お城', icon: '🏯', total: 1782, href: '/spots/castle' },
-  { id: 'shrine', label: '神社', icon: '⛩️', total: 3047, href: '/spots/shrine' },
-  { id: 'japan-heritage', label: '日本遺産', icon: '🏛️', total: 463, href: '/spots/japan-heritage' },
-  { id: 'leisure', label: '遊園地', icon: '🎡', total: 186, href: '/spots/leisure' },
-  { id: 'zoo-aquarium', label: '動物園・水族館', icon: '🦁', total: 264, href: '/spots/zoo-aquarium' },
+  { id: 'world-heritage', label: '世界遺産',   icon: '🌍', total: 26,   href: '/spots/world-heritage' },
+  { id: 'national-park',  label: '国立公園',   icon: '🏔️', total: 34,   href: '/spots/national-park' },
+  { id: 'theme-park',     label: 'テーマパーク', icon: '🎢', total: 53,  href: '/spots/theme-park' },
+  { id: 'amusement',      label: '遊園地',     icon: '🎡', total: 168,  href: '/spots/amusement' },
+  { id: 'zoo',            label: '動物園',     icon: '🦁', total: 143,  href: '/spots/zoo' },
+  { id: 'aquarium',       label: '水族館',     icon: '🐠', total: 106,  href: '/spots/aquarium' },
+  { id: 'castle',         label: 'お城',       icon: '🏯', total: 1782, href: '/spots/castle' },
+  { id: 'shrine',         label: '神社',       icon: '⛩️', total: 3047, href: '/spots/shrine' },
+  { id: 'japan-heritage', label: '日本遺産',   icon: '🏛️', total: 463,  href: '/spots/japan-heritage' },
+  { id: 'onsen',          label: '温泉',       icon: '♨️', total: 1774, href: '/spots/onsen' },
+  { id: 'michi-no-eki',   label: '道の駅',     icon: '🚗', total: 1238, href: '/spots/michi-no-eki' },
+  { id: 'dam',            label: 'ダム',       icon: '🏞️', total: 898,  href: '/spots/dam' },
 ]
 const TOTAL_SPOTS = SPOT_CATEGORIES.reduce((s, c) => s + c.total, 0)
 const TOTAL_CITIES = 1741
@@ -65,6 +71,7 @@ export default function DashboardPage() {
   const [isGuest, setIsGuest] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [showShareModal, setShowShareModal] = useState(false)
+  const [showCompleteModal, setShowCompleteModal] = useState(false)
 
   useEffect(() => {
     const init = async () => {
@@ -98,14 +105,18 @@ export default function DashboardPage() {
       setVisitedCodes((prev) => { const s = new Set(prev); s.delete(code); return s })
     } else {
       await supabase.from('visits').insert({ user_id: userId, prefecture_code: code, visited_at: new Date().toISOString().split('T')[0] })
-      setVisitedCodes((prev) => new Set(prev).add(code))
+      setVisitedCodes((prev) => {
+        const next = new Set(prev).add(code)
+        if (next.size === 47) setShowCompleteModal(true)
+        return next
+      })
     }
   }
 
   const prefCount = visitedCodes.size
   const totalSpotVisited = Object.values(spotCounts).reduce((a, b) => a + b, 0)
   const rank = getRank(prefCount)
-  const badges = calcBadges(visitedCodes)
+  const badges = calcBadges(visitedCodes, spotCounts)
   const earnedBadges = badges.filter((b) => b.earned)
 
   const shareText = prefCount === 47
@@ -126,6 +137,14 @@ export default function DashboardPage() {
       <ShareModal
         text={shareModalText}
         onClose={() => setShowShareModal(false)}
+      />
+    )}
+    {showCompleteModal && (
+      <CompleteModal
+        emoji="🏆"
+        title="全国制覇達成！"
+        message="47都道府県すべてを制覇しました！日本を旅し尽くした旅人です！"
+        onClose={() => setShowCompleteModal(false)}
       />
     )}
     <main className="min-h-screen bg-slate-900 text-white pb-24">

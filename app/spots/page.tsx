@@ -4,48 +4,75 @@ import Header from '@/app/components/Header'
 
 export const metadata: Metadata = {
   title: 'スポット制覇',
-  description: '道の駅・温泉・お城・遊園地・動物園など全国5,244か所のスポットを制覇しよう。',
+  description: '世界遺産・国立公園・道の駅・温泉・お城など全国のスポットを制覇しよう。',
 }
 import michiNoEkiData from '@/lib/spots/michi-no-eki.json'
 import onsenData from '@/lib/spots/onsen.json'
-import leisureData from '@/lib/spots/leisure.json'
-import zooAqData from '@/lib/spots/zoo-aquarium.json'
+import amusementData from '@/lib/spots/amusement.json'
+import themeParkData from '@/lib/spots/theme-park.json'
+import zooData from '@/lib/spots/zoo.json'
+import aquariumData from '@/lib/spots/aquarium.json'
 import castleData from '@/lib/spots/castle.json'
 import shrineData from '@/lib/spots/shrine-temple.json'
 import heritageData from '@/lib/spots/japan-heritage.json'
+import worldHeritageData from '@/lib/spots/world-heritage.json'
+import nationalParkData from '@/lib/spots/national-park.json'
+import damData from '@/lib/spots/dam.json'
 
 const CATEGORIES = [
   {
-    id: 'michi-no-eki',
-    label: '道の駅',
-    icon: '🚗',
-    description: '全国の道の駅を制覇しよう',
-    total: (michiNoEkiData as unknown[]).length,
-    href: '/spots/michi-no-eki',
+    id: 'world-heritage',
+    label: '世界遺産',
+    icon: '🌍',
+    description: '日本国内のユネスコ世界遺産を制覇しよう',
+    total: (worldHeritageData as unknown[]).length,
+    href: '/spots/world-heritage',
+    badge: 'コンプしやすい',
   },
   {
-    id: 'onsen',
-    label: '温泉',
-    icon: '♨️',
-    description: '名湯・秘湯を巡る温泉制覇',
-    total: (onsenData as unknown[]).length,
-    href: '/spots/onsen',
+    id: 'national-park',
+    label: '国立公園',
+    icon: '🏔️',
+    description: '全国34か所の国立公園を制覇しよう',
+    total: (nationalParkData as unknown[]).length,
+    href: '/spots/national-park',
+    badge: 'コンプしやすい',
   },
   {
-    id: 'castle',
-    label: 'お城',
-    icon: '🏯',
-    description: '全国の城・城跡を制覇しよう',
-    total: (castleData as unknown[]).length,
-    href: '/spots/castle',
+    id: 'theme-park',
+    label: 'テーマパーク',
+    icon: '🎢',
+    description: '全国のテーマパークを制覇しよう',
+    total: (themeParkData as unknown[]).length,
+    href: '/spots/theme-park',
+    badge: 'コンプしやすい',
   },
   {
-    id: 'shrine',
-    label: '神社',
-    icon: '⛩️',
-    description: '全国の神社・パワースポットを制覇',
-    total: (shrineData as unknown[]).length,
-    href: '/spots/shrine',
+    id: 'amusement',
+    label: '遊園地',
+    icon: '🎡',
+    description: '全国の遊園地を制覇しよう',
+    total: (amusementData as unknown[]).length,
+    href: '/spots/amusement',
+    badge: null,
+  },
+  {
+    id: 'aquarium',
+    label: '水族館',
+    icon: '🐠',
+    description: '全国の水族館を制覇しよう',
+    total: (aquariumData as unknown[]).length,
+    href: '/spots/aquarium',
+    badge: null,
+  },
+  {
+    id: 'zoo',
+    label: '動物園',
+    icon: '🦁',
+    description: '全国の動物園を制覇しよう',
+    total: (zooData as unknown[]).length,
+    href: '/spots/zoo',
+    badge: null,
   },
   {
     id: 'japan-heritage',
@@ -54,22 +81,52 @@ const CATEGORIES = [
     description: '日本遺産に認定された文化財・史跡を制覇',
     total: (heritageData as unknown[]).length,
     href: '/spots/japan-heritage',
+    badge: null,
   },
   {
-    id: 'leisure',
-    label: '遊園地・テーマパーク',
-    icon: '🎡',
-    description: '全国の遊園地・テーマパークを制覇',
-    total: (leisureData as unknown[]).length,
-    href: '/spots/leisure',
+    id: 'castle',
+    label: 'お城',
+    icon: '🏯',
+    description: '全国の城・城跡を制覇しよう',
+    total: (castleData as unknown[]).length,
+    href: '/spots/castle',
+    badge: null,
   },
   {
-    id: 'zoo-aquarium',
-    label: '動物園・水族館',
-    icon: '🦁',
-    description: '全国の動物園・水族館を制覇',
-    total: (zooAqData as unknown[]).length,
-    href: '/spots/zoo-aquarium',
+    id: 'shrine',
+    label: '神社',
+    icon: '⛩️',
+    description: '全国の神社・パワースポットを制覇',
+    total: (shrineData as unknown[]).length,
+    href: '/spots/shrine',
+    badge: null,
+  },
+  {
+    id: 'onsen',
+    label: '温泉',
+    icon: '♨️',
+    description: '名湯・秘湯を巡る温泉制覇',
+    total: (onsenData as unknown[]).length,
+    href: '/spots/onsen',
+    badge: null,
+  },
+  {
+    id: 'michi-no-eki',
+    label: '道の駅',
+    icon: '🚗',
+    description: '全国の道の駅を制覇しよう',
+    total: (michiNoEkiData as unknown[]).length,
+    href: '/spots/michi-no-eki',
+    badge: null,
+  },
+  {
+    id: 'dam',
+    label: 'ダム',
+    icon: '🏞️',
+    description: '全国のダムを制覇しよう',
+    total: (damData as unknown[]).length,
+    href: '/spots/dam',
+    badge: null,
   },
 ]
 
@@ -95,6 +152,11 @@ export default function SpotsPage() {
                   <span className="bg-emerald-500/20 text-emerald-400 text-xs px-2 py-0.5 rounded-full">
                     全{cat.total.toLocaleString()}か所
                   </span>
+                  {cat.badge && (
+                    <span className="bg-yellow-500/20 text-yellow-400 text-xs px-2 py-0.5 rounded-full">
+                      🏆 {cat.badge}
+                    </span>
+                  )}
                 </div>
                 <p className="text-slate-400 text-sm">{cat.description}</p>
               </div>

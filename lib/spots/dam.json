@@ -1,0 +1,4492 @@
+[
+  {
+    "id": "dam-1-2627782",
+    "name": "北海道地方のダム一覧",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2378669",
+    "name": "青山ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-986698",
+    "name": "朝里ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-422899",
+    "name": "芦別ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-3854924",
+    "name": "芦別ダム (北海道電力)",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-5239292",
+    "name": "厚幌ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2629400",
+    "name": "厚真ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423564",
+    "name": "漁川ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1353782",
+    "name": "石狩ダム計画",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-3238002",
+    "name": "岩尾内ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1478356",
+    "name": "岩松ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2374738",
+    "name": "卯原内ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-422852",
+    "name": "雨竜第一ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1645350",
+    "name": "雨竜第二ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2374811",
+    "name": "雄武ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423523",
+    "name": "大夕張ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1665070",
+    "name": "奥新冠ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-422942",
+    "name": "桂沢ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-415408",
+    "name": "金山ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-411844",
+    "name": "鹿ノ子ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-4032306",
+    "name": "屈足ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1111922",
+    "name": "栗山ダム (北海道)",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-414206",
+    "name": "笹流ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2626405",
+    "name": "札内川ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2124227",
+    "name": "佐幌ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-4523673",
+    "name": "サンルダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1660914",
+    "name": "静内ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1664240",
+    "name": "春別ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423599",
+    "name": "定山渓ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2710454",
+    "name": "庶路ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423538",
+    "name": "新桂沢ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1969823",
+    "name": "新中野ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2372823",
+    "name": "聖台ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-422828",
+    "name": "大雪ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1660268",
+    "name": "高見ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-422878",
+    "name": "滝里ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-422834",
+    "name": "忠別ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-4967748",
+    "name": "東郷ダム (北海道)",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423636",
+    "name": "当別ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1478340",
+    "name": "十勝ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2371011",
+    "name": "富里ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1666699",
+    "name": "新冠ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-411871",
+    "name": "二風谷ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2705633",
+    "name": "糠平ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1663966",
+    "name": "東の沢ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2718906",
+    "name": "美生ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-346698",
+    "name": "美唄ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1353848",
+    "name": "平取ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-411852",
+    "name": "美利河ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1662481",
+    "name": "双川ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2374658",
+    "name": "古梅ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423582",
+    "name": "豊平峡ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-1591101",
+    "name": "幌内ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2626743",
+    "name": "幌別ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2732014",
+    "name": "幌満川第3発電所ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2727925",
+    "name": "牧の内ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-4525514",
+    "name": "三笠ぽんべつダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2374756",
+    "name": "緑ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-423541",
+    "name": "夕張シューパロダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-4524933",
+    "name": "留萌ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-2579100",
+    "name": "奥沢ダム",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-1-4983738",
+    "name": "神路ダム (北海道電力)",
+    "prefecture_code": 1
+  },
+  {
+    "id": "dam-2-458420",
+    "name": "浅瀬石川ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-456246",
+    "name": "沖浦ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-2360929",
+    "name": "川内ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-1632281",
+    "name": "旧海軍大湊要港部水源地堰堤",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-3191989",
+    "name": "小泊ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-3240223",
+    "name": "津軽ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-3224835",
+    "name": "久吉ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-3238471",
+    "name": "目屋ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-2-1647614",
+    "name": "世増ダム",
+    "prefecture_code": 2
+  },
+  {
+    "id": "dam-3-411904",
+    "name": "胆沢ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-411897",
+    "name": "石淵ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-425691",
+    "name": "岩洞ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-2587648",
+    "name": "煙山ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-411947",
+    "name": "御所ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-425733",
+    "name": "山王海ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-411963",
+    "name": "四十四田ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-2070415",
+    "name": "千松ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-4964607",
+    "name": "滝ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-1056274",
+    "name": "鷹生ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-411920",
+    "name": "田瀬ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-3257840",
+    "name": "綱取ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-425779",
+    "name": "豊沢ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-425765",
+    "name": "早池峰ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-3225513",
+    "name": "日向ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-2749333",
+    "name": "簗川ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-3-411927",
+    "name": "湯田ダム",
+    "prefecture_code": 3
+  },
+  {
+    "id": "dam-4-4283426",
+    "name": "青下第1ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-2423917",
+    "name": "荒砥沢ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-3152864",
+    "name": "牛野ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-3224185",
+    "name": "漆沢ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-414622",
+    "name": "大倉ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-911339",
+    "name": "釜房ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-2423877",
+    "name": "栗駒ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-425900",
+    "name": "化女沼ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-911570",
+    "name": "七ヶ宿ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-425920",
+    "name": "長沼ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-911582",
+    "name": "七北田ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-425821",
+    "name": "鳴子ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-425847",
+    "name": "花山ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-3697524",
+    "name": "松ヶ房ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-1795244",
+    "name": "南川ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-4-1762665",
+    "name": "宮床ダム",
+    "prefecture_code": 4
+  },
+  {
+    "id": "dam-5-1133518",
+    "name": "旭川治水ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4641447",
+    "name": "鹿倉ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4633746",
+    "name": "砂子沢ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-3221293",
+    "name": "素波里ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-458542",
+    "name": "玉川ダム (秋田県)",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4633602",
+    "name": "鳥海ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4032532",
+    "name": "成瀬ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4596490",
+    "name": "萩形ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4479835",
+    "name": "早口ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-1444722",
+    "name": "藤倉水源地",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-2425284",
+    "name": "水沢ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-3219045",
+    "name": "皆瀬ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-3097902",
+    "name": "森吉山ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-3799192",
+    "name": "森吉ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-1635686",
+    "name": "八塩ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-4483562",
+    "name": "山瀬ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-5-1886646",
+    "name": "鎧畑ダム",
+    "prefecture_code": 5
+  },
+  {
+    "id": "dam-6-414490",
+    "name": "赤芝ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-3145845",
+    "name": "月山ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-715290",
+    "name": "上郷ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-1717589",
+    "name": "神室ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-718241",
+    "name": "管野ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-1608912",
+    "name": "木地山ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-3401135",
+    "name": "銀山川ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-719474",
+    "name": "蔵王ダム (山形県)",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-720608",
+    "name": "寒河江ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-716976",
+    "name": "白川ダム (山形県)",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-728662",
+    "name": "新鶴子ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-729023",
+    "name": "高坂ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-716833",
+    "name": "綱木川ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-719317",
+    "name": "長井ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-3227296",
+    "name": "肘折ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-1420209",
+    "name": "前川ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-720670",
+    "name": "水ヶ瀞ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-715538",
+    "name": "水窪ダム (山形県)",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-728858",
+    "name": "最上小国川ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-715469",
+    "name": "最上川さみだれ大堰",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-3801834",
+    "name": "最上白川砂防堰堤",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-3597568",
+    "name": "本沢ダム (山形県)",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-1715460",
+    "name": "八久和ダム",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-6-629530",
+    "name": "横川ダム (山形県)",
+    "prefecture_code": 6
+  },
+  {
+    "id": "dam-7-777062",
+    "name": "秋元湖",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3959445",
+    "name": "旭ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3877805",
+    "name": "今出ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-860604",
+    "name": "大内ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3877475",
+    "name": "大柿ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-779457",
+    "name": "大川ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3700496",
+    "name": "大笹生ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-316759",
+    "name": "奥只見ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-811744",
+    "name": "尾瀬原ダム計画",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3696920",
+    "name": "片門ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-4158217",
+    "name": "上野尻ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3695608",
+    "name": "木戸ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1233546",
+    "name": "黒森ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-2768145",
+    "name": "小玉ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3585999",
+    "name": "こまちダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-5215466",
+    "name": "坂下ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3570814",
+    "name": "四時ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1621972",
+    "name": "信夫ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1464543",
+    "name": "下北沢ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-2439328",
+    "name": "十六橋水門",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3939246",
+    "name": "新宮川ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1317604",
+    "name": "摺上川ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3224209",
+    "name": "千五沢ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3571477",
+    "name": "高柴ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3704599",
+    "name": "高の倉ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3935053",
+    "name": "滝川ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3708210",
+    "name": "岳ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-611193",
+    "name": "田子倉ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3907060",
+    "name": "田島ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3942005",
+    "name": "鶴沼川防災ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3942032",
+    "name": "栃沢ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3573026",
+    "name": "日中ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-917799",
+    "name": "羽鳥ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-4131430",
+    "name": "半田沼",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3943954",
+    "name": "東山ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1257038",
+    "name": "深田ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3704520",
+    "name": "藤倉ダム (福島県)",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1466216",
+    "name": "藤沼ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3942020",
+    "name": "二岐ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1621962",
+    "name": "蓬萊ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3754964",
+    "name": "堀川ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1391076",
+    "name": "本名ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3586015",
+    "name": "真野ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-4004138",
+    "name": "三ツ森ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1325037",
+    "name": "三春ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-4121127",
+    "name": "宮川ダム (福島県)",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-4301785",
+    "name": "柳津ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3955789",
+    "name": "山ノ入ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-3704966",
+    "name": "横川ダム (福島県)",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-7-1464866",
+    "name": "龍生ダム",
+    "prefecture_code": 7
+  },
+  {
+    "id": "dam-8-432441",
+    "name": "飯田ダム",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-432423",
+    "name": "楮川ダム",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-432477",
+    "name": "御前山ダム",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-116598",
+    "name": "利根川河口堰",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-1622113",
+    "name": "花貫ダム",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-432405",
+    "name": "藤井川ダム",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-4755897",
+    "name": "竜神ダム",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-8-50919",
+    "name": "渡良瀬遊水地",
+    "prefecture_code": 8
+  },
+  {
+    "id": "dam-9-414012",
+    "name": "五十里ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-673632",
+    "name": "今市ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-413947",
+    "name": "川治ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-413923",
+    "name": "川俣ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-4413993",
+    "name": "栗谷沢ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1111923",
+    "name": "栗山ダム (栃木県)",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1207041",
+    "name": "黒部ダム (栃木県)",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1207046",
+    "name": "逆川ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-432454",
+    "name": "蛇尾川ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1226412",
+    "name": "塩田ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-432383",
+    "name": "塩原ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1226589",
+    "name": "千振ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-4019104",
+    "name": "中禅寺ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1226331",
+    "name": "寺山ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-4020031",
+    "name": "中岩ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-421717",
+    "name": "南摩ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1225682",
+    "name": "西古屋ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-2677453",
+    "name": "芳那の水晶湖",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-432387",
+    "name": "東荒川ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-2215208",
+    "name": "箒川ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-432466",
+    "name": "深山ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-432514",
+    "name": "八汐ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-1226994",
+    "name": "矢の目ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-9-2835653",
+    "name": "湯西川ダム",
+    "prefecture_code": 9
+  },
+  {
+    "id": "dam-10-414776",
+    "name": "利根川上流ダム群",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412859",
+    "name": "相俣ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-665711",
+    "name": "上野ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412965",
+    "name": "碓氷湖",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-2401784",
+    "name": "大塩ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-878570",
+    "name": "鹿沢ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-1353808",
+    "name": "川古ダム計画",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-4781306",
+    "name": "霧積ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-4959810",
+    "name": "桐生川ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-344688",
+    "name": "草木ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-414278",
+    "name": "品木ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-414297",
+    "name": "四万川ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412937",
+    "name": "下久保ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-1452064",
+    "name": "神水ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412802",
+    "name": "須田貝ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412872",
+    "name": "薗原ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-3277987",
+    "name": "竹沼ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412906",
+    "name": "玉原ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-1353828",
+    "name": "戸倉ダム計画",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-421693",
+    "name": "利根大堰",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-1494459",
+    "name": "中木ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412827",
+    "name": "奈良俣ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-429960",
+    "name": "野反ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412813",
+    "name": "藤原ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-4213748",
+    "name": "富入沢ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412883",
+    "name": "丸沼ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-199722",
+    "name": "矢木沢ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-412925",
+    "name": "八ッ場ダム",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-10-534331",
+    "name": "沼田ダム計画",
+    "prefecture_code": 10
+  },
+  {
+    "id": "dam-11-4027739",
+    "name": "荒川第二・第三調節池",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-3318809",
+    "name": "有間ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-414424",
+    "name": "浦山ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-1096324",
+    "name": "合角ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-249308",
+    "name": "鎌北湖",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-414436",
+    "name": "滝沢ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-1663353",
+    "name": "玉淀ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-414411",
+    "name": "二瀬ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-2382186",
+    "name": "間瀬ダム",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-120267",
+    "name": "宮沢湖",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-11-97360",
+    "name": "山口貯水池",
+    "prefecture_code": 11
+  },
+  {
+    "id": "dam-12-1786194",
+    "name": "安房中央ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2679717",
+    "name": "片倉ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2734688",
+    "name": "勝浦ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2659215",
+    "name": "亀山ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2355556",
+    "name": "郡ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2698265",
+    "name": "高滝ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-542913",
+    "name": "東金ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2647455",
+    "name": "豊英ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-542911",
+    "name": "長柄ダム (千葉県)",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2641076",
+    "name": "三島ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-2346448",
+    "name": "矢那川ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-12-381871",
+    "name": "大多喜ダム",
+    "prefecture_code": 12
+  },
+  {
+    "id": "dam-13-105936",
+    "name": "小河内ダム",
+    "prefecture_code": 13
+  },
+  {
+    "id": "dam-13-106814",
+    "name": "白丸ダム",
+    "prefecture_code": 13
+  },
+  {
+    "id": "dam-13-159621",
+    "name": "村山貯水池",
+    "prefecture_code": 13
+  },
+  {
+    "id": "dam-14-414467",
+    "name": "相模ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-4949975",
+    "name": "散在ガ池",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-414458",
+    "name": "城山ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-898375",
+    "name": "道志ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-2684002",
+    "name": "沼本ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-395103",
+    "name": "本沢ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-446483",
+    "name": "三保ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-290191",
+    "name": "宮ヶ瀬ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-14-522838",
+    "name": "宮ヶ瀬副ダム",
+    "prefecture_code": 14
+  },
+  {
+    "id": "dam-15-430035",
+    "name": "破間川ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-445416",
+    "name": "岩船ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1364827",
+    "name": "内の倉ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-414497",
+    "name": "大石ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-2191614",
+    "name": "大河津可動堰",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-430111",
+    "name": "大谷ダム (新潟県)",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-3892775",
+    "name": "奥三面ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-758125",
+    "name": "柿崎川ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-430117",
+    "name": "笠堀ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-3892763",
+    "name": "加治川治水ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1118921",
+    "name": "カッサダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-783541",
+    "name": "鹿瀬ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-3892901",
+    "name": "刈谷田川ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-426715",
+    "name": "蒲原大堰",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1031672",
+    "name": "黒又ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-430059",
+    "name": "黒又川第一ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-430079",
+    "name": "黒又川第二ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1152946",
+    "name": "穴藤ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1152925",
+    "name": "高野山ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-426761",
+    "name": "三国川ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-758248",
+    "name": "笹ヶ峰ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-758124",
+    "name": "正善寺ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1576019",
+    "name": "胎内川ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-1576018",
+    "name": "胎内第一ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-445140",
+    "name": "鷹の巣ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-426514",
+    "name": "新潟大堰",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-3892655",
+    "name": "早出川ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-3892890",
+    "name": "広神ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-429980",
+    "name": "二居ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-3892857",
+    "name": "三面ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-428240",
+    "name": "宮中取水ダム",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-15-426535",
+    "name": "妙見堰",
+    "prefecture_code": 15
+  },
+  {
+    "id": "dam-16-5222602",
+    "name": "愛本堰堤",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-2271632",
+    "name": "赤尾ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1387784",
+    "name": "朝日小川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-731950",
+    "name": "有峰ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4652837",
+    "name": "臼中ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-414518",
+    "name": "宇奈月ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4802386",
+    "name": "大谷ダム (富山県)",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1666552",
+    "name": "小口川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-2271633",
+    "name": "小原ダム (富山県)",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1666546",
+    "name": "小俣ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-881958",
+    "name": "角川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4592229",
+    "name": "上市川第二ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4592208",
+    "name": "上市川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4717838",
+    "name": "久婦須川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1231877",
+    "name": "熊野川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-108804",
+    "name": "黒部ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4637300",
+    "name": "五位ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4639017",
+    "name": "子撫川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1875350",
+    "name": "小牧ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-2027904",
+    "name": "小屋平ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1097764",
+    "name": "境川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1245438",
+    "name": "庄川合口ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4661618",
+    "name": "城端ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1754159",
+    "name": "白岩堰堤",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4592236",
+    "name": "白岩川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1393636",
+    "name": "神一ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1398559",
+    "name": "神三ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1265272",
+    "name": "新中地山ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1397038",
+    "name": "神二ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4652849",
+    "name": "菅沼ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1103278",
+    "name": "祐延ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4730662",
+    "name": "千束ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1786558",
+    "name": "仙人谷ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4519746",
+    "name": "祖山ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-414762",
+    "name": "出し平ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1011431",
+    "name": "刀利ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4730100",
+    "name": "利賀川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-3076070",
+    "name": "利賀ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-2286694",
+    "name": "成出ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1916473",
+    "name": "布施川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4592242",
+    "name": "舟川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1245440",
+    "name": "舟戸ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-415401",
+    "name": "真川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-415400",
+    "name": "真立ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4651269",
+    "name": "室牧ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4651240",
+    "name": "八尾ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4704932",
+    "name": "若土ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-1085625",
+    "name": "和田川ダム",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-16-4583812",
+    "name": "黒川ダム (富山県)",
+    "prefecture_code": 16
+  },
+  {
+    "id": "dam-17-842954",
+    "name": "医王ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1339173",
+    "name": "内川ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1523861",
+    "name": "尾口第一ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-916652",
+    "name": "北河内ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1819438",
+    "name": "九谷ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1339022",
+    "name": "犀川ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1818626",
+    "name": "大日川ダム (石川県)",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1340615",
+    "name": "辰巳ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1772488",
+    "name": "多根ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1514870",
+    "name": "中宮ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1482168",
+    "name": "手取川第二ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1482221",
+    "name": "手取川第三ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-414601",
+    "name": "手取川ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-2421955",
+    "name": "八ヶ川ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1512712",
+    "name": "吉野谷ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-17-1818674",
+    "name": "我谷ダム",
+    "prefecture_code": 17
+  },
+  {
+    "id": "dam-18-447495",
+    "name": "足羽川ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-2342759",
+    "name": "永平寺ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-2844816",
+    "name": "大津呂ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-2273541",
+    "name": "小原ダム (福井県)",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-447423",
+    "name": "九頭竜川鳴鹿大堰",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-373615",
+    "name": "九頭竜ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-447450",
+    "name": "笹生川ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-2343303",
+    "name": "浄土寺川ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-2344680",
+    "name": "広野ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-1286166",
+    "name": "武周ヶ池",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-1463639",
+    "name": "仏原ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-448393",
+    "name": "桝谷ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-447471",
+    "name": "真名川ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-2342686",
+    "name": "龍ヶ鼻ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-18-442436",
+    "name": "鷲ダム",
+    "prefecture_code": 18
+  },
+  {
+    "id": "dam-19-1181537",
+    "name": "雨畑ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-889943",
+    "name": "荒川ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-1152414",
+    "name": "柿元ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-665998",
+    "name": "葛野川ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-4814484",
+    "name": "勝沼堰堤",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-666433",
+    "name": "上日川ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-2381090",
+    "name": "小樺ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-860444",
+    "name": "塩川ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-860448",
+    "name": "大門ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-2039701",
+    "name": "千代田湖",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-2381192",
+    "name": "西山ダム (山梨県)",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-242100",
+    "name": "広瀬ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-666567",
+    "name": "深城ダム",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-4607479",
+    "name": "丸山貯水池",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-19-3609628",
+    "name": "竜ヶ池 (甲府市)",
+    "prefecture_code": 19
+  },
+  {
+    "id": "dam-20-3263053",
+    "name": "浅川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-653551",
+    "name": "雨川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-2382859",
+    "name": "あやめ公園池",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-545120",
+    "name": "生坂ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1271673",
+    "name": "伊奈川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-415345",
+    "name": "稲核ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1318806",
+    "name": "岩倉ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-656689",
+    "name": "内村ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1818315",
+    "name": "王滝川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-2538478",
+    "name": "大久保ダム (長野県)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-2598563",
+    "name": "大沼ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-428295",
+    "name": "大町ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-599736",
+    "name": "奥裾花ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-545134",
+    "name": "小田切ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-677056",
+    "name": "小仁熊ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-695027",
+    "name": "片桐ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-686927",
+    "name": "金原ダム (長野県東御市)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-4731571",
+    "name": "金原砂防ダム (長野県松本市)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1056761",
+    "name": "釜ヶ渕堰堤",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1910526",
+    "name": "上組溜池",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1809943",
+    "name": "木曽ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-706102",
+    "name": "北山ダム (長野県)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-694575",
+    "name": "沓沢湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-736506",
+    "name": "香坂ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-436374",
+    "name": "小渋ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-714355",
+    "name": "古谷ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-688157",
+    "name": "犀川白鳥湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-545125",
+    "name": "笹平ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-726515",
+    "name": "沢山池",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1186283",
+    "name": "渋沢ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-83487",
+    "name": "白樺湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-741325",
+    "name": "菅平ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1703218",
+    "name": "杉の木貯水池",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-429127",
+    "name": "裾花ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-566522",
+    "name": "セバ谷ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-344043",
+    "name": "大正池 (松本市)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-545122",
+    "name": "平ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-429205",
+    "name": "高瀬ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-436367",
+    "name": "高遠ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1817847",
+    "name": "常盤ダム (長野県)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-436324",
+    "name": "戸草ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-677059",
+    "name": "富蔵ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-693340",
+    "name": "豊丘ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-414244",
+    "name": "奈川渡ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-429228",
+    "name": "七倉ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-429102",
+    "name": "奈良井ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1686949",
+    "name": "西浦ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-547759",
+    "name": "西大滝ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-665530",
+    "name": "東条ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1259340",
+    "name": "姫川第二ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1259343",
+    "name": "姫川第三ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-436432",
+    "name": "平岡ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1019473",
+    "name": "北竜湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-415715",
+    "name": "牧尾ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-739597",
+    "name": "松川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-415894",
+    "name": "三浦ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-683984",
+    "name": "水上ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-392449",
+    "name": "美鈴湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-414939",
+    "name": "味噌川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-415336",
+    "name": "水殿ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-693614",
+    "name": "みどり湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-2538716",
+    "name": "南向ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-428257",
+    "name": "南相木ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-429152",
+    "name": "水内ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-625949",
+    "name": "箕輪ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-596985",
+    "name": "三峰堰",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-436300",
+    "name": "美和ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-694722",
+    "name": "向坂溜池",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-2966274",
+    "name": "女神湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-436417",
+    "name": "泰阜ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-3802523",
+    "name": "山口ダム (長野県)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1883968",
+    "name": "悠玄湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-714347",
+    "name": "湯川ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-739596",
+    "name": "湯の瀬ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-631726",
+    "name": "横川ダム (長野県)",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-720329",
+    "name": "余地ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1221583",
+    "name": "読書ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1566654",
+    "name": "霊仙寺湖",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-20-1326086",
+    "name": "和知野ダム",
+    "prefecture_code": 20
+  },
+  {
+    "id": "dam-21-416678",
+    "name": "秋神ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-415718",
+    "name": "阿木川ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2193248",
+    "name": "浅井田ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-416126",
+    "name": "朝日ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-717876",
+    "name": "伊自良湖",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-415367",
+    "name": "今渡ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414028",
+    "name": "岩屋ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-4922858",
+    "name": "内ケ谷ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-415008",
+    "name": "大井ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2263089",
+    "name": "大白川ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414988",
+    "name": "落合ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2076869",
+    "name": "小里川ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-415411",
+    "name": "川浦ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1335307",
+    "name": "笠置ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-415352",
+    "name": "兼山ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-416152",
+    "name": "上麻生ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-415465",
+    "name": "上大須ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-4731569",
+    "name": "金原ダム (岐阜県本巣市)",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-416000",
+    "name": "小渕ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1648311",
+    "name": "下小鳥ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-416137",
+    "name": "下原ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2193486",
+    "name": "新猪谷ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-423606",
+    "name": "新丸山ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414626",
+    "name": "高根第一ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414606",
+    "name": "高根第二ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2269484",
+    "name": "椿原ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-299921",
+    "name": "徳山ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2684049",
+    "name": "丹生川ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-2269486",
+    "name": "鳩谷ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1819419",
+    "name": "椛の湖",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1371879",
+    "name": "細尾谷ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1374037",
+    "name": "馬瀬川第二ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1572030",
+    "name": "松野ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414970",
+    "name": "丸山ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414044",
+    "name": "御母衣ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1487039",
+    "name": "矢作第二ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-1415047",
+    "name": "矢作ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-414079",
+    "name": "横山ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-21-626656",
+    "name": "板取ダム",
+    "prefecture_code": 21
+  },
+  {
+    "id": "dam-22-746071",
+    "name": "赤石ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-436448",
+    "name": "秋葉ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-414070",
+    "name": "井川ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-800408",
+    "name": "大井川ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-1353842",
+    "name": "奥泉ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-854295",
+    "name": "奥野ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-112569",
+    "name": "佐久間ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-768893",
+    "name": "笹間川ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-751717",
+    "name": "塩郷ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-768787",
+    "name": "千頭ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-737833",
+    "name": "田代ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-748694",
+    "name": "長島ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-414072",
+    "name": "畑薙第一ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-414075",
+    "name": "畑薙第二ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-436475",
+    "name": "船明ダム",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-22-909761",
+    "name": "水窪ダム (静岡県)",
+    "prefecture_code": 22
+  },
+  {
+    "id": "dam-23-1415744",
+    "name": "愛知池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-478488",
+    "name": "入鹿池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-1896117",
+    "name": "宇連ダム",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-3912802",
+    "name": "大島ダム (愛知県)",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-3913071",
+    "name": "大原調整池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-923601",
+    "name": "黒田ダム",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-1877401",
+    "name": "設楽ダム",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-436393",
+    "name": "新豊根ダム",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-1032473",
+    "name": "佐布里池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-923602",
+    "name": "富永ダム",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-2088507",
+    "name": "初立池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-2373434",
+    "name": "羽布ダム",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-3912765",
+    "name": "万場調整池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-786112",
+    "name": "三好池",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-23-2997454",
+    "name": "山口ダム (愛知県)",
+    "prefecture_code": 23
+  },
+  {
+    "id": "dam-24-1523527",
+    "name": "伊坂ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-2747012",
+    "name": "恵利原ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-2357679",
+    "name": "加佐登調整池",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-672359",
+    "name": "神路ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-421417",
+    "name": "川上ダム (三重県)",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-421383",
+    "name": "青蓮寺ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-567967",
+    "name": "中里ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-198972",
+    "name": "長良川河口堰",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-672869",
+    "name": "蓮ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-421356",
+    "name": "比奈知ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-683153",
+    "name": "三瀬谷ダム",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-24-680301",
+    "name": "宮川ダム (三重県)",
+    "prefecture_code": 24
+  },
+  {
+    "id": "dam-25-421031",
+    "name": "姉川ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-2355268",
+    "name": "石田川ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-3985825",
+    "name": "櫟野川砂防ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-421022",
+    "name": "永源寺ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-3230064",
+    "name": "青土ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-3966077",
+    "name": "大原貯水池",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-3723041",
+    "name": "オランダ堰堤",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-420921",
+    "name": "瀬田川洗堰",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-421475",
+    "name": "大戸川ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-421057",
+    "name": "丹生ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-2355323",
+    "name": "日野川ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-25-420992",
+    "name": "野洲川ダム",
+    "prefecture_code": 25
+  },
+  {
+    "id": "dam-26-341036",
+    "name": "天ヶ瀬ダム",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-2373532",
+    "name": "大野ダム (京都府)",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-5059936",
+    "name": "大峯堰堤",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-3015932",
+    "name": "葛野大堰",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-421462",
+    "name": "喜撰山ダム",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-1353839",
+    "name": "世木ダム",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-2387384",
+    "name": "大正池 (井手町)",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-414694",
+    "name": "高山ダム",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-1974546",
+    "name": "通天湖",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-3981995",
+    "name": "デ・レーケ堰堤 (木津川市)",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-421442",
+    "name": "日吉ダム",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-2246600",
+    "name": "柊野堰堤",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-4049576",
+    "name": "平和池",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-26-4232592",
+    "name": "和知ダム",
+    "prefecture_code": 26
+  },
+  {
+    "id": "dam-27-313633",
+    "name": "安威川ダム",
+    "prefecture_code": 27
+  },
+  {
+    "id": "dam-27-351335",
+    "name": "狭山池 (大阪府)",
+    "prefecture_code": 27
+  },
+  {
+    "id": "dam-27-912454",
+    "name": "滝畑ダム",
+    "prefecture_code": 27
+  },
+  {
+    "id": "dam-27-837430",
+    "name": "寺ヶ池",
+    "prefecture_code": 27
+  },
+  {
+    "id": "dam-27-1614097",
+    "name": "箕面川ダム",
+    "prefecture_code": 27
+  },
+  {
+    "id": "dam-27-421529",
+    "name": "余野川ダム",
+    "prefecture_code": 27
+  },
+  {
+    "id": "dam-28-2204043",
+    "name": "青野ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-1165668",
+    "name": "鮎屋川ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-565699",
+    "name": "生野ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-2476521",
+    "name": "太田ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-2531541",
+    "name": "加古川大堰",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-1631089",
+    "name": "鴨川ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-4202990",
+    "name": "烏原貯水池",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-4168526",
+    "name": "川下川ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-565703",
+    "name": "黒川ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-1811597",
+    "name": "五助堰堤",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-2740873",
+    "name": "桜山貯水池",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-425454",
+    "name": "千苅ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-414049",
+    "name": "多々良木ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-370126",
+    "name": "呑吐ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-628967",
+    "name": "布引五本松ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-421513",
+    "name": "一庫ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-4158330",
+    "name": "丸山ダム (兵庫県)",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-28-2272941",
+    "name": "諭鶴羽ダム",
+    "prefecture_code": 28
+  },
+  {
+    "id": "dam-29-588593",
+    "name": "池原ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-687191",
+    "name": "大迫ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-687692",
+    "name": "大滝ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-2424745",
+    "name": "奥里ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-2424741",
+    "name": "風屋ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-3971192",
+    "name": "倉橋ため池",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-4989112",
+    "name": "坂本ダム (奈良県)",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-689393",
+    "name": "猿谷ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-2434924",
+    "name": "九尾ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-688978",
+    "name": "津風呂ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-421372",
+    "name": "布目ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-4686159",
+    "name": "初瀬ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-2424744",
+    "name": "二津野ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-29-421400",
+    "name": "室生ダム",
+    "prefecture_code": 29
+  },
+  {
+    "id": "dam-30-688780",
+    "name": "紀の川大堰",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-4055889",
+    "name": "切目川ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-2360323",
+    "name": "七川ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-4722822",
+    "name": "島ノ瀬ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-1977717",
+    "name": "椿山ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-414236",
+    "name": "殿山ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-414690",
+    "name": "七色ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-2360423",
+    "name": "広川ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-2360341",
+    "name": "二川ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-30-689065",
+    "name": "山田ダム",
+    "prefecture_code": 30
+  },
+  {
+    "id": "dam-31-2360142",
+    "name": "小田股ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-31-4011966",
+    "name": "菅沢ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-31-2360133",
+    "name": "船上山ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-31-4522584",
+    "name": "殿ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-31-2359656",
+    "name": "西高尾ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-31-953570",
+    "name": "俣野川ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-31-415407",
+    "name": "三滝ダム",
+    "prefecture_code": 31
+  },
+  {
+    "id": "dam-32-2289442",
+    "name": "大長見ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-1492756",
+    "name": "尾原ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-1747635",
+    "name": "来島ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-4867932",
+    "name": "三瓶ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-4526590",
+    "name": "志津見ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-1322266",
+    "name": "周布川ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-4408744",
+    "name": "銚子ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-1322289",
+    "name": "長見ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-5104955",
+    "name": "波積ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-1747617",
+    "name": "浜原ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-1304029",
+    "name": "益田川ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-3983474",
+    "name": "美田ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-414237",
+    "name": "三成ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-32-4639396",
+    "name": "八戸ダム",
+    "prefecture_code": 32
+  },
+  {
+    "id": "dam-33-1153286",
+    "name": "旭川ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1845732",
+    "name": "大佐ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1845705",
+    "name": "小阪部川ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-414635",
+    "name": "恩原ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1874736",
+    "name": "黒谷ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1786003",
+    "name": "黒鳥ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1784401",
+    "name": "河本ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-4946807",
+    "name": "坂根堰",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-414688",
+    "name": "新成羽川ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1803373",
+    "name": "高瀬川ダム (岡山県)",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1786002",
+    "name": "田原ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1756397",
+    "name": "千屋ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1980581",
+    "name": "苫田ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1980584",
+    "name": "苫田鞍部ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-953571",
+    "name": "土用ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1803376",
+    "name": "三室川ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-2075948",
+    "name": "明治ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-33-1954779",
+    "name": "湯原ダム",
+    "prefecture_code": 33
+  },
+  {
+    "id": "dam-34-1461607",
+    "name": "芦田川河口堰",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2791613",
+    "name": "魚切ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-1866526",
+    "name": "宇賀ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-478370",
+    "name": "王泊ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3750691",
+    "name": "大谷砂留",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-506439",
+    "name": "小瀬川ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2791531",
+    "name": "梶毛ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3746747",
+    "name": "金名の郷頭",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-421882",
+    "name": "沓ヶ原ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2323493",
+    "name": "黒瀬ダム (東広島市)",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-421878",
+    "name": "高暮ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-1217507",
+    "name": "四川ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-425181",
+    "name": "帝釈川ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-553198",
+    "name": "高瀬堰",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-478410",
+    "name": "立岩ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2321753",
+    "name": "田房ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-478396",
+    "name": "樽床ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2426585",
+    "name": "堂々川砂留群",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-956603",
+    "name": "南原ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-538886",
+    "name": "二級ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3794771",
+    "name": "俄谷砂留",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-414682",
+    "name": "温井ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3821976",
+    "name": "野呂川ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-1025333",
+    "name": "灰塚ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-423026",
+    "name": "土師ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-960026",
+    "name": "八田原ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-1246283",
+    "name": "服部大池",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2768941",
+    "name": "久山田ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2026120",
+    "name": "福富ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3600917",
+    "name": "別所砂留",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-460428",
+    "name": "本庄ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3796679",
+    "name": "本谷砂留",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-1185875",
+    "name": "三川ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2026922",
+    "name": "三河ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-4202698",
+    "name": "御調ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2314748",
+    "name": "三永水源地堰堤",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-3327403",
+    "name": "紅葉谷川庭園砂防施設",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-552541",
+    "name": "弥栄ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-1406170",
+    "name": "山田川ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-34-2026615",
+    "name": "竜泉寺ダム",
+    "prefecture_code": 34
+  },
+  {
+    "id": "dam-35-414692",
+    "name": "阿武川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-853243",
+    "name": "川上ダム (山口県)",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-4314950",
+    "name": "旧桂ヶ谷貯水池堰堤",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-551298",
+    "name": "向道ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-829649",
+    "name": "厚東川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-689160",
+    "name": "木屋川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-1320186",
+    "name": "佐々並川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-644631",
+    "name": "佐波川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-644090",
+    "name": "島地川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-551078",
+    "name": "菅野ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-4926990",
+    "name": "中山川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-2094073",
+    "name": "真締川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-558620",
+    "name": "御庄川ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-35-1698242",
+    "name": "屋代ダム",
+    "prefecture_code": 35
+  },
+  {
+    "id": "dam-36-467767",
+    "name": "池田ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1353799",
+    "name": "岩戸ダム計画",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948997",
+    "name": "大美谷ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-4390259",
+    "name": "追立ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1067494",
+    "name": "川口ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-467941",
+    "name": "旧吉野川河口堰",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1316382",
+    "name": "小歩危ダム計画",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948990",
+    "name": "小見野々ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1060624",
+    "name": "長安口ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1603132",
+    "name": "名頃ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-658091",
+    "name": "夏子ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948433",
+    "name": "福井ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1353794",
+    "name": "細川内ダム計画",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948958",
+    "name": "正木ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-1599377",
+    "name": "松尾川ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948949",
+    "name": "三縄ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948911",
+    "name": "明谷ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-36-3948928",
+    "name": "若宮谷ダム",
+    "prefecture_code": 36
+  },
+  {
+    "id": "dam-37-2435056",
+    "name": "田万ダム",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-37-2647613",
+    "name": "内場ダム",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-37-2430906",
+    "name": "長柄ダム (香川県)",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-37-538878",
+    "name": "府中ダム",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-37-212556",
+    "name": "豊稔池ダム",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-37-1553684",
+    "name": "前山ダム",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-37-233137",
+    "name": "満濃池",
+    "prefecture_code": 37
+  },
+  {
+    "id": "dam-38-5210024",
+    "name": "朝倉ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-1139818",
+    "name": "石手川ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-1809629",
+    "name": "台ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-2393949",
+    "name": "面河ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-5210606",
+    "name": "歌仙ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-3826442",
+    "name": "鹿野川ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-4345152",
+    "name": "山財ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-1824169",
+    "name": "鹿森ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-467911",
+    "name": "新宮ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-3920002",
+    "name": "玉川ダム (愛媛県)",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-467844",
+    "name": "富郷ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-2373759",
+    "name": "野村ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-1824173",
+    "name": "別子ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-467893",
+    "name": "柳瀬ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-38-1901206",
+    "name": "山鳥坂ダム",
+    "prefecture_code": 38
+  },
+  {
+    "id": "dam-39-467826",
+    "name": "穴内川ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-1591227",
+    "name": "筏津ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-1010013",
+    "name": "稲村ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-4526993",
+    "name": "大渡ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-467213",
+    "name": "大橋ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-467798",
+    "name": "大森川ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-301401",
+    "name": "早明浦ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-467194",
+    "name": "長沢ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-3936484",
+    "name": "中筋川ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-3581629",
+    "name": "休場ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-1036185",
+    "name": "魚梁瀬ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-39-4527775",
+    "name": "横瀬川ダム",
+    "prefecture_code": 39
+  },
+  {
+    "id": "dam-40-1027660",
+    "name": "油木ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-901024",
+    "name": "犬鳴ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-2449037",
+    "name": "伊良原ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-620391",
+    "name": "牛頸ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3695888",
+    "name": "内ヶ磯ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-451779",
+    "name": "江川ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-435623",
+    "name": "河内貯水池",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-4441883",
+    "name": "小石原川ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-451795",
+    "name": "合所ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3550766",
+    "name": "五ケ山ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-2621922",
+    "name": "五庄屋 (床島堰)",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-666238",
+    "name": "陣屋ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-451691",
+    "name": "筑後大堰",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-451756",
+    "name": "寺内ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-1715083",
+    "name": "床島堰",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3740373",
+    "name": "鳴淵ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-624501",
+    "name": "日向神ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3695887",
+    "name": "福智山ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-1069501",
+    "name": "平成大堰",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3692841",
+    "name": "弁城ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3868291",
+    "name": "曲渕ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-1437883",
+    "name": "松瀬ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-451651",
+    "name": "夜明ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-40-3341971",
+    "name": "力丸ダム",
+    "prefecture_code": 40
+  },
+  {
+    "id": "dam-41-2414535",
+    "name": "有田ダム",
+    "prefecture_code": 41
+  },
+  {
+    "id": "dam-41-655921",
+    "name": "嘉瀬川ダム",
+    "prefecture_code": 41
+  },
+  {
+    "id": "dam-41-4528832",
+    "name": "厳木ダム",
+    "prefecture_code": 41
+  },
+  {
+    "id": "dam-41-451828",
+    "name": "城原川ダム",
+    "prefecture_code": 41
+  },
+  {
+    "id": "dam-41-673425",
+    "name": "北山ダム (佐賀県)",
+    "prefecture_code": 41
+  },
+  {
+    "id": "dam-41-2414514",
+    "name": "竜門ダム (佐賀県)",
+    "prefecture_code": 41
+  },
+  {
+    "id": "dam-42-3936913",
+    "name": "石木ダム",
+    "prefecture_code": 42
+  },
+  {
+    "id": "dam-42-2373848",
+    "name": "鷹島ダム",
+    "prefecture_code": 42
+  },
+  {
+    "id": "dam-42-4632647",
+    "name": "野崎ダム",
+    "prefecture_code": 42
+  },
+  {
+    "id": "dam-42-3263478",
+    "name": "福江ダム",
+    "prefecture_code": 42
+  },
+  {
+    "id": "dam-42-4633235",
+    "name": "本明川ダム",
+    "prefecture_code": 42
+  },
+  {
+    "id": "dam-43-731357",
+    "name": "油谷ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-882220",
+    "name": "石打ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-3849814",
+    "name": "市房ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-1440356",
+    "name": "五木ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-2390786",
+    "name": "大切畑ため池",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-1932249",
+    "name": "大蘇ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-1573533",
+    "name": "大谷ダム (熊本県)",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-1439159",
+    "name": "川辺川ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-4182891",
+    "name": "幸野ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-451737",
+    "name": "下筌ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-4177376",
+    "name": "瀬戸石ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-2995059",
+    "name": "阿蘇立野ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-888761",
+    "name": "氷川ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-4531266",
+    "name": "緑川ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-414699",
+    "name": "竜門ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-1814742",
+    "name": "路木ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-43-1039975",
+    "name": "荒瀬ダム",
+    "prefecture_code": 43
+  },
+  {
+    "id": "dam-44-2110075",
+    "name": "稲葉ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1700339",
+    "name": "大山ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1328793",
+    "name": "北川ダム (大分県)",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1324984",
+    "name": "芹川ダム (大分県)",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-2778813",
+    "name": "竹田調整池堰",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-2778814",
+    "name": "玉来ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1341765",
+    "name": "ななせダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1035066",
+    "name": "白水溜池堰堤",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1328790",
+    "name": "日指ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1059755",
+    "name": "日出生ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-451167",
+    "name": "松原ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-44-1001975",
+    "name": "耶馬溪ダム",
+    "prefecture_code": 44
+  },
+  {
+    "id": "dam-45-2403294",
+    "name": "綾北ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-2403287",
+    "name": "綾南ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-1089430",
+    "name": "石河内ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-1370318",
+    "name": "大淀川第一ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-4644212",
+    "name": "門川防災ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-3250021",
+    "name": "金丸井堰",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-414232",
+    "name": "上椎葉ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-2403297",
+    "name": "古賀根橋ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-1351143",
+    "name": "杉安ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-4781423",
+    "name": "高岡ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-2403311",
+    "name": "田代八重ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-4249161",
+    "name": "塚原ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-1351001",
+    "name": "一ツ瀬ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-45-414674",
+    "name": "諸塚ダム",
+    "prefecture_code": 45
+  },
+  {
+    "id": "dam-46-2777299",
+    "name": "大川ダム (奄美市)",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1208096",
+    "name": "川辺ダム (鹿児島県)",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1151451",
+    "name": "高川ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1983400",
+    "name": "新住用川ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1458251",
+    "name": "川内川第二ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1153513",
+    "name": "高尾野ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-924879",
+    "name": "高隈ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1458199",
+    "name": "鶴田ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-46-1209174",
+    "name": "大和ダム",
+    "prefecture_code": 46
+  },
+  {
+    "id": "dam-47-4635858",
+    "name": "安波ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-2353801",
+    "name": "カンジンダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-2263603",
+    "name": "漢那ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-1650833",
+    "name": "金城ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-4396833",
+    "name": "金武ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-996157",
+    "name": "倉敷ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-996156",
+    "name": "瑞慶山ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-2271738",
+    "name": "底原ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-1995552",
+    "name": "羽地ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-1345483",
+    "name": "福里ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-1784716",
+    "name": "福地ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-2271739",
+    "name": "真栄里ダム",
+    "prefecture_code": 47
+  },
+  {
+    "id": "dam-47-2093831",
+    "name": "山城ダム",
+    "prefecture_code": 47
+  }
+]
