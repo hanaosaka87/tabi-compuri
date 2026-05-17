@@ -195,7 +195,7 @@ export default function DashboardPage() {
               <p className="text-slate-400 text-xs">獲得バッジ</p>
               <div className="flex items-center gap-1">
                 {earnedBadges.slice(0, 5).map((b) => (
-                  <span key={b.id} className="text-lg" title={b.label}>{b.emoji}</span>
+                  <span key={b.id} className="text-2xl" title={b.label}>{b.emoji}</span>
                 ))}
                 {earnedBadges.length > 5 && (
                   <span className="text-slate-400 text-xs ml-1">+{earnedBadges.length - 5}</span>
