@@ -48,8 +48,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-blue-300',
     bg: 'bg-blue-500/10 hover:bg-blue-500/20',
     border: 'border-blue-500/30',
-    getUrl: (_, prefName) =>
-      `https://www.jtb.co.jp/kokunai/list/?search_word=${encodeURIComponent(prefName)}`,
+    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+RDYLU+15A4+1TIJEP`,
   },
   {
     name: '一休.com',
