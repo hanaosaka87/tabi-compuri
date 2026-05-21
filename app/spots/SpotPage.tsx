@@ -158,17 +158,29 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
 
         <div className="flex flex-wrap gap-2">
           {filtered.map(spot => (
-            <button
-              key={spot.id}
-              onClick={() => handleToggle(spot)}
-              className={`px-3 py-2 rounded-xl text-sm font-medium transition border ${
-                visitedIds.has(spot.id)
-                  ? 'bg-emerald-500 border-emerald-500 text-white'
-                  : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
-              }`}
-            >
-              {visitedIds.has(spot.id) ? '✓ ' : ''}{spot.name}
-            </button>
+            <div key={spot.id} className="flex items-center gap-0.5">
+              <button
+                onClick={() => handleToggle(spot)}
+                className={`px-3 py-2 rounded-l-xl text-sm font-medium transition border-y border-l ${
+                  visitedIds.has(spot.id)
+                    ? 'bg-emerald-500 border-emerald-500 text-white'
+                    : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
+                }`}
+              >
+                {visitedIds.has(spot.id) ? '✓ ' : ''}{spot.name}
+              </button>
+              <Link
+                href={`/spots/${categoryId}/${spot.id}`}
+                className={`px-2 py-2 rounded-r-xl text-xs transition border-y border-r ${
+                  visitedIds.has(spot.id)
+                    ? 'bg-emerald-600 border-emerald-500 text-emerald-100 hover:bg-emerald-700'
+                    : 'bg-white/5 border-white/10 text-slate-600 hover:text-slate-300 hover:border-white/30'
+                }`}
+                title="詳細・宿を探す"
+              >
+                ›
+              </Link>
+            </div>
           ))}
         </div>
 

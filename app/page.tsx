@@ -218,8 +218,11 @@ export default function Home() {
 
 
         {/* フッター */}
-        <footer className="text-center text-slate-500 text-sm py-8 border-t border-white/10">
-          © 2026 旅コンプリ by 株式会社華
+        <footer className="text-center text-slate-500 text-sm py-8 border-t border-white/10 space-y-2">
+          <div className="flex items-center justify-center gap-4">
+            <Link href="/privacy" className="hover:text-slate-300 transition">プライバシーポリシー</Link>
+          </div>
+          <p>© 2026 旅コンプリ by 株式会社華</p>
         </footer>
       </main>
     </>
