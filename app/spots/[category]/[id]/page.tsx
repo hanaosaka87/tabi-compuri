@@ -8,21 +8,77 @@ import { getCategoryById, loadSpotData, SpotData } from '@/lib/spotCategories'
 import { getPrefectureFullName, getPrefectureName } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
 
-// ASP承認後にアフィリエイトパラメータを追加する
-function getJalanUrl(prefCode: number, spotName: string) {
-  const pref = getPrefectureName(prefCode)
-  return `https://www.jalan.net/yado/search/?freeWord=${encodeURIComponent(pref + ' ' + spotName)}`
-}
-
-function getRakutenUrl(prefCode: number) {
-  const code = String(prefCode).padStart(2, '0')
-  return `https://travel.rakuten.co.jp/area/${code}/`
-}
-
 function getGoogleMapsUrl(spotName: string, prefCode: number) {
   const pref = getPrefectureFullName(prefCode)
   return `https://www.google.com/maps/search/${encodeURIComponent(pref + ' ' + spotName)}`
 }
+
+// ASP承認後に各リンクにアフィリエイトパラメータを追加する
+type BookingSite = {
+  name: string
+  icon: string
+  color: string        // テキスト色クラス
+  bg: string           // 背景色クラス
+  border: string       // ボーダー色クラス
+  getUrl: (prefCode: number, prefName: string, spotName: string) => string
+}
+
+const BOOKING_SITES: BookingSite[] = [
+  {
+    name: 'じゃらんnet',
+    icon: '🏮',
+    color: 'text-orange-300',
+    bg: 'bg-orange-500/10 hover:bg-orange-500/20',
+    border: 'border-orange-500/30',
+    getUrl: (_, prefName, spotName) =>
+      `https://www.jalan.net/yado/search/?freeWord=${encodeURIComponent(prefName + ' ' + spotName)}`,
+  },
+  {
+    name: '楽天トラベル',
+    icon: '🦅',
+    color: 'text-red-300',
+    bg: 'bg-red-500/10 hover:bg-red-500/20',
+    border: 'border-red-500/30',
+    getUrl: (prefCode) =>
+      `https://travel.rakuten.co.jp/area/${String(prefCode).padStart(2, '0')}/`,
+  },
+  {
+    name: 'JTB',
+    icon: '✈️',
+    color: 'text-blue-300',
+    bg: 'bg-blue-500/10 hover:bg-blue-500/20',
+    border: 'border-blue-500/30',
+    getUrl: (_, prefName) =>
+      `https://www.jtb.co.jp/kokunai/list/?search_word=${encodeURIComponent(prefName)}`,
+  },
+  {
+    name: '一休.com',
+    icon: '🎎',
+    color: 'text-yellow-300',
+    bg: 'bg-yellow-500/10 hover:bg-yellow-500/20',
+    border: 'border-yellow-500/30',
+    getUrl: (_, prefName) =>
+      `https://www.ikyu.com/search/?area=${encodeURIComponent(prefName)}`,
+  },
+  {
+    name: 'るるぶトラベル',
+    icon: '📖',
+    color: 'text-green-300',
+    bg: 'bg-green-500/10 hover:bg-green-500/20',
+    border: 'border-green-500/30',
+    getUrl: (_, prefName) =>
+      `https://travel.rurubu.com/booking/hotel/?keyword=${encodeURIComponent(prefName)}`,
+  },
+  {
+    name: 'Yahoo!トラベル',
+    icon: '🔴',
+    color: 'text-purple-300',
+    bg: 'bg-purple-500/10 hover:bg-purple-500/20',
+    border: 'border-purple-500/30',
+    getUrl: (_, prefName) =>
+      `https://travel.yahoo.co.jp/search/?q=${encodeURIComponent(prefName)}`,
+  },
+]
 
 export default function SpotDetailPage() {
   const params = useParams()
@@ -176,36 +232,24 @@ export default function SpotDetailPage() {
         {/* 宿・旅行予約リンク */}
         <div className="mb-5">
           <h2 className="text-sm font-medium text-slate-400 mb-3">
-            🏨 {prefShort}の宿を予約する
+            🏨 {prefShort}の宿・旅行を予約する
           </h2>
-          <div className="grid grid-cols-2 gap-3">
-            <a
-              href={getJalanUrl(spot.prefecture_code, spot.name)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center gap-2 bg-orange-500/10 border border-orange-500/30 rounded-xl px-4 py-4 hover:bg-orange-500/20 transition text-center"
-            >
-              <span className="text-2xl">🏮</span>
-              <div>
-                <p className="text-sm font-bold text-orange-300">じゃらんnetで探す</p>
-                <p className="text-xs text-slate-500 mt-0.5">周辺の宿・温泉宿</p>
-              </div>
-            </a>
-            <a
-              href={getRakutenUrl(spot.prefecture_code)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center gap-2 bg-red-500/10 border border-red-500/30 rounded-xl px-4 py-4 hover:bg-red-500/20 transition text-center"
-            >
-              <span className="text-2xl">🦅</span>
-              <div>
-                <p className="text-sm font-bold text-red-300">楽天トラベルで探す</p>
-                <p className="text-xs text-slate-500 mt-0.5">お得なプランを比較</p>
-              </div>
-            </a>
+          <div className="grid grid-cols-3 gap-2">
+            {BOOKING_SITES.map((site) => (
+              <a
+                key={site.name}
+                href={site.getUrl(spot.prefecture_code, prefShort, spot.name)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex flex-col items-center gap-1.5 ${site.bg} border ${site.border} rounded-xl px-2 py-3 transition text-center`}
+              >
+                <span className="text-xl">{site.icon}</span>
+                <p className={`text-xs font-bold ${site.color} leading-tight`}>{site.name}</p>
+              </a>
+            ))}
           </div>
           <p className="text-slate-600 text-xs mt-2 text-center">
-            ※ 外部サイトへ遷移します
+            ※ 各サービスの外部サイトへ遷移します
           </p>
         </div>
 
