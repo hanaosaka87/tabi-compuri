@@ -30,8 +30,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-orange-300',
     bg: 'bg-orange-500/10 hover:bg-orange-500/20',
     border: 'border-orange-500/30',
-    getUrl: (_, prefName, spotName) =>
-      `https://www.jalan.net/yado/search/?freeWord=${encodeURIComponent(prefName + ' ' + spotName)}`,
+    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+DOZOY+14CS+6C9LD`,
   },
   {
     name: '楽天トラベル',
@@ -39,8 +38,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-red-300',
     bg: 'bg-red-500/10 hover:bg-red-500/20',
     border: 'border-red-500/30',
-    getUrl: (prefCode) =>
-      `https://travel.rakuten.co.jp/area/${String(prefCode).padStart(2, '0')}/`,
+    getUrl: () => `https://rpx.a8.net/svt/ejp?a8mat=4B3VR9+GC8AGI+2HOM+686ZL&rakuten=y&a8ejpredirect=http%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2F0ea62065.34400275.0ea62066.204f04c0%2Fa26052115794_4B3VR9_GC8AGI_2HOM_686ZL%3Fpc%3Dhttp%253A%252F%252Ftravel.rakuten.co.jp%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252F`,
   },
   {
     name: 'JTB',
@@ -56,17 +54,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-yellow-300',
     bg: 'bg-yellow-500/10 hover:bg-yellow-500/20',
     border: 'border-yellow-500/30',
-    getUrl: (_, prefName) =>
-      `https://www.ikyu.com/search/?area=${encodeURIComponent(prefName)}`,
-  },
-  {
-    name: 'るるぶトラベル',
-    icon: '📖',
-    color: 'text-green-300',
-    bg: 'bg-green-500/10 hover:bg-green-500/20',
-    border: 'border-green-500/30',
-    getUrl: (_, prefName) =>
-      `https://travel.rurubu.com/booking/hotel/?keyword=${encodeURIComponent(prefName)}`,
+    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+UD4MQ+1OK+669JL`,
   },
   {
     name: 'Yahoo!トラベル',
@@ -74,8 +62,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-purple-300',
     bg: 'bg-purple-500/10 hover:bg-purple-500/20',
     border: 'border-purple-500/30',
-    getUrl: (_, prefName) =>
-      `https://travel.yahoo.co.jp/search/?q=${encodeURIComponent(prefName)}`,
+    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+XCANM+4ZCO+60OXE`,
   },
 ]
 
