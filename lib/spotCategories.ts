@@ -20,6 +20,7 @@ export const SPOT_CATEGORIES: SpotCategory[] = [
   { id: 'amusement',     label: '遊園地(旧)',    icon: '🎡',  jsonFile: 'amusement' },
   { id: 'zoo',           label: '動物園',        icon: '🦁',  jsonFile: 'zoo' },
   { id: 'aquarium',      label: '水族館',        icon: '🐠',  jsonFile: 'aquarium' },
+  { id: 'super-sento',   label: 'スーパー銭湯',  icon: '🛁',  jsonFile: 'super-sento' },
 ]
 
 export const getCategoryById = (id: string) =>

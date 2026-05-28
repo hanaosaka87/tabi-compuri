@@ -18,6 +18,7 @@ import heritageData from '@/lib/spots/japan-heritage.json'
 import worldHeritageData from '@/lib/spots/world-heritage.json'
 import nationalParkData from '@/lib/spots/national-park.json'
 import damData from '@/lib/spots/dam.json'
+import superSentoData from '@/lib/spots/super-sento.json'
 
 const CATEGORIES = [
   {
@@ -127,6 +128,15 @@ const CATEGORIES = [
     total: (damData as unknown[]).length,
     href: '/spots/dam',
     badge: null,
+  },
+  {
+    id: 'super-sento',
+    label: 'スーパー銭湯',
+    icon: '🛁',
+    description: '全国のスーパー銭湯制覇＋チェーン支店制覇',
+    total: (superSentoData as unknown[]).length,
+    href: '/spots/super-sento',
+    badge: 'チェーン制覇あり',
   },
 ]
 
