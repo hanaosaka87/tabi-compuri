@@ -25,6 +25,11 @@ export default function FeedbackModal({ appName, onClose }: { appName: string; o
       category,
       body: body.trim(),
     })
+    await fetch('/api/notify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'feedback', appName, category, body: body.trim() }),
+    }).catch(() => {})
     setLoading(false)
     setDone(true)
   }

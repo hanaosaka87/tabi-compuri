@@ -20,6 +20,11 @@ export default function ReviewModal({ appName, onClose }: { appName: string; onC
       rating,
       comment: comment.trim() || null,
     })
+    await fetch('/api/notify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'review', appName, rating, comment: comment.trim() }),
+    }).catch(() => {})
     setLoading(false)
     setDone(true)
   }
