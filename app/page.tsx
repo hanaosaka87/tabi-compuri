@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import AppFeedbackButtons from './components/AppFeedbackButtons'
 
 export const metadata: Metadata = {
   title: '旅コンプリ | 日本全国制覇アプリ - 無料で都道府県・道の駅・温泉・お城を記録',
@@ -218,10 +219,11 @@ export default function Home() {
 
 
         {/* フッター */}
-        <footer className="text-center text-slate-500 text-sm py-8 border-t border-white/10 space-y-2">
+        <footer className="text-center text-slate-500 text-sm py-8 border-t border-white/10 space-y-3">
           <div className="flex items-center justify-center gap-4">
             <Link href="/privacy" className="hover:text-slate-300 transition">プライバシーポリシー</Link>
           </div>
+          <AppFeedbackButtons appName="tabi" />
           <p>© 2026 旅コンプリ by 株式会社華</p>
         </footer>
       </main>

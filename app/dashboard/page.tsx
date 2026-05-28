@@ -10,6 +10,7 @@ import ShareModal from '@/app/components/ShareModal'
 import ShareIcons from '@/app/components/ShareIcons'
 import AiRecommend from '@/app/components/AiRecommend'
 import CompleteModal from '@/app/components/CompleteModal'
+import AppFeedbackButtons from '@/app/components/AppFeedbackButtons'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -305,6 +306,28 @@ export default function DashboardPage() {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* レビュー・フィードバック */}
+      <div className="max-w-2xl mx-auto px-4 pb-4">
+        <AppFeedbackButtons appName="tabi" />
+      </div>
+
+      {/* いいとこどり連携バナー */}
+      <div className="max-w-2xl mx-auto px-4 pb-8">
+        <a
+          href={`https://iitokodori.hana.trickster.biz`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-4 bg-amber-500/10 border border-amber-500/30 rounded-2xl px-5 py-4 hover:border-amber-500/60 transition"
+        >
+          <span className="text-3xl flex-shrink-0">🌸</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-bold text-amber-300">泊まった宿のいいとこを投稿しよう</p>
+            <p className="text-slate-400 text-xs mt-0.5">いいとこどり - ホテル・旅館のポジティブ口コミだけ集まるアプリ</p>
+          </div>
+          <span className="text-slate-400 text-sm flex-shrink-0">›</span>
+        </a>
       </div>
     </main>
     </>
