@@ -80,6 +80,13 @@
   {"id":"super-sento-yunomori-003","name":"天然温泉 湯の森 清須店","prefecture_code":23,"chain":"天然温泉 湯の森"},
   {"id":"super-sento-yunomori-004","name":"天然温泉 湯の森 新城店","prefecture_code":23,"chain":"天然温泉 湯の森"},
 
+  {"id":"super-sento-suishun-001","name":"水春 枚方店","prefecture_code":27,"chain":"水春"},
+  {"id":"super-sento-suishun-002","name":"水春 松井山手店","prefecture_code":26,"chain":"水春"},
+  {"id":"super-sento-suishun-003","name":"水春 守口店","prefecture_code":27,"chain":"水春"},
+  {"id":"super-sento-suishun-004","name":"水春 堺鳳店","prefecture_code":27,"chain":"水春"},
+  {"id":"super-sento-suishun-005","name":"水春 甲子園店","prefecture_code":28,"chain":"水春"},
+  {"id":"super-sento-suishun-006","name":"水春 草津店","prefecture_code":25,"chain":"水春"},
+
   {"id":"super-sento-ind-001","name":"スパジアムジャポン","prefecture_code":13,"chain":null},
   {"id":"super-sento-ind-002","name":"タイムズスパ・レスタ","prefecture_code":13,"chain":null},
   {"id":"super-sento-ind-003","name":"東京ドーム天然温泉 Spa LaQua","prefecture_code":13,"chain":null},
