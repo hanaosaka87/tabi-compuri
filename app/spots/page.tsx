@@ -19,6 +19,8 @@ import worldHeritageData from '@/lib/spots/world-heritage.json'
 import nationalParkData from '@/lib/spots/national-park.json'
 import damData from '@/lib/spots/dam.json'
 import superSentoData from '@/lib/spots/super-sento.json'
+import festivalData from '@/lib/spots/festival.json'
+import fireworksData from '@/lib/spots/fireworks.json'
 
 const CATEGORIES = [
   {
@@ -137,6 +139,24 @@ const CATEGORIES = [
     total: (superSentoData as unknown[]).length,
     href: '/spots/super-sento',
     badge: 'チェーン制覇あり',
+  },
+  {
+    id: 'festival',
+    label: 'お祭り',
+    icon: '🏮',
+    description: '全国の有名なお祭り・伝統行事を制覇しよう',
+    total: (festivalData as unknown[]).length,
+    href: '/spots/festival',
+    badge: null,
+  },
+  {
+    id: 'fireworks',
+    label: '花火大会',
+    icon: '🎆',
+    description: '全国の花火大会を制覇しよう',
+    total: (fireworksData as unknown[]).length,
+    href: '/spots/fireworks',
+    badge: null,
   },
 ]
 
