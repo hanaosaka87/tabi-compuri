@@ -11,6 +11,7 @@ import ShareIcons from '@/app/components/ShareIcons'
 import AiRecommend from '@/app/components/AiRecommend'
 import CompleteModal from '@/app/components/CompleteModal'
 import AppFeedbackButtons from '@/app/components/AppFeedbackButtons'
+import PremiumUpgradeButton from '@/app/components/PremiumUpgradeButton'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -26,7 +27,10 @@ const SPOT_CATEGORIES = [
   { id: 'japan-heritage', label: '日本遺産',   icon: '🏛️', total: 463,  href: '/spots/japan-heritage' },
   { id: 'onsen',          label: '温泉',       icon: '♨️', total: 1774, href: '/spots/onsen' },
   { id: 'michi-no-eki',   label: '道の駅',     icon: '🚗', total: 1238, href: '/spots/michi-no-eki' },
-  { id: 'dam',            label: 'ダム',       icon: '🏞️', total: 898,  href: '/spots/dam' },
+  { id: 'dam',            label: 'ダム',        icon: '🏞️', total: 898,  href: '/spots/dam' },
+  { id: 'super-sento',   label: 'スーパー銭湯', icon: '🛁', total: 217,  href: '/spots/super-sento' },
+  { id: 'festival',      label: 'お祭り',      icon: '🏮', total: 152,  href: '/spots/festival' },
+  { id: 'fireworks',     label: '花火大会',    icon: '🎆', total: 763,  href: '/spots/fireworks' },
 ]
 const TOTAL_SPOTS = SPOT_CATEGORIES.reduce((s, c) => s + c.total, 0)
 const TOTAL_CITIES = 1741
@@ -70,6 +74,7 @@ export default function DashboardPage() {
   const [spotCounts, setSpotCounts] = useState<SpotCounts>({})
   const [loading, setLoading] = useState(true)
   const [isGuest, setIsGuest] = useState(false)
+  const [isPremium, setIsPremium] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [showShareModal, setShowShareModal] = useState(false)
   const [showCompleteModal, setShowCompleteModal] = useState(false)
@@ -80,11 +85,16 @@ export default function DashboardPage() {
       if (!user) { setIsGuest(true); setLoading(false); return }
       setUserId(user.id)
 
-      const [prefRes, cityRes, spotRes] = await Promise.all([
+      const [prefRes, cityRes, spotRes, subRes] = await Promise.all([
         supabase.from('visits').select('prefecture_code').eq('user_id', user.id),
         supabase.from('city_visits').select('*', { count: 'exact', head: true }).eq('user_id', user.id),
         supabase.from('spot_visits').select('category').eq('user_id', user.id),
+        supabase.from('subscriptions').select('status,current_period_end').eq('user_id', user.id).maybeSingle(),
       ])
+
+      if (subRes.data?.status === 'active' && subRes.data.current_period_end) {
+        setIsPremium(new Date(subRes.data.current_period_end) > new Date())
+      }
 
       if (prefRes.data) setVisitedCodes(new Set(prefRes.data.map((v) => v.prefecture_code)))
       setCityCount(cityRes.count ?? 0)
@@ -190,6 +200,12 @@ export default function DashboardPage() {
           <StatRow icon="📍" label="スポット合計" visited={isGuest ? 0 : totalSpotVisited} total={TOTAL_SPOTS} />
 
           {!isGuest && <ShareIcons text={shareText} />}
+
+          {!isGuest && (
+            <div className="mt-4 pt-4 border-t border-white/10">
+              <PremiumUpgradeButton isPremium={isPremium} />
+            </div>
+          )}
 
           {!isGuest && earnedBadges.length > 0 && (
             <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
