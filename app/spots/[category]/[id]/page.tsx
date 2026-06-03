@@ -3,17 +3,24 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
+import iconv from 'iconv-lite'
 import { supabase } from '@/lib/supabase'
 import { getCategoryById, loadSpotData, SpotData } from '@/lib/spotCategories'
 import { getPrefectureFullName, getPrefectureName } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
+
+function encodeShiftJIS(str: string): string {
+  const buf = iconv.encode(str, 'Shift_JIS')
+  return Array.from(buf).map(b => `%${b.toString(16).toUpperCase().padStart(2, '0')}`).join('')
+}
 
 function getGoogleMapsUrl(spotName: string, prefCode: number) {
   const pref = getPrefectureFullName(prefCode)
   return `https://www.google.com/maps/search/${encodeURIComponent(pref + ' ' + spotName)}`
 }
 
-// ASP承認後に各リンクにアフィリエイトパラメータを追加する
+const ACTIVITY_CATEGORIES = ['leisure', 'zoo-aquarium', 'aquarium', 'zoo', 'amusement', 'theme-park']
+
 type BookingSite = {
   name: string
   icon: string
@@ -30,7 +37,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-orange-300',
     bg: 'bg-orange-500/10 hover:bg-orange-500/20',
     border: 'border-orange-500/30',
-    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+DOZOY+14CS+6C9LD`,
+    getUrl: (_p, _pn, name) => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+DOZOY+14CS+6C9LD&a8ejpredirect=${encodeURIComponent(`https://www.jalan.net/uw/uwp2011/uww2011init.do?keyword=${encodeShiftJIS(name)}`)}`,
   },
   {
     name: '楽天トラベル',
@@ -38,7 +45,8 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-red-300',
     bg: 'bg-red-500/10 hover:bg-red-500/20',
     border: 'border-red-500/30',
-    getUrl: () => `https://rpx.a8.net/svt/ejp?a8mat=4B3VR9+GC8AGI+2HOM+686ZL&rakuten=y&a8ejpredirect=http%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2F0ea62065.34400275.0ea62066.204f04c0%2Fa26052115794_4B3VR9_GC8AGI_2HOM_686ZL%3Fpc%3Dhttp%253A%252F%252Ftravel.rakuten.co.jp%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252F`,
+    getUrl: (_p, _pn, name) =>
+      `https://rpx.a8.net/svt/ejp?a8mat=4B3VR9+GC8AGI+2HOM+6I9N5&rakuten=y&a8ejpredirect=${encodeURIComponent(`https://kw.travel.rakuten.co.jp/keyword/Search.do?charset=utf-8&f_query=${encodeURIComponent(name)}`)}`,
   },
   {
     name: 'JTB',
@@ -46,7 +54,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-blue-300',
     bg: 'bg-blue-500/10 hover:bg-blue-500/20',
     border: 'border-blue-500/30',
-    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+RDYLU+15A4+1TIJEP`,
+    getUrl: (_p, _pn, name) => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+RDYLU+15A4+1TIJEP&a8ejpredirect=${encodeURIComponent(`https://www.jtb.co.jp/kokunai-hotel/list/?keyword=${name}`)}`,
   },
   {
     name: '一休.com',
@@ -54,7 +62,7 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-yellow-300',
     bg: 'bg-yellow-500/10 hover:bg-yellow-500/20',
     border: 'border-yellow-500/30',
-    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+UD4MQ+1OK+669JL`,
+    getUrl: (_p, _pn, name) => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+UD4MQ+1OK+669JL&a8ejpredirect=${encodeURIComponent(`https://www.ikyu.com/search?kwd=${name}&ppc=2&rc=1`)}`,
   },
   {
     name: 'Yahoo!トラベル',
@@ -62,7 +70,33 @@ const BOOKING_SITES: BookingSite[] = [
     color: 'text-purple-300',
     bg: 'bg-purple-500/10 hover:bg-purple-500/20',
     border: 'border-purple-500/30',
-    getUrl: () => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+XCANM+4ZCO+60OXE`,
+    getUrl: (_p, _pn, name) => `https://px.a8.net/svt/ejp?a8mat=4B3VRA+XCANM+4ZCO+60OXE&a8ejpredirect=${encodeURIComponent(`https://travel.yahoo.co.jp/search?kwd=${name}&ppc=2&rc=1`)}`,
+  },
+  {
+    name: 'Agoda',
+    icon: '🌏',
+    color: 'text-teal-300',
+    bg: 'bg-teal-500/10 hover:bg-teal-500/20',
+    border: 'border-teal-500/30',
+    getUrl: (_p, _pn, name) => `https://px.a8.net/svt/ejp?a8mat=4B3YVC+2KA7JM+4X1W+5YRHE&a8ejpredirect=${encodeURIComponent(`https://www.agoda.com/search?q=${encodeURIComponent(name)}&lang=ja-jp`)}`,
+  },
+  {
+    name: 'ゆこゆこネット',
+    icon: '♨️',
+    color: 'text-green-300',
+    bg: 'bg-green-500/10 hover:bg-green-500/20',
+    border: 'border-green-500/30',
+    getUrl: (_p, _pn, name) =>
+      `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3771667&pid=892622765&vc_url=${encodeURIComponent(`https://www.yukoyuko.net/search/?keyword=${encodeURIComponent(name)}`)}`,
+  },
+  {
+    name: '日本旅行',
+    icon: '🗾',
+    color: 'text-red-300',
+    bg: 'bg-red-500/10 hover:bg-red-500/20',
+    border: 'border-red-500/30',
+    getUrl: (_p, _pn, _name) =>
+      `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3771667&pid=892622766&vc_url=${encodeURIComponent('https://www.nta.co.jp/yado/ranking/?SITE_ID=44080001')}`,
   },
 ]
 
@@ -75,6 +109,7 @@ export default function SpotDetailPage() {
   const [category, setCategory] = useState<{ id: string; label: string; icon: string } | null>(null)
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
+  const [iitokodoriUrl, setIitokodoriUrl] = useState('')
   const [visited, setVisited] = useState(false)
   const [loading, setLoading] = useState(true)
   const [toggling, setToggling] = useState(false)
@@ -91,7 +126,16 @@ export default function SpotDetailPage() {
       if (!found) { setNotFound(true); setLoading(false); return }
       setSpot(found)
 
-      const { data: { user } } = await supabase.auth.getUser()
+      const [{ data: { user } }, { data: { session } }] = await Promise.all([
+        supabase.auth.getUser(),
+        supabase.auth.getSession(),
+      ])
+      const base = `https://iitokodori.vercel.app/search?q=${encodeURIComponent(found.name)}&pref=${String(found.prefecture_code).padStart(2, '0')}`
+      setIitokodoriUrl(session
+        ? `${base}#access_token=${session.access_token}&refresh_token=${session.refresh_token}&token_type=bearer`
+        : base
+      )
+
       if (!user) { setIsGuest(true); setLoading(false); return }
       setUserId(user.id)
 
@@ -215,6 +259,38 @@ export default function SpotDetailPage() {
           <span className="ml-auto text-slate-500 text-sm">›</span>
         </a>
 
+        {/* レンタカー */}
+        <a
+          href="https://px.a8.net/svt/ejp?a8mat=4B3YV4+FK8X0Y+2AIA+5ZU29"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 bg-slate-800/60 border border-white/10 rounded-xl px-4 py-3 mb-5 hover:border-white/30 transition"
+        >
+          <span className="text-2xl">🚗</span>
+          <div>
+            <p className="text-sm font-medium">レンタカーを探す</p>
+            <p className="text-slate-500 text-xs">{prefShort}のレンタカーを比較・予約</p>
+          </div>
+          <span className="ml-auto text-slate-500 text-sm">›</span>
+        </a>
+
+        {/* アソビュー（体験・チケット予約）*/}
+        {ACTIVITY_CATEGORIES.includes(categoryId) && (
+          <a
+            href={`https://px.a8.net/svt/ejp?a8mat=4B3Y3C+8BH22A+455G+656YP&a8ejpredirect=${encodeURIComponent('https://www.asoview.com/')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-green-500/10 border border-green-500/30 rounded-xl px-4 py-3 mb-5 hover:border-green-500/60 transition"
+          >
+            <span className="text-2xl">🎡</span>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-medium text-green-300">アソビューでチケットを予約</p>
+              <p className="text-slate-400 text-xs truncate">{spot.name}の体験・入場券を比較</p>
+            </div>
+            <span className="text-slate-500 text-sm flex-shrink-0">›</span>
+          </a>
+        )}
+
         {/* 宿・旅行予約リンク */}
         <div className="mb-5">
           <h2 className="text-sm font-medium text-slate-400 mb-3">
@@ -238,6 +314,21 @@ export default function SpotDetailPage() {
             ※ 各サービスの外部サイトへ遷移します
           </p>
         </div>
+
+        {/* いいとこどり連携バナー */}
+        <a
+          href={iitokodoriUrl || `https://iitokodori.vercel.app/search?q=${encodeURIComponent(spot.name)}&pref=${String(spot.prefecture_code).padStart(2, '0')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 bg-amber-500/10 border border-amber-500/30 rounded-xl px-4 py-3 mb-5 hover:border-amber-500/60 transition"
+        >
+          <span className="text-2xl">🌸</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-medium text-amber-300">「いいとこどり」で口コミを見る</p>
+            <p className="text-slate-400 text-xs truncate">{spot.name}周辺のホテル・旅館の良かった声</p>
+          </div>
+          <span className="text-slate-500 text-sm flex-shrink-0">›</span>
+        </a>
 
         {/* 同じ都道府県の他スポットへ誘導 */}
         <div className="bg-slate-800/40 border border-white/10 rounded-xl px-4 py-4 mb-5">
