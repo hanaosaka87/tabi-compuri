@@ -293,21 +293,19 @@ export default function SpotDetailPage() {
         </a>
 
         {/* アソビュー（体験・チケット予約）*/}
-        {ACTIVITY_CATEGORIES.includes(categoryId) && (
-          <a
-            href={`https://px.a8.net/svt/ejp?a8mat=4B3Y3C+8BH22A+455G+656YP&a8ejpredirect=${encodeURIComponent('https://www.asoview.com/')}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-green-500/10 border border-green-500/30 rounded-xl px-4 py-3 mb-5 hover:border-green-500/60 transition"
-          >
-            <span className="text-2xl">🎡</span>
-            <div className="flex-1 min-w-0">
-              <p className="text-sm font-medium text-green-300">アソビューでチケットを予約</p>
-              <p className="text-slate-400 text-xs truncate">{spot.name}の体験・入場券を比較</p>
-            </div>
-            <span className="text-slate-500 text-sm flex-shrink-0">›</span>
-          </a>
-        )}
+        <a
+          href={`https://px.a8.net/svt/ejp?a8mat=4B3Y3C+8BH22A+455G+656YP&a8ejpredirect=${encodeURIComponent('https://www.asoview.com/')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 bg-green-500/10 border border-green-500/30 rounded-xl px-4 py-3 mb-5 hover:border-green-500/60 transition"
+        >
+          <span className="text-2xl">🎡</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-medium text-green-300">アソビューでチケットを予約</p>
+            <p className="text-slate-400 text-xs truncate">{spot.name}の体験・入場券を比較</p>
+          </div>
+          <span className="text-slate-500 text-sm flex-shrink-0">›</span>
+        </a>
 
         {/* 宿・旅行予約リンク */}
         <div className="mb-5">
