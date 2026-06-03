@@ -8477,7 +8477,7 @@
     "prefecture_code": 27,
     "lat": null,
     "lon": null,
-    "tier": "C"
+    "tier": "A"
   },
   {
     "id": "castle-27-1463945",
@@ -16445,7 +16445,7 @@
     "prefecture_code": 24,
     "lat": null,
     "lon": null,
-    "tier": "C"
+    "tier": "A"
   },
   {
     "id": "castle-24-2328320",
@@ -16701,7 +16701,7 @@
     "prefecture_code": 24,
     "lat": null,
     "lon": null,
-    "tier": "C"
+    "tier": "A"
   },
   {
     "id": "castle-24-1353860",
@@ -17859,6 +17859,598 @@
     "id": "castle-39-1848944",
     "name": "森城 (土佐国)",
     "prefecture_code": 39,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-5060990",
+    "name": "荒子城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-648160",
+    "name": "猪子石城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2084469",
+    "name": "上野城 (尾張国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1012097",
+    "name": "大高城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-4544958",
+    "name": "小幡城 (尾張国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2001397",
+    "name": "上社城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1978779",
+    "name": "川名北城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1978793",
+    "name": "川名南城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2001036",
+    "name": "吉根城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1979164",
+    "name": "御器所西城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-3364532",
+    "name": "島田城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1994474",
+    "name": "下之一色城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-22636",
+    "name": "名古屋城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "A"
+  },
+  {
+    "id": "castle-23-614488",
+    "name": "末森城 (尾張国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2246047",
+    "name": "善照寺砦",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2936177",
+    "name": "田幡城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2246046",
+    "name": "丹下砦",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2413950",
+    "name": "中嶋砦",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-308008",
+    "name": "那古野城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-855302",
+    "name": "鳴海城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1140497",
+    "name": "日置城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2997397",
+    "name": "氷上砦",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2637303",
+    "name": "比良城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2937115",
+    "name": "平田城 (尾張国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-551871",
+    "name": "古渡城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2031113",
+    "name": "星崎城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1587716",
+    "name": "丸根砦",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-595981",
+    "name": "守山城 (尾張国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1992576",
+    "name": "吉野城 (尾張国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-4745846",
+    "name": "龍泉寺城 (愛知県)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2430498",
+    "name": "鷲津砦",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2607226",
+    "name": "赤田和城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689293",
+    "name": "麻生古城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2607221",
+    "name": "麻生城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689319",
+    "name": "阿知波城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2103878",
+    "name": "井田城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-5112505",
+    "name": "岩津城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2607216",
+    "name": "大川城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2697350",
+    "name": "大林城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-216630",
+    "name": "岡崎城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "A"
+  },
+  {
+    "id": "castle-23-246862",
+    "name": "奥殿陣屋",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689331",
+    "name": "鹿勝川城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689326",
+    "name": "久保城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689312",
+    "name": "黒谷城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2697351",
+    "name": "毛呂城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689333",
+    "name": "小金城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2693579",
+    "name": "千万町城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2697343",
+    "name": "滝山城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2002799",
+    "name": "百々城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2693666",
+    "name": "土城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689354",
+    "name": "冨尾城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689347",
+    "name": "中保久城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2693581",
+    "name": "夏山城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2768513",
+    "name": "名之内城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-4354317",
+    "name": "西阿知和城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2702559",
+    "name": "秦梨城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2607180",
+    "name": "日近城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2689343",
+    "name": "保久城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-2607128",
+    "name": "柳田城",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-23-1159565",
+    "name": "山中城 (三河国)",
+    "prefecture_code": 23,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-1325112",
+    "name": "伊勢ヶ坪城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-3732957",
+    "name": "恵下山城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-302084",
+    "name": "草津城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-1383410",
+    "name": "己斐城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-320783",
+    "name": "佐東銀山城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-2382577",
+    "name": "新宮城 (安芸国)",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-1972363",
+    "name": "水晶城 (安芸国)",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-530334",
+    "name": "土居屋敷",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-2783810",
+    "name": "鳥籠山城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-915163",
+    "name": "仁保城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-125423",
+    "name": "広島城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "A"
+  },
+  {
+    "id": "castle-34-523896",
+    "name": "三入高松城",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-1326286",
+    "name": "八木城 (安芸国)",
+    "prefecture_code": 34,
+    "lat": null,
+    "lon": null,
+    "tier": "C"
+  },
+  {
+    "id": "castle-34-1164200",
+    "name": "矢野城",
+    "prefecture_code": 34,
     "lat": null,
     "lon": null,
     "tier": "C"
