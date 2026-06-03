@@ -1,11 +1,14 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import Header from '@/app/components/Header'
+import { supabase } from '@/lib/supabase'
 
 export const metadata: Metadata = {
   title: 'スポット制覇',
   description: '世界遺産・国立公園・道の駅・温泉・お城など全国のスポットを制覇しよう。',
 }
+export const dynamic = 'force-dynamic'
+
 import michiNoEkiData from '@/lib/spots/michi-no-eki.json'
 import onsenData from '@/lib/spots/onsen.json'
 import amusementData from '@/lib/spots/amusement.json'
@@ -20,7 +23,6 @@ import nationalParkData from '@/lib/spots/national-park.json'
 import damData from '@/lib/spots/dam.json'
 import superSentoData from '@/lib/spots/super-sento.json'
 import festivalData from '@/lib/spots/festival.json'
-import fireworksData from '@/lib/spots/fireworks.json'
 
 const CATEGORIES = [
   {
@@ -90,10 +92,10 @@ const CATEGORIES = [
     id: 'castle',
     label: 'お城',
     icon: '🏯',
-    description: '全国の城・城跡を制覇しよう',
+    description: '現存天守・100名城・続100名城・全国の城跡を階層別に制覇',
     total: (castleData as unknown[]).length,
     href: '/spots/castle',
-    badge: null,
+    badge: '⭐ 階層制あり',
   },
   {
     id: 'shrine',
@@ -145,7 +147,7 @@ const CATEGORIES = [
     label: 'お祭り',
     icon: '🏮',
     description: '全国の有名なお祭り・伝統行事を制覇しよう',
-    total: (festivalData as unknown[]).length,
+    total: 0, // Supabaseから動的取得
     href: '/spots/festival',
     badge: null,
   },
@@ -154,13 +156,24 @@ const CATEGORIES = [
     label: '花火大会',
     icon: '🎆',
     description: '全国の花火大会を制覇しよう',
-    total: (fireworksData as unknown[]).length,
+    total: 0, // Supabaseから動的取得
     href: '/spots/fireworks',
     badge: null,
   },
 ]
 
-export default function SpotsPage() {
+export default async function SpotsPage() {
+  // 花火大会・お祭りの件数を Supabase から取得
+  const [{ count: fireworksCount }, { count: festivalCount }] = await Promise.all([
+    supabase.from('events').select('*', { count: 'exact', head: true }).eq('type', 'hanabi'),
+    supabase.from('events').select('*', { count: 'exact', head: true }).eq('type', 'matsuri'),
+  ])
+  const categories = CATEGORIES.map(c => {
+    if (c.id === 'fireworks') return { ...c, total: fireworksCount ?? 0 }
+    if (c.id === 'festival')  return { ...c, total: festivalCount  ?? 0 }
+    return c
+  })
+
   return (
     <main className="min-h-screen bg-slate-900 text-white">
       <Header />
@@ -169,7 +182,7 @@ export default function SpotsPage() {
         <p className="text-slate-400 text-sm mb-8">カテゴリを選んで制覇を目指そう</p>
 
         <div className="flex flex-col gap-4">
-          {CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <Link
               key={cat.id}
               href={cat.href}
