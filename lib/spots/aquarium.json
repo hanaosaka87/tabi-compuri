@@ -4,741 +4,847 @@
     "name": "AOAO SAPPORO",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-760798",
     "name": "青森県営浅虫水族館",
     "prefecture_code": 2,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "B"
   },
   {
     "id": "aquarium-373909",
     "name": "秋田県立男鹿水族館",
     "prefecture_code": 5,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-3277634",
     "name": "アクアテラス錦ヶ丘",
     "prefecture_code": 4,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "B"
   },
   {
     "id": "aquarium-1630632",
     "name": "アクア東条",
     "prefecture_code": 28,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "B"
   },
   {
     "id": "aquarium-241429",
     "name": "アクア・トトぎふ",
     "prefecture_code": 21,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-384938",
     "name": "アクアパーク品川",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-285727",
     "name": "あくあぴあ芥川",
     "prefecture_code": 27,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3619572",
     "name": "アクアマリンいなわしろカワセミ水族館",
     "prefecture_code": 7,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-561867",
     "name": "アクアマリンふくしま",
     "prefecture_code": 7,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-371719",
     "name": "アクアワールド・大洗",
     "prefecture_code": 8,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-627466",
     "name": "あわしまマリンパーク",
     "prefecture_code": 22,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-715036",
     "name": "いおワールドかごしま水族館",
     "prefecture_code": 46,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4447009",
     "name": "壱岐イルカパークアンドリゾート",
     "prefecture_code": 42,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-139420",
     "name": "伊豆・三津シーパラダイス",
     "prefecture_code": 22,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3935851",
     "name": "板橋区立熱帯環境植物館",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2022974",
     "name": "伊万里湾カブトガニの館",
     "prefecture_code": 41,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3904859",
     "name": "イヨボヤ会館",
     "prefecture_code": 15,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-358442",
     "name": "魚津水族館",
     "prefecture_code": 16,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2185671",
     "name": "うみたま体験パーク「つくみイルカ島」",
     "prefecture_code": 44,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1773000",
     "name": "越前松島水族館",
     "prefecture_code": 18,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-299083",
     "name": "大分マリーンパレス水族館",
     "prefecture_code": 44,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-219679",
     "name": "沖縄美ら海水族館",
     "prefecture_code": 47,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "S"
   },
   {
     "id": "aquarium-683479",
     "name": "おたる水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-47661",
     "name": "海遊館",
     "prefecture_code": 27,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "S"
   },
   {
     "id": "aquarium-83312",
     "name": "葛西臨海水族園",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "S"
   },
   {
     "id": "aquarium-3266503",
     "name": "かすみがうら市水族館",
     "prefecture_code": 8,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2032556",
     "name": "桂浜水族館",
     "prefecture_code": 39,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1121572",
     "name": "かにっこ館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-190271",
     "name": "鴨川シーワールド",
     "prefecture_code": 12,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2743671",
     "name": "かわいい水族館",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4164746",
     "name": "カワスイ 川崎水族館",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1589897",
     "name": "城崎マリンワールド",
     "prefecture_code": 28,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2537206",
     "name": "京都水族館",
     "prefecture_code": 26,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-354543",
     "name": "京都大学フィールド科学教育研究センター瀬戸臨海実験所水族館",
     "prefecture_code": 30,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1108649",
     "name": "ぎょぎょランド",
     "prefecture_code": 33,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3450855",
     "name": "桐生が岡水族館",
     "prefecture_code": 10,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-281153",
     "name": "串本海中公園",
     "prefecture_code": 30,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-516765",
     "name": "九十九島パールシーリゾート",
     "prefecture_code": 42,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-284239",
     "name": "くじらの博物館",
     "prefecture_code": 30,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4220627",
     "name": "高知県立足摺海洋館",
     "prefecture_code": 39,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4906654",
     "name": "神戸須磨シーワールド",
     "prefecture_code": 28,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2026090",
     "name": "さいたま水族館",
     "prefecture_code": 11,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-685513",
     "name": "相模川ふれあい科学館",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-318658",
     "name": "サケのふるさと 千歳水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-74147",
     "name": "サンシャイン水族館",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-3898575",
     "name": "シーライフ名古屋",
     "prefecture_code": 23,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-699116",
     "name": "滋賀県立琵琶湖博物館",
     "prefecture_code": 25,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "B"
   },
   {
     "id": "aquarium-3986201",
     "name": "四国水族館",
     "prefecture_code": 37,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-732770",
     "name": "しながわ水族館",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-352141",
     "name": "島根県立しまね海洋館",
     "prefecture_code": 32,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2326563",
     "name": "四万十川学習センターおさかな館",
     "prefecture_code": 39,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-815646",
     "name": "下田海中水族館",
     "prefecture_code": 22,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-328655",
     "name": "下関市立しものせき水族館",
     "prefecture_code": 35,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-677603",
     "name": "上越市立水族博物館",
     "prefecture_code": 15,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-566693",
     "name": "市立室蘭水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-180639",
     "name": "新江ノ島水族館",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-248460",
     "name": "新さっぽろサンピアザ水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3788462",
     "name": "宍道湖自然館ゴビウス",
     "prefecture_code": 32,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-608596",
     "name": "新屋島水族館",
     "prefecture_code": 37,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2957871",
     "name": "すさみ町立エビとカニの水族館",
     "prefecture_code": 30,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2574926",
     "name": "すみだ水族館",
     "prefecture_code": 13,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-4008710",
     "name": "世界一ちっちゃな水族館",
     "prefecture_code": 39,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1107987",
     "name": "ゼロ距離水族館伊勢シーパラダイス",
     "prefecture_code": 24,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3000116",
     "name": "仙台うみの杜水族館",
     "prefecture_code": 4,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-1414808",
     "name": "竹島水族館",
     "prefecture_code": 23,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-624549",
     "name": "蓼科アミューズメント水族館",
     "prefecture_code": 20,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-896852",
     "name": "玉野市立玉野海洋博物館",
     "prefecture_code": 33,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-358475",
     "name": "鶴岡市立加茂水族館",
     "prefecture_code": 6,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3822013",
     "name": "DMMかりゆし水族館",
     "prefecture_code": 47,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3904899",
     "name": "寺泊水族博物館",
     "prefecture_code": 15,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1964224",
     "name": "東海大学海洋科学博物館",
     "prefecture_code": 22,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1153931",
     "name": "東京大学大学院理学系研究科附属臨海実験所",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-798881",
     "name": "栃木県なかがわ水遊園",
     "prefecture_code": 9,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-363806",
     "name": "鳥羽水族館",
     "prefecture_code": 24,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-393530",
     "name": "長崎ペンギン水族館",
     "prefecture_code": 42,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3702782",
     "name": "なぎさ水族館",
     "prefecture_code": 38,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2713778",
     "name": "“渚の駅”たてやま",
     "prefecture_code": 12,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-185215",
     "name": "名古屋港水族館",
     "prefecture_code": 23,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-143985",
     "name": "新潟市水族館 マリンピア日本海",
     "prefecture_code": 15,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-2707864",
     "name": "沼津港深海水族館",
     "prefecture_code": 22,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-541549",
     "name": "のとじま臨海公園水族館",
     "prefecture_code": 17,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1062160",
     "name": "登別マリンパークニクス",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-849311",
     "name": "箱根園水族館",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-5167455",
     "name": "ひみラボ水族館",
     "prefecture_code": 16,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1602086",
     "name": "姫路市立水族館",
     "prefecture_code": 28,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1248926",
     "name": "碧南海浜水族館",
     "prefecture_code": 23,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3341004",
     "name": "まかどシーマリンパーク",
     "prefecture_code": 3,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4437956",
     "name": "マリホ水族館",
     "prefecture_code": 34,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-631168",
     "name": "マリンワールド海の中道",
     "prefecture_code": 40,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-1446163",
     "name": "道の駅紀宝町ウミガメ公園",
     "prefecture_code": 24,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4859153",
     "name": "みなとやま水族館",
     "prefecture_code": 28,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-505565",
     "name": "南知多ビーチランド",
     "prefecture_code": 23,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-736022",
     "name": "宮島水族館",
     "prefecture_code": 34,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3845483",
     "name": "むろと廃校水族館",
     "prefecture_code": 39,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-708019",
     "name": "もぐらんぴあ",
     "prefecture_code": 3,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2044292",
     "name": "モラスコむぎ",
     "prefecture_code": 39,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-3268762",
     "name": "森浦湾くじらの海",
     "prefecture_code": 30,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4556254",
     "name": "森の水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1135431",
     "name": "山梨県立富士湧水の里水族館",
     "prefecture_code": 19,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-2731509",
     "name": "山の水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-4611552",
     "name": "横浜開運水族館フォーチュンアクアリウム",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-133007",
     "name": "横浜・八景島シーパラダイス",
     "prefecture_code": 14,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "A"
   },
   {
     "id": "aquarium-260817",
     "name": "和歌山県立自然博物館",
     "prefecture_code": 30,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-738650",
     "name": "わくわく海中水族館シードーナツ",
     "prefecture_code": 43,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   },
   {
     "id": "aquarium-1254053",
     "name": "稚内市立ノシャップ寒流水族館",
     "prefecture_code": 1,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "tier": "C"
   }
 ]
