@@ -50,6 +50,40 @@ const TIER_CONFIG: Record<Tier, { label: string; badge: string; color: string; b
 const TIERS: Tier[] = ['S', 'A', 'B', 'C']
 const castles = castleData as Castle[]
 
+function CastleButton({ castle, visited, onToggle }: { castle: Castle; visited: boolean; onToggle: (c: Castle) => void }) {
+  const cfg = TIER_CONFIG[castle.tier]
+  return (
+    <div className="flex items-center gap-0.5">
+      <button
+        onClick={() => onToggle(castle)}
+        className={`px-3 py-2 rounded-l-xl text-sm font-medium transition border-y border-l ${
+          visited
+            ? 'bg-emerald-500 border-emerald-500 text-white'
+            : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
+        }`}
+      >
+        {castle.tier !== 'C' && (
+          <span className={`text-xs mr-1 ${visited ? 'text-white/80' : cfg.color}`}>
+            {castle.tier === 'S' ? '⭐' : castle.tier === 'A' ? '🏆' : '🥈'}
+          </span>
+        )}
+        {visited ? '✓ ' : ''}{castle.name}
+      </button>
+      <Link
+        href={`/spots/castle/${castle.id}`}
+        className={`px-2 py-2 rounded-r-xl text-xs transition border-y border-r ${
+          visited
+            ? 'bg-emerald-600 border-emerald-500 text-emerald-100 hover:bg-emerald-700'
+            : 'bg-white/5 border-white/10 text-slate-600 hover:text-slate-300 hover:border-white/30'
+        }`}
+        title="詳細・宿を探す"
+      >
+        ›
+      </Link>
+    </div>
+  )
+}
+
 export default function CastlePage() {
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
@@ -106,13 +140,17 @@ export default function CastlePage() {
   const totalVisited = visitedIds.size
   const totalPct = castles.length ? Math.round(totalVisited / castles.length * 100) : 0
 
-  const filtered = castles.filter(c => {
-    const matchTier = tierFilter === 'all' || c.tier === tierFilter
-    const matchPref = selectedPref === 'all' || c.prefecture_code === Number(selectedPref)
-    const matchSearch = search === '' || c.name.includes(search)
-    const matchUnvisited = !unvisitedOnly || !visitedIds.has(c.id)
-    return matchTier && matchPref && matchSearch && matchUnvisited
-  })
+  const TIER_ORDER: Record<Tier, number> = { S: 0, A: 1, B: 2, C: 3 }
+
+  const filtered = castles
+    .filter(c => {
+      const matchTier = tierFilter === 'all' || c.tier === tierFilter
+      const matchPref = selectedPref === 'all' || c.prefecture_code === Number(selectedPref)
+      const matchSearch = search === '' || c.name.includes(search)
+      const matchUnvisited = !unvisitedOnly || !visitedIds.has(c.id)
+      return matchTier && matchPref && matchSearch && matchUnvisited
+    })
+    .sort((a, b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier])
 
   if (loading) return (
     <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
@@ -271,43 +309,31 @@ export default function CastlePage() {
 
         <p className="text-slate-500 text-xs mb-3">{filtered.length.toLocaleString()}件表示</p>
 
-        {/* 城リスト */}
-        <div className="flex flex-wrap gap-2">
-          {filtered.map(castle => {
-            const cfg = TIER_CONFIG[castle.tier]
-            const visited = visitedIds.has(castle.id)
-            return (
-              <div key={castle.id} className="flex items-center gap-0.5">
-                <button
-                  onClick={() => handleToggle(castle)}
-                  className={`px-3 py-2 rounded-l-xl text-sm font-medium transition border-y border-l ${
-                    visited
-                      ? 'bg-emerald-500 border-emerald-500 text-white'
-                      : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
-                  }`}
-                >
-                  {castle.tier !== 'C' && (
-                    <span className={`text-xs mr-1 ${visited ? 'text-white/80' : cfg.color}`}>
-                      {castle.tier === 'S' ? '⭐' : castle.tier === 'A' ? '🏆' : '🥈'}
-                    </span>
-                  )}
-                  {visited ? '✓ ' : ''}{castle.name}
-                </button>
-                <Link
-                  href={`/spots/castle/${castle.id}`}
-                  className={`px-2 py-2 rounded-r-xl text-xs transition border-y border-r ${
-                    visited
-                      ? 'bg-emerald-600 border-emerald-500 text-emerald-100 hover:bg-emerald-700'
-                      : 'bg-white/5 border-white/10 text-slate-600 hover:text-slate-300 hover:border-white/30'
-                  }`}
-                  title="詳細・宿を探す"
-                >
-                  ›
-                </Link>
-              </div>
-            )
-          })}
-        </div>
+        {/* 城リスト（全表示時はtierセクション分け） */}
+        {tierFilter === 'all' ? (
+          <div>
+            {TIERS.map(tier => {
+              const group = filtered.filter(c => c.tier === tier)
+              if (group.length === 0) return null
+              const cfg = TIER_CONFIG[tier]
+              return (
+                <div key={tier} className="mb-6">
+                  <div className={`flex items-center gap-2 mb-3 pb-1.5 border-b ${cfg.border}`}>
+                    <span className={`text-sm font-bold ${cfg.color}`}>{cfg.badge} {cfg.label}</span>
+                    <span className="text-xs text-slate-500">{group.length}件</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {group.map(castle => <CastleButton key={castle.id} castle={castle} visited={visitedIds.has(castle.id)} onToggle={handleToggle} />)}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        ) : (
+          <div className="flex flex-wrap gap-2">
+            {filtered.map(castle => <CastleButton key={castle.id} castle={castle} visited={visitedIds.has(castle.id)} onToggle={handleToggle} />)}
+          </div>
+        )}
 
         {filtered.length === 0 && (
           <div className="text-center py-16 text-slate-500">
