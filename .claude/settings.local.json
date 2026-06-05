@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content C:\\\\Users\\\\info\\\\dev\\\\tabi-compuri\\\\scripts\\\\seed-sample-users.mjs)",
+      "Bash(Get-Content C:\\\\Users\\\\info\\\\dev\\\\tabi-compuri\\\\scripts\\\\fetch-dam.js)",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "PowerShell(Get-ChildItem C:\\\\Users\\\\info\\\\dev\\\\iitokodori\\\\app -Recurse -Name | Where-Object { $_ -notmatch \"node_modules|\\\\.next\" })",
+      "PowerShell(vercel *)",
+      "WebFetch(domain:tabi-compuri.hana.trickster.biz)",
+      "PowerShell(New-Item *)",
+      "WebFetch(domain:iitokodori.vercel.app)",
+      "mcp__claude_ai_Google_Drive__create_file",
+      "Bash(vercel ls *)",
+      "Bash(vercel domains *)",
+      "Bash(vercel dns *)",
+      "Bash(nslookup *)",
+      "Bash(vercel alias *)",
+      "Bash(curl *)",
+      "Bash(pandoc --version)",
+      "Bash(wkhtmltopdf --version)",
+      "PowerShell(cursor *)"
+    ]
+  }
+}

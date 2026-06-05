@@ -11,6 +11,7 @@ const NAV = [
   { href: '/spots', label: 'スポット', icon: '🚗' },
   { href: '/diary', label: '日記', icon: '📔' },
   { href: '/ranking', label: 'ランキング', icon: '🏆' },
+  { href: '/group', label: 'グループ', icon: '👨‍👩‍👧' },
   { href: '/badges', label: 'バッジ', icon: '🏅' },
 ]
 

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import AuthHashHandler from "./components/AuthHashHandler";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -59,7 +60,23 @@ export default function RootLayout({
       lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col pb-14 sm:pb-0">{children}</body>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9871252905587015"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <body className="min-h-full flex flex-col pb-14 sm:pb-0">
+        <AuthHashHandler />
+        {children}
+        <footer className="bg-white border-t text-center text-xs text-gray-400 py-2 px-4 flex gap-4 justify-center flex-wrap">
+          <a href="/about" className="hover:text-gray-600">このアプリについて</a>
+          <a href="/privacy" className="hover:text-gray-600">プライバシーポリシー</a>
+          <a href="https://hana.trickster.biz/tokushoho.html" className="hover:text-gray-600">特定商取引法</a>
+          <span>© 株式会社華</span>
+        </footer>
+      </body>
     </html>
   );
 }
