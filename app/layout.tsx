@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import AuthHashHandler from "./components/AuthHashHandler";
+import AdsenseLoader from "./components/AdsenseLoader";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -60,14 +61,8 @@ export default function RootLayout({
       lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9871252905587015"
-          crossOrigin="anonymous"
-        />
-      </head>
       <body className="min-h-full flex flex-col pb-14 sm:pb-0">
+        <AdsenseLoader />
         <AuthHashHandler />
         {children}
         <footer className="bg-white border-t text-center text-xs text-gray-400 py-2 px-4 flex gap-4 justify-center flex-wrap">
