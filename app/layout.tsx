@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import AuthHashHandler from "./components/AuthHashHandler";
 import AdsenseLoader from "./components/AdsenseLoader";
+import GA4Loader from "./components/GA4Loader";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -49,6 +50,11 @@ export const metadata: Metadata = {
     description: '47都道府県・市区町村・道の駅・温泉・お城を制覇しよう。旅の思い出を記録して全国ランキングに挑戦。',
     site: '@tabi_compuri',
   },
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/favicon-32.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -63,6 +69,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col pb-14 sm:pb-0">
         <AdsenseLoader />
+        <GA4Loader />
         <AuthHashHandler />
         {children}
         <footer className="bg-white border-t text-center text-xs text-gray-400 py-2 px-4 flex gap-4 justify-center flex-wrap">
