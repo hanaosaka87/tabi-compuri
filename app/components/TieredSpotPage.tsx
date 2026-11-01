@@ -1,11 +1,14 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import Link from 'next/link'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
-import { PREFECTURES } from '@/lib/prefectures'
+import { PREFECTURES, groupSpotsByPrefecture } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
 import CompleteModal from '@/app/components/CompleteModal'
+import VisitToast from '@/app/components/VisitToast'
+import AppFeedbackButtons from '@/app/components/AppFeedbackButtons'
 
 export type Tier = 'S' | 'A' | 'B' | 'C'
 export type TierCfg = {
@@ -66,17 +69,33 @@ function SpotButton({
   )
 }
 
-export default function TieredSpotPage({ categoryId, label, icon, spots, tierConfig, tiers, searchPlaceholder }: Props) {
+export default function TieredSpotPage(props: Props) {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
+    }>
+      <TieredSpotPageInner {...props} />
+    </Suspense>
+  )
+}
+
+function TieredSpotPageInner({ categoryId, label, icon, spots, tierConfig, tiers, searchPlaceholder }: Props) {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [visitedIds, setVisitedIds] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
   const [tierFilter, setTierFilter] = useState<'all' | Tier>('all')
-  const [selectedPref, setSelectedPref] = useState<number | 'all'>('all')
+  const [selectedPref, setSelectedPref] = useState<number | 'all'>(() => {
+    const p = searchParams.get('pref')
+    return p ? Number(p) : 'all'
+  })
   const [search, setSearch] = useState('')
   const [unvisitedOnly, setUnvisitedOnly] = useState(false)
   const [completeModal, setCompleteModal] = useState<{ tier: Tier } | null>(null)
+  const [visitToast, setVisitToast] = useState<{ count: number; prefRemaining: number | null; prefName: string | null; milestone: boolean } | null>(null)
 
   useEffect(() => {
     const init = async () => {
@@ -105,6 +124,11 @@ export default function TieredSpotPage({ categoryId, label, icon, spots, tierCon
         const next = new Set(prev).add(spot.id)
         const tierSpots = spots.filter(s => s.tier === spot.tier)
         if (tierSpots.every(s => next.has(s.id))) setCompleteModal({ tier: spot.tier })
+        // テスターフィードバック対応：「何個目クリアか」「このエリアはあと何個か」をトースト表示
+        const prefSpots = spot.prefecture_code !== 0 ? spots.filter(s => s.prefecture_code === spot.prefecture_code) : []
+        const prefName = prefSpots.length > 0 ? PREFECTURES.find(p => p.code === spot.prefecture_code)?.name ?? null : null
+        const prefRemaining = prefName ? prefSpots.filter(s => !next.has(s.id)).length : null
+        setVisitToast({ count: next.size, prefRemaining, prefName, milestone: next.size % 5 === 0 })
         return next
       })
     }
@@ -148,6 +172,8 @@ export default function TieredSpotPage({ categoryId, label, icon, spots, tierCon
         />
       )}
 
+      {visitToast && <VisitToast {...visitToast} onDone={() => setVisitToast(null)} />}
+
       {isGuest && (
         <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-4 py-3 flex items-center justify-between">
           <p className="text-emerald-400 text-sm">{icon} ゲストで閲覧中 — 記録するにはログインが必要です</p>
@@ -167,11 +193,16 @@ export default function TieredSpotPage({ categoryId, label, icon, spots, tierCon
       )}
 
       <div className="max-w-3xl mx-auto px-4 py-6">
-        {/* パンくず */}
-        <div className="flex items-center gap-2 mb-1 text-sm">
-          <Link href="/spots" className="text-slate-500 hover:text-slate-300">スポット</Link>
-          <span className="text-slate-600">›</span>
-          <span className="text-white">{label}</span>
+        {/* パンくず＋戻る */}
+        <div className="flex items-center justify-between mb-1">
+          <div className="flex items-center gap-2 text-sm">
+            <Link href="/spots" className="text-slate-500 hover:text-slate-300">スポット</Link>
+            <span className="text-slate-600">›</span>
+            <span className="text-white">{label}</span>
+          </div>
+          <button onClick={() => router.back()} className="text-slate-400 hover:text-white transition text-sm">
+            ← 戻る
+          </button>
         </div>
         <h1 className="text-2xl font-bold mb-4">{icon} {label}制覇</h1>
 
@@ -275,7 +306,7 @@ export default function TieredSpotPage({ categoryId, label, icon, spots, tierCon
 
         <p className="text-slate-500 text-xs mb-3">{filtered.length.toLocaleString()}件表示</p>
 
-        {/* スポットリスト */}
+        {/* スポットリスト（テスターフィードバック対応：全都道府県表示時は都道府県見出しも間に挟む） */}
         {tierFilter === 'all' ? (
           <div>
             {tiers.map(tier => {
@@ -288,14 +319,48 @@ export default function TieredSpotPage({ categoryId, label, icon, spots, tierCon
                     <span className={`text-sm font-bold ${cfg.color}`}>{cfg.badge} {cfg.label}</span>
                     <span className="text-xs text-slate-500">{group.length}件</span>
                   </div>
-                  <div className="flex flex-wrap gap-2">
-                    {group.map(s => (
-                      <SpotButton key={s.id} spot={s} visited={visitedIds.has(s.id)} categoryId={categoryId} onToggle={handleToggle} cfg={cfg} />
-                    ))}
-                  </div>
+                  {selectedPref === 'all' ? (
+                    <div className="flex flex-col gap-3">
+                      {groupSpotsByPrefecture(group).map(pg => (
+                        <div key={pg.code}>
+                          <div className="flex items-center gap-2 mb-1.5">
+                            <h4 className="text-xs font-bold text-slate-400">{pg.name}</h4>
+                            <span className="text-[11px] text-slate-600">{pg.items.length}件</span>
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            {pg.items.map(s => (
+                              <SpotButton key={s.id} spot={s} visited={visitedIds.has(s.id)} categoryId={categoryId} onToggle={handleToggle} cfg={cfg} />
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="flex flex-wrap gap-2">
+                      {group.map(s => (
+                        <SpotButton key={s.id} spot={s} visited={visitedIds.has(s.id)} categoryId={categoryId} onToggle={handleToggle} cfg={cfg} />
+                      ))}
+                    </div>
+                  )}
                 </div>
               )
             })}
+          </div>
+        ) : selectedPref === 'all' ? (
+          <div className="flex flex-col gap-4">
+            {groupSpotsByPrefecture(filtered).map(pg => (
+              <div key={pg.code}>
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="text-sm font-bold text-slate-300">{pg.name}</h3>
+                  <span className="text-xs text-slate-500">{pg.items.length}件</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {pg.items.map(s => (
+                    <SpotButton key={s.id} spot={s} visited={visitedIds.has(s.id)} categoryId={categoryId} onToggle={handleToggle} cfg={tierConfig[s.tier]} />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         ) : (
           <div className="flex flex-wrap gap-2">
@@ -310,6 +375,11 @@ export default function TieredSpotPage({ categoryId, label, icon, spots, tierCon
             <p>条件に一致するスポットがありません</p>
           </div>
         )}
+
+        {/* テスターフィードバック対応（2026-10-23）：全カテゴリページ下部にレビュー・フィードバック導線を表示 */}
+        <div className="mt-10 pt-6 border-t border-white/10">
+          <AppFeedbackButtons appName="tabi" />
+        </div>
       </div>
     </main>
   )

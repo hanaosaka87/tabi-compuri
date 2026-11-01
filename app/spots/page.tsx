@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Header from '@/app/components/Header'
 import { supabase } from '@/lib/supabase'
+import { getCategoryColorClasses } from '@/lib/spotCategoryColors'
 
 export const metadata: Metadata = {
   title: 'スポット制覇',
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export const dynamic = 'force-dynamic'
 
 import michiNoEkiData from '@/lib/spots/michi-no-eki.json'
+import serviceAreaData from '@/lib/spots/service-area.json'
 import onsenData from '@/lib/spots/onsen.json'
 import amusementData from '@/lib/spots/amusement.json'
 import themeParkData from '@/lib/spots/theme-park.json'
@@ -23,6 +25,7 @@ import nationalParkData from '@/lib/spots/national-park.json'
 import damData from '@/lib/spots/dam.json'
 import superSentoData from '@/lib/spots/super-sento.json'
 import festivalData from '@/lib/spots/festival.json'
+import gameCenterData from '@/lib/spots/game-center.json'
 
 const CATEGORIES = [
   {
@@ -125,6 +128,15 @@ const CATEGORIES = [
     badge: '⭐ 階層制あり',
   },
   {
+    id: 'service-area',
+    label: 'サービスエリア',
+    icon: '⛽',
+    description: '道の駅に続いて高速道路のSA・PAも制覇しよう',
+    total: (serviceAreaData as unknown[]).length,
+    href: '/spots/service-area',
+    badge: 'コンプしやすい',
+  },
+  {
     id: 'dam',
     label: 'ダム',
     icon: '🏞️',
@@ -160,6 +172,15 @@ const CATEGORIES = [
     href: '/spots/fireworks',
     badge: '⭐ 階層制あり',
   },
+  {
+    id: 'game-center',
+    label: 'ゲームセンター',
+    icon: '🕹️',
+    description: 'GiGO・ラウンドワン・namco等の大手チェーンから全国のゲーセンを制覇',
+    total: (gameCenterData as unknown[]).length,
+    href: '/spots/game-center',
+    badge: '🎮 クレゲー連携予定',
+  },
 ]
 
 export default async function SpotsPage() {
@@ -182,30 +203,33 @@ export default async function SpotsPage() {
         <p className="text-slate-400 text-sm mb-8">カテゴリを選んで制覇を目指そう</p>
 
         <div className="flex flex-col gap-4">
-          {categories.map((cat) => (
-            <Link
-              key={cat.id}
-              href={cat.href}
-              className="flex items-center gap-5 px-6 py-5 rounded-2xl border bg-white/5 border-white/10 hover:bg-white/10 hover:border-emerald-500/40 transition"
-            >
-              <span className="text-4xl">{cat.icon}</span>
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-1 flex-wrap">
-                  <p className="font-bold text-lg">{cat.label}</p>
-                  <span className="bg-emerald-500/20 text-emerald-400 text-xs px-2 py-0.5 rounded-full">
-                    全{cat.total.toLocaleString()}か所
-                  </span>
-                  {cat.badge && (
-                    <span className="bg-yellow-500/20 text-yellow-400 text-xs px-2 py-0.5 rounded-full">
-                      🏆 {cat.badge}
+          {categories.map((cat) => {
+            const colors = getCategoryColorClasses(cat.id)
+            return (
+              <Link
+                key={cat.id}
+                href={cat.href}
+                className={`flex items-center gap-5 px-6 py-5 rounded-2xl border-2 bg-white/5 ${colors.border} hover:bg-white/10 transition`}
+              >
+                <span className={`text-4xl rounded-xl p-2 ${colors.icon}`}>{cat.icon}</span>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1 flex-wrap">
+                    <p className="font-bold text-xl">{cat.label}</p>
+                    <span className={`${colors.icon} ${colors.text} text-sm font-bold px-2 py-0.5 rounded-full`}>
+                      全{cat.total.toLocaleString()}か所
                     </span>
-                  )}
+                    {cat.badge && (
+                      <span className="bg-yellow-500/20 text-yellow-400 text-sm font-bold px-2 py-0.5 rounded-full">
+                        🏆 {cat.badge}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-slate-300 text-base">{cat.description}</p>
                 </div>
-                <p className="text-slate-400 text-sm">{cat.description}</p>
-              </div>
-              <span className="text-slate-500 text-xl flex-shrink-0">›</span>
-            </Link>
-          ))}
+                <span className="text-slate-500 text-xl flex-shrink-0">›</span>
+              </Link>
+            )
+          })}
         </div>
       </div>
     </main>

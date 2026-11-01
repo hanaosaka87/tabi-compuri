@@ -1,11 +1,14 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import Link from 'next/link'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
-import { PREFECTURES } from '@/lib/prefectures'
+import { PREFECTURES, groupSpotsByPrefecture } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
 import CompleteModal from '@/app/components/CompleteModal'
+import VisitToast from '@/app/components/VisitToast'
+import AppFeedbackButtons from '@/app/components/AppFeedbackButtons'
 
 type Spot = { id: string; name: string; prefecture_code: number }
 
@@ -16,16 +19,60 @@ type Props = {
   spots: Spot[]
 }
 
-export default function SpotPage({ categoryId, label, icon, spots }: Props) {
+function SpotButton({ spot, categoryId, visited, onToggle }: { spot: Spot; categoryId: string; visited: boolean; onToggle: (spot: Spot) => void }) {
+  return (
+    <div className="flex items-center gap-0.5">
+      <button
+        onClick={() => onToggle(spot)}
+        className={`px-3 py-2 rounded-l-xl text-sm font-medium transition border-y border-l ${
+          visited
+            ? 'bg-emerald-500 border-emerald-500 text-white'
+            : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
+        }`}
+      >
+        {visited ? '✓ ' : ''}{spot.name}
+      </button>
+      <Link
+        href={`/spots/${categoryId}/${spot.id}`}
+        className={`px-2 py-2 rounded-r-xl text-xs transition border-y border-r ${
+          visited
+            ? 'bg-emerald-600 border-emerald-500 text-emerald-100 hover:bg-emerald-700'
+            : 'bg-white/5 border-white/10 text-slate-600 hover:text-slate-300 hover:border-white/30'
+        }`}
+        title="詳細・宿を探す"
+      >
+        ›
+      </Link>
+    </div>
+  )
+}
+
+export default function SpotPage(props: Props) {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
+    }>
+      <SpotPageInner {...props} />
+    </Suspense>
+  )
+}
+
+function SpotPageInner({ categoryId, label, icon, spots }: Props) {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
   const [visitedIds, setVisitedIds] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
-  const [selectedPref, setSelectedPref] = useState<number | 'all'>('all')
+  const [selectedPref, setSelectedPref] = useState<number | 'all'>(() => {
+    const p = searchParams.get('pref')
+    return p ? Number(p) : 'all'
+  })
   const [search, setSearch] = useState('')
   const [unvisitedOnly, setUnvisitedOnly] = useState(false)
   const [showComplete, setShowComplete] = useState(false)
+  const [visitToast, setVisitToast] = useState<{ count: number; prefRemaining: number | null; prefName: string | null; milestone: boolean } | null>(null)
 
   useEffect(() => {
     const init = async () => {
@@ -53,6 +100,11 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
       setVisitedIds(prev => {
         const next = new Set(prev).add(spot.id)
         if (next.size === spots.length) setShowComplete(true)
+        // テスターフィードバック対応：「何個目クリアか」「このエリアはあと何個か」をトースト表示
+        const prefSpots = spot.prefecture_code !== 0 ? spots.filter(s => s.prefecture_code === spot.prefecture_code) : []
+        const prefName = prefSpots.length > 0 ? PREFECTURES.find(p => p.code === spot.prefecture_code)?.name ?? null : null
+        const prefRemaining = prefName ? prefSpots.filter(s => !next.has(s.id)).length : null
+        setVisitToast({ count: next.size, prefRemaining, prefName, milestone: next.size % 5 === 0 })
         return next
       })
     }
@@ -83,6 +135,8 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
         />
       )}
 
+      {visitToast && <VisitToast {...visitToast} onDone={() => setVisitToast(null)} />}
+
       {isGuest && (
         <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-4 py-3 flex items-center justify-between">
           <p className="text-emerald-400 text-sm">{icon} ゲストで閲覧中 — 記録するにはログインが必要です</p>
@@ -103,10 +157,15 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
 
       <div className="max-w-3xl mx-auto px-4 py-6">
         <div className="mb-4">
-          <div className="flex items-center gap-2 mb-1 text-sm">
-            <Link href="/spots" className="text-slate-500 hover:text-slate-300">スポット</Link>
-            <span className="text-slate-600">›</span>
-            <span className="text-white">{label}</span>
+          <div className="flex items-center justify-between mb-1">
+            <div className="flex items-center gap-2 text-sm">
+              <Link href="/spots" className="text-slate-500 hover:text-slate-300">スポット</Link>
+              <span className="text-slate-600">›</span>
+              <span className="text-white">{label}</span>
+            </div>
+            <button onClick={() => router.back()} className="text-slate-400 hover:text-white transition text-sm">
+              ← 戻る
+            </button>
           </div>
           <h1 className="text-2xl font-bold">{icon} {label}制覇</h1>
         </div>
@@ -156,39 +215,37 @@ export default function SpotPage({ categoryId, label, icon, spots }: Props) {
 
         <p className="text-slate-500 text-xs mb-3">{filtered.length.toLocaleString()}件表示</p>
 
-        <div className="flex flex-wrap gap-2">
-          {filtered.map(spot => (
-            <div key={spot.id} className="flex items-center gap-0.5">
-              <button
-                onClick={() => handleToggle(spot)}
-                className={`px-3 py-2 rounded-l-xl text-sm font-medium transition border-y border-l ${
-                  visitedIds.has(spot.id)
-                    ? 'bg-emerald-500 border-emerald-500 text-white'
-                    : 'bg-white/5 border-white/10 text-slate-400 hover:border-emerald-500/50 hover:text-white'
-                }`}
-              >
-                {visitedIds.has(spot.id) ? '✓ ' : ''}{spot.name}
-              </button>
-              <Link
-                href={`/spots/${categoryId}/${spot.id}`}
-                className={`px-2 py-2 rounded-r-xl text-xs transition border-y border-r ${
-                  visitedIds.has(spot.id)
-                    ? 'bg-emerald-600 border-emerald-500 text-emerald-100 hover:bg-emerald-700'
-                    : 'bg-white/5 border-white/10 text-slate-600 hover:text-slate-300 hover:border-white/30'
-                }`}
-                title="詳細・宿を探す"
-              >
-                ›
-              </Link>
-            </div>
-          ))}
-        </div>
+        {/* テスターフィードバック対応（2026-10-23）：全都道府県表示時は都道府県の見出しを間に入れる */}
+        {selectedPref === 'all' ? (
+          <div className="flex flex-col gap-4">
+            {groupSpotsByPrefecture(filtered).map(g => (
+              <div key={g.code}>
+                <div className="flex items-center gap-2 mb-2 sticky top-0 bg-slate-900 py-1">
+                  <h3 className="text-sm font-bold text-slate-300">{g.name}</h3>
+                  <span className="text-xs text-slate-500">{g.items.length}件</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {g.items.map(spot => <SpotButton key={spot.id} spot={spot} categoryId={categoryId} visited={visitedIds.has(spot.id)} onToggle={handleToggle} />)}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-wrap gap-2">
+            {filtered.map(spot => <SpotButton key={spot.id} spot={spot} categoryId={categoryId} visited={visitedIds.has(spot.id)} onToggle={handleToggle} />)}
+          </div>
+        )}
 
         {filtered.length === 0 && (
           <div className="text-center py-16 text-slate-500">
             <p>条件に一致するスポットがありません</p>
           </div>
         )}
+
+        {/* テスターフィードバック対応（2026-10-23）：全カテゴリページ下部にレビュー・フィードバック導線を表示 */}
+        <div className="mt-10 pt-6 border-t border-white/10">
+          <AppFeedbackButtons appName="tabi" />
+        </div>
       </div>
     </main>
   )

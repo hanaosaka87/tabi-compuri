@@ -21,7 +21,7 @@ const jsonLd = {
 }
 
 const FAQS = [
-  { q: '無料で使えますか？', a: 'はい、すべての機能が完全無料です。アプリのインストールも不要で、ブラウザからすぐ使えます。' },
+  { q: '無料で使えますか？', a: '体験は無料、ダウンロードも無料です。アプリのインストールも不要で、ブラウザからすぐ使えます。' },
   { q: '登録に個人情報は必要ですか？', a: 'メールアドレスのみで登録できます。名前・住所・電話番号などは一切不要です。' },
   { q: 'スマホでも使えますか？', a: 'スマホ・タブレット・PCすべてに対応しています。ホーム画面に追加するとアプリのように使えます。' },
 ]
@@ -35,84 +35,99 @@ export default function Home() {
       />
       <main className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-emerald-900 text-white">
 
-        {/* ヘッダー */}
-        <header className="flex items-center justify-between px-6 py-4 border-b border-white/10">
-          <div className="flex items-center gap-2">
-            <span className="text-2xl">🗾</span>
-            <span className="text-xl font-bold tracking-wide">旅コンプリ</span>
-          </div>
-          <nav className="flex items-center gap-4 text-sm">
-            <Link href="/dashboard" className="text-slate-400 hover:text-white transition hidden sm:block">体験する</Link>
-            <Link href="/ranking" className="text-slate-400 hover:text-white transition hidden sm:block">ランキング</Link>
-            <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-5 py-2 rounded-full text-sm font-medium transition">
-              無料で始める
-            </Link>
-          </nav>
-        </header>
+        {/* ヘッダー＋ヒーロー（富士山・桜の写真背景） */}
+        <div className="relative overflow-hidden">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/hero-fuji.jpg"
+            alt="富士山と桜"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/75 to-slate-950/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-slate-950/40" />
 
-        {/* ヒーロー */}
-        <section className="max-w-4xl mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row items-center gap-12">
-          <div className="flex-1 text-center md:text-left">
-            <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-full px-4 py-1.5 text-emerald-400 text-xs font-medium mb-6">
-              🗾 旅行好きのための制覇アプリ
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5">
-              旅の記録、<br />
-              <span className="text-emerald-400">ゲームにしよう。</span>
-            </h1>
-            <p className="text-slate-300 text-lg mb-4 leading-relaxed">
-              都道府県・道の駅・温泉・お城…<br />
-              訪れた場所を「制覇」として記録して、<br />
-              日本全国コンプリートを目指そう。
-            </p>
-            <p className="text-slate-500 text-sm mb-8">
-              ✓ 完全無料 &nbsp;✓ 登録30秒 &nbsp;✓ インストール不要
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-              <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-8 py-4 rounded-full text-lg font-bold transition shadow-lg shadow-emerald-500/30 text-center">
-                無料ではじめる →
+          <div className="relative z-10">
+            {/* ヘッダー */}
+            <header className="flex items-center justify-between px-6 py-4">
+              <Link href="/" className="flex items-center gap-2">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/icon-512.png" alt="" className="w-9 h-9 rounded-xl" />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/logo-text.png" alt="旅コンプリ" className="h-6 w-auto" />
               </Link>
-              <Link href="/dashboard" className="border border-white/20 hover:border-white/40 text-slate-300 hover:text-white px-8 py-4 rounded-full text-lg transition text-center">
-                まず体験する
-              </Link>
-            </div>
-          </div>
+              <nav className="flex items-center gap-4 text-sm">
+                <Link href="/howto" className="text-slate-300 hover:text-white transition hidden sm:block">使い方</Link>
+                <Link href="/ranking" className="text-slate-300 hover:text-white transition hidden sm:block">ランキング</Link>
+                <Link href="/login" className="text-slate-300 hover:text-white transition hidden sm:block">ログイン</Link>
+                <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-5 py-2 rounded-full text-sm font-medium transition">
+                  無料で始める
+                </Link>
+              </nav>
+            </header>
 
-          {/* アプリモック */}
-          <div className="flex-shrink-0 w-full max-w-xs mx-auto md:mx-0">
-            <div className="bg-slate-800 border border-white/10 rounded-3xl p-4 shadow-2xl">
-              <div className="bg-slate-900 rounded-2xl p-4">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-bold">🗾 制覇マップ</span>
-                  <span className="text-emerald-400 text-xs font-bold">32%</span>
-                </div>
-                <div className="w-full bg-slate-700 rounded-full h-2 mb-4">
-                  <div className="bg-emerald-500 h-2 rounded-full" style={{width:'32%'}} />
-                </div>
-                <div className="grid grid-cols-4 gap-1.5 mb-3">
-                  {['北海道','東京','大阪','京都','福岡','沖縄','愛知','神奈川'].map((p,i) => (
-                    <div key={p} className={`text-[10px] text-center py-1.5 rounded-lg font-medium ${i<5 ? 'bg-emerald-500 text-white' : 'bg-white/5 text-slate-500'}`}>
-                      {i<5 ? '✓' : ''}{p.slice(0,2)}
-                    </div>
-                  ))}
-                </div>
-                <div className="border-t border-white/10 pt-3 grid grid-cols-3 gap-2 text-center">
-                  {[{n:'15',l:'都道府県'},{n:'89',l:'市区町村'},{n:'42',l:'スポット'}].map(x=>(
-                    <div key={x.l}>
-                      <div className="text-emerald-400 font-bold text-sm">{x.n}</div>
-                      <div className="text-slate-500 text-[9px]">{x.l}</div>
-                    </div>
-                  ))}
+            {/* ヒーロー */}
+            <section className="max-w-4xl mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row items-center gap-12">
+              <div className="flex-1 text-center md:text-left">
+                <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5 drop-shadow-lg">
+                  旅の記録、<br />
+                  <span className="text-emerald-400">ゲームにしよう。</span>
+                </h1>
+                <p className="text-slate-200 text-lg mb-4 leading-relaxed drop-shadow">
+                  都道府県・道の駅・温泉・お城…<br />
+                  訪れた場所を「制覇」として記録して、<br />
+                  日本全国コンプリートを目指そう。
+                </p>
+                <p className="text-slate-300 text-sm mb-8">
+                  ✓ 登録30秒 &nbsp;✓ インストール不要
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                  <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-8 py-4 rounded-full text-lg font-bold transition shadow-lg shadow-emerald-500/30 text-center">
+                    無料ではじめる →
+                  </Link>
+                  <Link href="/dashboard" className="border border-white/30 hover:border-white/60 bg-white/5 backdrop-blur-sm text-slate-100 hover:text-white px-8 py-4 rounded-full text-lg transition text-center">
+                    まず体験する
+                  </Link>
                 </div>
               </div>
-              <div className="flex justify-around mt-3 px-2">
-                {['🗾','🏘','🚗','📔','🏆'].map(icon=>(
-                  <span key={icon} className="text-xl opacity-60">{icon}</span>
-                ))}
+
+              {/* スマホモックアップ */}
+              <div className="flex-shrink-0 w-full max-w-[220px] mx-auto md:mx-0">
+                <div className="relative bg-slate-950 border-[6px] border-slate-800 rounded-[2.5rem] shadow-2xl shadow-black/50 p-2">
+                  <div className="absolute top-2 left-1/2 -translate-x-1/2 w-16 h-4 bg-slate-950 rounded-full z-10" />
+                  <div className="bg-slate-900 rounded-[1.75rem] p-4 pt-6">
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="text-xs font-bold">🗾 制覇マップ</span>
+                      <span className="text-emerald-400 text-xs font-bold">32%</span>
+                    </div>
+                    <div className="w-full bg-slate-700 rounded-full h-1.5 mb-4">
+                      <div className="bg-emerald-500 h-1.5 rounded-full" style={{width:'32%'}} />
+                    </div>
+                    <div className="grid grid-cols-4 gap-1.5 mb-3">
+                      {['北海道','東京','大阪','京都','福岡','沖縄','愛知','神奈川'].map((p,i) => (
+                        <div key={p} className={`text-[9px] text-center py-1.5 rounded-lg font-medium ${i<5 ? 'bg-emerald-500 text-white' : 'bg-white/5 text-slate-500'}`}>
+                          {i<5 ? '✓' : ''}{p.slice(0,2)}
+                        </div>
+                      ))}
+                    </div>
+                    <div className="border-t border-white/10 pt-3 grid grid-cols-3 gap-2 text-center">
+                      {[{n:'15',l:'都道府県'},{n:'89',l:'市区町村'},{n:'42',l:'スポット'}].map(x=>(
+                        <div key={x.l}>
+                          <div className="text-emerald-400 font-bold text-xs">{x.n}</div>
+                          <div className="text-slate-500 text-[8px]">{x.l}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex justify-around mt-2 px-2 pb-1">
+                    {['🗾','🏘','🚗','📔','🏆'].map(icon=>(
+                      <span key={icon} className="text-base opacity-60">{icon}</span>
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
+            </section>
           </div>
-        </section>
+        </div>
 
         {/* 痛点→解決 */}
         <section className="bg-white/5 border-y border-white/10 py-12 px-6">
@@ -201,7 +216,7 @@ export default function Home() {
           <Link href="/login" className="inline-block bg-emerald-500 hover:bg-emerald-400 text-white px-10 py-4 rounded-full text-lg font-bold transition shadow-lg shadow-emerald-500/30">
             無料ではじめる →
           </Link>
-          <p className="text-slate-500 text-xs mt-4">登録は30秒 · 完全無料 · いつでも退会できます</p>
+          <p className="text-slate-500 text-xs mt-4">登録は30秒 · いつでも退会できます</p>
         </section>
 
         {/* FAQ */}

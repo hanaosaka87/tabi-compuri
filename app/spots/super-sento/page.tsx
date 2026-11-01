@@ -1,7 +1,8 @@
 'use client'
 
-import { useEffect, useState, useMemo, useCallback } from 'react'
+import { Suspense, useEffect, useState, useMemo, useCallback } from 'react'
 import Link from 'next/link'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
@@ -132,6 +133,18 @@ function ChainCompleteModal({
 }
 
 export default function SuperSentoPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
+    }>
+      <SuperSentoPageInner />
+    </Suspense>
+  )
+}
+
+function SuperSentoPageInner() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
@@ -139,7 +152,10 @@ export default function SuperSentoPage() {
   const [loading, setLoading] = useState(true)
   const [tab, setTab] = useState<Tab>('national')
 
-  const [selectedPref, setSelectedPref] = useState<number | 'all'>('all')
+  const [selectedPref, setSelectedPref] = useState<number | 'all'>(() => {
+    const p = searchParams.get('pref')
+    return p ? Number(p) : 'all'
+  })
   const [search, setSearch] = useState('')
   const [unvisitedOnly, setUnvisitedOnly] = useState(false)
   const [showComplete, setShowComplete] = useState(false)
@@ -266,10 +282,15 @@ export default function SuperSentoPage() {
 
       <div className="max-w-3xl mx-auto px-4 py-6">
         <div className="mb-4">
-          <div className="flex items-center gap-2 mb-1 text-sm">
-            <Link href="/spots" className="text-slate-500 hover:text-slate-300">スポット</Link>
-            <span className="text-slate-600">›</span>
-            <span className="text-white">スーパー銭湯</span>
+          <div className="flex items-center justify-between mb-1">
+            <div className="flex items-center gap-2 text-sm">
+              <Link href="/spots" className="text-slate-500 hover:text-slate-300">スポット</Link>
+              <span className="text-slate-600">›</span>
+              <span className="text-white">スーパー銭湯</span>
+            </div>
+            <button onClick={() => router.back()} className="text-slate-400 hover:text-white transition text-sm">
+              ← 戻る
+            </button>
           </div>
           <h1 className="text-2xl font-bold">🛁 スーパー銭湯制覇</h1>
         </div>

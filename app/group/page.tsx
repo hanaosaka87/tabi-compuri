@@ -98,27 +98,14 @@ export default function GroupPage() {
     setJoining(true)
     setJoinError('')
 
-    const { data: group } = await supabase
-      .from('groups')
-      .select('id')
-      .eq('invite_code', inviteInput.trim().toUpperCase())
-      .maybeSingle()
+    const { data: groupId, error } = await supabase
+      .rpc('join_group_by_code', { p_code: inviteInput.trim().toUpperCase() })
 
-    if (!group) {
+    if (error || !groupId) {
       setJoinError('招待コードが見つかりません')
-      setJoining(false)
-      return
-    }
-
-    const { error } = await supabase
-      .from('group_members')
-      .insert({ group_id: group.id, user_id: userId })
-
-    if (error) {
-      setJoinError('すでにそのグループに参加しています')
     } else {
       setInviteInput('')
-      router.push(`/group/${group.id}`)
+      router.push(`/group/${groupId}`)
     }
     setJoining(false)
   }

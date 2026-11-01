@@ -1,0 +1,2907 @@
+[
+  {
+    "id": "sa-0-1737707",
+    "name": "ハイウェイオアシス富楽里",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-2765218",
+    "name": "寄居 星の王子さまPA",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-2457159",
+    "name": "谷稲葉うぐいすパーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-261676",
+    "name": "朝来サービスエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-2867922",
+    "name": "かつらぎ西パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-3618087",
+    "name": "御所南パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-613904",
+    "name": "山東パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-2489461",
+    "name": "湊町パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-343351",
+    "name": "森小路ミニパーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-5009242",
+    "name": "四日市パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-1830239",
+    "name": "河原パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-1830242",
+    "name": "名和パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-3712883",
+    "name": "下関パーキングエリア",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-0-497912",
+    "name": "吉野川ハイウェイオアシス",
+    "prefecture_code": 0
+  },
+  {
+    "id": "sa-1-199613",
+    "name": "岩見沢サービスエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-139018",
+    "name": "有珠山サービスエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226583",
+    "name": "長流枝パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226554",
+    "name": "音江パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-208373",
+    "name": "金山パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-3260871",
+    "name": "上浦幌パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226572",
+    "name": "キウスパーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-4860051",
+    "name": "剣淵パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226362",
+    "name": "静狩パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-1288462",
+    "name": "占冠パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-893420",
+    "name": "白滝パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226528",
+    "name": "砂川サービスエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226385",
+    "name": "樽前サービスエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-316596",
+    "name": "秩父別パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226496",
+    "name": "茶志内パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226578",
+    "name": "十勝平原サービスエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226379",
+    "name": "富浦パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226364",
+    "name": "豊浦噴火湾パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-208921",
+    "name": "野幌パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226380",
+    "name": "萩野パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226564",
+    "name": "比布大雪パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226389",
+    "name": "美沢パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-226376",
+    "name": "本輪西展望所",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-774023",
+    "name": "八雲パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-554743",
+    "name": "由仁パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-1-208559",
+    "name": "輪厚パーキングエリア",
+    "prefecture_code": 1
+  },
+  {
+    "id": "sa-2-365311",
+    "name": "阿闍羅パーキングエリア",
+    "prefecture_code": 2
+  },
+  {
+    "id": "sa-2-365318",
+    "name": "高舘パーキングエリア",
+    "prefecture_code": 2
+  },
+  {
+    "id": "sa-2-40513",
+    "name": "津軽サービスエリア",
+    "prefecture_code": 2
+  },
+  {
+    "id": "sa-2-331582",
+    "name": "福地パーキングエリア",
+    "prefecture_code": 2
+  },
+  {
+    "id": "sa-3-40510",
+    "name": "岩手山サービスエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-40511",
+    "name": "折爪サービスエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-40506",
+    "name": "北上金ヶ崎パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-331450",
+    "name": "錦秋湖サービスエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-40507",
+    "name": "紫波サービスエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-40509",
+    "name": "滝沢パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-235534",
+    "name": "田山パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-364510",
+    "name": "中尊寺パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-3949381",
+    "name": "津軽石パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-3949380",
+    "name": "浪板パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-355946",
+    "name": "二戸パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-331623",
+    "name": "畑パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-331612",
+    "name": "花巻パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-2544577",
+    "name": "船河原パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-40505",
+    "name": "前沢サービスエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-364545",
+    "name": "前森山パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-3-40508",
+    "name": "矢巾パーキングエリア",
+    "prefecture_code": 3
+  },
+  {
+    "id": "sa-4-76972",
+    "name": "泉パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-2138498",
+    "name": "春日パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40504",
+    "name": "金成パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40495",
+    "name": "国見サービスエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-78503",
+    "name": "蔵王パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-76974",
+    "name": "三本木パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-76975",
+    "name": "志波姫パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40499",
+    "name": "菅生パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40503",
+    "name": "長者原サービスエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40501",
+    "name": "鶴巣パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-2542318",
+    "name": "鳥の海パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40497",
+    "name": "古関パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-3906515",
+    "name": "本吉パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-128433",
+    "name": "矢本パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-4-40027",
+    "name": "大和パーキングエリア",
+    "prefecture_code": 4
+  },
+  {
+    "id": "sa-5-120442",
+    "name": "大森パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-261554",
+    "name": "小坂パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-355390",
+    "name": "山内パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-2868688",
+    "name": "釈迦内パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-355798",
+    "name": "太平山パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-331462",
+    "name": "西仙北サービスエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-1163035",
+    "name": "西目パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-331463",
+    "name": "八郎湖サービスエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-40512",
+    "name": "花輪サービスエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-4438938",
+    "name": "雄和パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-5-235533",
+    "name": "湯瀬パーキングエリア",
+    "prefecture_code": 5
+  },
+  {
+    "id": "sa-6-38186",
+    "name": "月山湖パーキングエリア",
+    "prefecture_code": 6
+  },
+  {
+    "id": "sa-6-355912",
+    "name": "櫛引パーキングエリア",
+    "prefecture_code": 6
+  },
+  {
+    "id": "sa-6-293561",
+    "name": "寒河江サービスエリア",
+    "prefecture_code": 6
+  },
+  {
+    "id": "sa-6-3767498",
+    "name": "南陽パーキングエリア",
+    "prefecture_code": 6
+  },
+  {
+    "id": "sa-6-3767496",
+    "name": "山形パーキングエリア",
+    "prefecture_code": 6
+  },
+  {
+    "id": "sa-6-317592",
+    "name": "山形蔵王パーキングエリア",
+    "prefecture_code": 6
+  },
+  {
+    "id": "sa-7-40459",
+    "name": "安積パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40487",
+    "name": "安達太良サービスエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40491",
+    "name": "吾妻パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40451",
+    "name": "阿武隈パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40466",
+    "name": "阿武隈高原サービスエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40455",
+    "name": "鏡石パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40461",
+    "name": "五百川パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-315205",
+    "name": "差塩パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-1491172",
+    "name": "ならはパーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-223280",
+    "name": "新鶴パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-223273",
+    "name": "西会津パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40464",
+    "name": "磐梯山サービスエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40489",
+    "name": "福島松川パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-1452798",
+    "name": "南相馬鹿島サービスエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-315207",
+    "name": "三春パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-314422",
+    "name": "湯ノ岳パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40469",
+    "name": "四倉パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-2285774",
+    "name": "蓬田パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-5248356",
+    "name": "大熊パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-40471",
+    "name": "関本パーキングエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-7-38106",
+    "name": "双葉サービスエリア",
+    "prefecture_code": 7
+  },
+  {
+    "id": "sa-8-985365",
+    "name": "江戸崎パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-955145",
+    "name": "笠間パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-314427",
+    "name": "田野パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40480",
+    "name": "千代田パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40476",
+    "name": "東海パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40477",
+    "name": "友部サービスエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40472",
+    "name": "中郷サービスエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-3994652",
+    "name": "坂東パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40473",
+    "name": "日立中央パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40479",
+    "name": "美野里パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40483",
+    "name": "守谷サービスエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-40481",
+    "name": "谷田部東パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-8-4647542",
+    "name": "行方パーキングエリア",
+    "prefecture_code": 8
+  },
+  {
+    "id": "sa-9-1957075",
+    "name": "出流原パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40442",
+    "name": "大谷パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40446",
+    "name": "上河内サービスエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40449",
+    "name": "黒磯パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40439",
+    "name": "佐野サービスエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40441",
+    "name": "都賀西方パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40450",
+    "name": "那須高原サービスエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-230555",
+    "name": "日光口パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-954699",
+    "name": "壬生パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-9-40448",
+    "name": "矢板北パーキングエリア",
+    "prefecture_code": 9
+  },
+  {
+    "id": "sa-10-39992",
+    "name": "赤城高原サービスエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-301959",
+    "name": "赤城パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-2905961",
+    "name": "太田強戸パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-40317",
+    "name": "甘楽パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-39991",
+    "name": "駒寄パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-74232",
+    "name": "下牧パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-40024",
+    "name": "谷川岳パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-386318",
+    "name": "波志江パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-280582",
+    "name": "藤岡パーキングエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-10-40314",
+    "name": "横川サービスエリア",
+    "prefecture_code": 10
+  },
+  {
+    "id": "sa-11-39990",
+    "name": "上里サービスエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-378997",
+    "name": "川口パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-350066",
+    "name": "狭山パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-1035956",
+    "name": "菖蒲パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-36915",
+    "name": "高坂サービスエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-40433",
+    "name": "新倉パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-40436",
+    "name": "蓮田サービスエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-40437",
+    "name": "羽生パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-36918",
+    "name": "三芳パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-379632",
+    "name": "八潮パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-39989",
+    "name": "寄居パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-39987",
+    "name": "嵐山パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-11-36449",
+    "name": "高坂パーキングエリア",
+    "prefecture_code": 11
+  },
+  {
+    "id": "sa-12-324634",
+    "name": "市川パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-372124",
+    "name": "一宮パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-271993",
+    "name": "市原サービスエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-371356",
+    "name": "今泉パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-39612",
+    "name": "海ほたるパーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-799696",
+    "name": "君津パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-278068",
+    "name": "京葉市川パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-369522",
+    "name": "佐原パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-90130",
+    "name": "酒々井パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-90145",
+    "name": "大栄パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-1266583",
+    "name": "高滝湖パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-1733891",
+    "name": "富山パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-124774",
+    "name": "野呂パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-371353",
+    "name": "福俵パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-372118",
+    "name": "真亀パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-206130",
+    "name": "幕張パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-144995",
+    "name": "湾岸幕張パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-12-3769863",
+    "name": "鬼高パーキングエリア",
+    "prefecture_code": 12
+  },
+  {
+    "id": "sa-13-38021",
+    "name": "石川パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-378959",
+    "name": "永福パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-377975",
+    "name": "大井パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-379633",
+    "name": "加平パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-379635",
+    "name": "駒形パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-379659",
+    "name": "芝浦パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-363202",
+    "name": "志村パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-379649",
+    "name": "辰巳第一パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-379652",
+    "name": "辰巳第二パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-379638",
+    "name": "箱崎パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-378931",
+    "name": "平和島パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-136186",
+    "name": "保土ヶ谷パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-378973",
+    "name": "南池袋パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-378950",
+    "name": "用賀パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-13-378955",
+    "name": "代々木パーキングエリア",
+    "prefecture_code": 13
+  },
+  {
+    "id": "sa-14-2418652",
+    "name": "厚木パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-37805",
+    "name": "鮎沢パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-38016",
+    "name": "海老名サービスエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-352538",
+    "name": "大磯パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-352546",
+    "name": "小田原パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-38018",
+    "name": "港北パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-352558",
+    "name": "西湘パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-377274",
+    "name": "大黒パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-376478",
+    "name": "大師パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-362440",
+    "name": "都筑パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-139026",
+    "name": "戸塚パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-38005",
+    "name": "中井パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-352532",
+    "name": "平塚パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-38031",
+    "name": "藤野パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-136171",
+    "name": "横須賀パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-353148",
+    "name": "箱根パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-353252",
+    "name": "真鶴パーキングエリア",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-14-3599335",
+    "name": "秦野丹沢スマートインターチェンジ",
+    "prefecture_code": 14
+  },
+  {
+    "id": "sa-15-40465",
+    "name": "阿賀野川サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40289",
+    "name": "新井パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-3526518",
+    "name": "荒川パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40028",
+    "name": "越後川口サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-61114",
+    "name": "大潟パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40080",
+    "name": "大積パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-178933",
+    "name": "上川パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-61120",
+    "name": "刈羽パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40031",
+    "name": "黒埼パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-156305",
+    "name": "五泉パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40030",
+    "name": "栄パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40026",
+    "name": "塩沢石打サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-149147",
+    "name": "土樽パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-109194",
+    "name": "豊栄サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40083",
+    "name": "名立谷浜サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-109133",
+    "name": "新潟パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-109444",
+    "name": "堀之内パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40295",
+    "name": "妙高サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40029",
+    "name": "山谷パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40081",
+    "name": "米山サービスエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-15-40084",
+    "name": "蓮台寺パーキングエリア",
+    "prefecture_code": 15
+  },
+  {
+    "id": "sa-16-40283",
+    "name": "有磯海サービスエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-40284",
+    "name": "越中境パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-40280",
+    "name": "小矢部川サービスエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-40281",
+    "name": "呉羽パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-41812",
+    "name": "城端サービスエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-61098",
+    "name": "高岡パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-40282",
+    "name": "流杉パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-40285",
+    "name": "入善パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-3301682",
+    "name": "能越県境パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-16-61157",
+    "name": "福岡パーキングエリア",
+    "prefecture_code": 16
+  },
+  {
+    "id": "sa-17-61084",
+    "name": "安宅パーキングエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-40272",
+    "name": "尼御前サービスエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-1657829",
+    "name": "観法寺パーキングエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-62062",
+    "name": "志雄パーキングエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-56208",
+    "name": "高松サービスエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-40276",
+    "name": "徳光パーキングエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-62063",
+    "name": "西山パーキングエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-40278",
+    "name": "不動寺パーキングエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-17-61162",
+    "name": "別所岳サービスエリア",
+    "prefecture_code": 17
+  },
+  {
+    "id": "sa-18-40270",
+    "name": "女形谷パーキングエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-18-2394110",
+    "name": "加斗パーキングエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-18-40268",
+    "name": "北鯖江パーキングエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-18-40266",
+    "name": "杉津パーキングエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-18-40263",
+    "name": "刀根パーキングエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-18-40267",
+    "name": "南条サービスエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-18-2531624",
+    "name": "三方五湖パーキングエリア",
+    "prefecture_code": 18
+  },
+  {
+    "id": "sa-19-38089",
+    "name": "境川パーキングエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-38086",
+    "name": "釈迦堂パーキングエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-36285",
+    "name": "談合坂サービスエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-38082",
+    "name": "初狩パーキングエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-37982",
+    "name": "富士川サービスエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-2706041",
+    "name": "増穂パーキングエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-38111",
+    "name": "八ヶ岳パーキングエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-19-38081",
+    "name": "谷村パーキングエリア",
+    "prefecture_code": 19
+  },
+  {
+    "id": "sa-20-40323",
+    "name": "梓川サービスエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-38148",
+    "name": "阿智パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-38135",
+    "name": "小黒川パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-40319",
+    "name": "姨捨サービスエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-40299",
+    "name": "小布施パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-350013",
+    "name": "黒姫野尻湖パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-38146",
+    "name": "駒ヶ岳サービスエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-172224",
+    "name": "佐久平パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-143932",
+    "name": "座光寺パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-38132",
+    "name": "諏訪湖サービスエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-38133",
+    "name": "辰野パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-338780",
+    "name": "筑北パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-156011",
+    "name": "千曲川さかきパーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-38120",
+    "name": "中央道原パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-40304",
+    "name": "東部湯の丸サービスエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-40303",
+    "name": "松代パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-37645",
+    "name": "神坂パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-40328",
+    "name": "みどり湖パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-20-1260063",
+    "name": "碓氷パーキングエリア",
+    "prefecture_code": 20
+  },
+  {
+    "id": "sa-21-37629",
+    "name": "恵那峡サービスエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-39847",
+    "name": "川島パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-4025031",
+    "name": "岐阜三輪パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-61143",
+    "name": "ぎふ大和パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-36388",
+    "name": "虎渓山パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-61139",
+    "name": "古城山パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-201616",
+    "name": "五斗蒔パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-39842",
+    "name": "関サービスエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-39843",
+    "name": "長良川サービスエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-41803",
+    "name": "羽島パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-394509",
+    "name": "飛驒河合パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-551394",
+    "name": "飛驒白川パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-37621",
+    "name": "屏風山パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-39853",
+    "name": "ひるがの高原サービスエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-41722",
+    "name": "瓢ヶ岳パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-1411822",
+    "name": "松ノ木峠パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-201098",
+    "name": "美濃加茂サービスエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-4592712",
+    "name": "本巣パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-37715",
+    "name": "守山パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-37549",
+    "name": "養老サービスエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-245708",
+    "name": "上石津パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-3693568",
+    "name": "海津スマートインターチェンジ",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-21-343335",
+    "name": "白川パーキングエリア",
+    "prefecture_code": 21
+  },
+  {
+    "id": "sa-22-37802",
+    "name": "足柄サービスエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37969",
+    "name": "愛鷹パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-38002",
+    "name": "遠州豊田パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418625",
+    "name": "遠州森町パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-38001",
+    "name": "小笠パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-3679396",
+    "name": "小山スマートインターチェンジ",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418596",
+    "name": "掛川パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37968",
+    "name": "駒門パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418576",
+    "name": "静岡サービスエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418525",
+    "name": "清水パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418519",
+    "name": "駿河湾沼津サービスエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37998",
+    "name": "日本坂パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37989",
+    "name": "日本平パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-36380",
+    "name": "浜名湖サービスエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418632",
+    "name": "浜松サービスエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-2418584",
+    "name": "藤枝パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37999",
+    "name": "牧之原サービスエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37747",
+    "name": "三方原パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-37985",
+    "name": "由比パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-57165",
+    "name": "磐田パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-22-752586",
+    "name": "磐田原パーキングエリア",
+    "prefecture_code": 22
+  },
+  {
+    "id": "sa-23-37744",
+    "name": "赤塚パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-348746",
+    "name": "阿久比パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-36387",
+    "name": "内津峠パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-348748",
+    "name": "大府パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-2419154",
+    "name": "岡崎サービスエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-37536",
+    "name": "尾張一宮パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-250131",
+    "name": "刈谷パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-201080",
+    "name": "鞍ヶ池パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-37745",
+    "name": "新城パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-201088",
+    "name": "せと赤津パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-348744",
+    "name": "武豊パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-37722",
+    "name": "東郷パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-37734",
+    "name": "豊田上郷サービスエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-3931719",
+    "name": "豊橋パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-2419181",
+    "name": "長篠設楽原パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-883629",
+    "name": "西広瀬パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-37741",
+    "name": "美合パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-348743",
+    "name": "美浜パーキングエリア",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-23-4868083",
+    "name": "小牧オアシス",
+    "prefecture_code": 23
+  },
+  {
+    "id": "sa-24-38506",
+    "name": "安濃サービスエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-36957",
+    "name": "伊賀サービスエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-1182533",
+    "name": "上野パーキングエリア (三重県)",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-38508",
+    "name": "嬉野パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-38504",
+    "name": "大山田パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-1620914",
+    "name": "奥伊勢パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-38505",
+    "name": "亀山パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-3224968",
+    "name": "紀北パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-38501",
+    "name": "御在所サービスエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-2560855",
+    "name": "鈴鹿パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-343198",
+    "name": "多気パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-343649",
+    "name": "湾岸長島パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-24-5134557",
+    "name": "北勢パーキングエリア",
+    "prefecture_code": 24
+  },
+  {
+    "id": "sa-25-37550",
+    "name": "伊吹パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-37589",
+    "name": "大津サービスエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-39856",
+    "name": "神田パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-37570",
+    "name": "草津パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-37560",
+    "name": "黒丸パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-982815",
+    "name": "甲南パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-41805",
+    "name": "湖東三山パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-40262",
+    "name": "賤ヶ岳サービスエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-37556",
+    "name": "多賀サービスエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-982606",
+    "name": "土山サービスエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-37563",
+    "name": "菩提寺パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-41802",
+    "name": "甲良パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-25-3599323",
+    "name": "番場パーキングエリア",
+    "prefecture_code": 25
+  },
+  {
+    "id": "sa-26-41843",
+    "name": "綾部パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-36560",
+    "name": "桂川パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-726537",
+    "name": "京田辺パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-550699",
+    "name": "京丹波パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-306192",
+    "name": "南丹パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-41850",
+    "name": "舞鶴パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-39837",
+    "name": "六人部パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-26-293235",
+    "name": "由良川パーキングエリア",
+    "prefecture_code": 26
+  },
+  {
+    "id": "sa-27-406227",
+    "name": "朝潮橋パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-245205",
+    "name": "泉大津パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-4571928",
+    "name": "泉大津大型専用パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-1782041",
+    "name": "茨木千提寺パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-37686",
+    "name": "岸和田サービスエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-36953",
+    "name": "吹田サービスエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-4323651",
+    "name": "高石パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-1837005",
+    "name": "中環東大阪休憩所",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-250419",
+    "name": "中島パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-36562",
+    "name": "東大阪パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-407158",
+    "name": "弁天町ミニパーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-1523037",
+    "name": "八尾パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-3964504",
+    "name": "泉大津ミニパーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-572972",
+    "name": "桜井パーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-4770630",
+    "name": "高石ミニパーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-27-404576",
+    "name": "三宅ミニパーキングエリア",
+    "prefecture_code": 27
+  },
+  {
+    "id": "sa-28-145409",
+    "name": "明石サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37526",
+    "name": "赤松パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-343318",
+    "name": "尼崎パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-240634",
+    "name": "淡路サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-191375",
+    "name": "淡路島南パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-264624",
+    "name": "市川サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37246",
+    "name": "揖保川パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37600",
+    "name": "淡河パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37538",
+    "name": "加西サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-42097",
+    "name": "上荒川パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-324412",
+    "name": "京橋パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-36779",
+    "name": "上月パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37604",
+    "name": "権現湖パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37605",
+    "name": "白鳥パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-343333",
+    "name": "前開パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-1974598",
+    "name": "宝塚北サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37609",
+    "name": "龍野西サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-138088",
+    "name": "垂水パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-264623",
+    "name": "豊富パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-39834",
+    "name": "西紀サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-36559",
+    "name": "西宮名塩サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-1050979",
+    "name": "氷上パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-281798",
+    "name": "姫路サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-283746",
+    "name": "別所パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37603",
+    "name": "三木サービスエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-331682",
+    "name": "緑パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-3811235",
+    "name": "南芦屋浜パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-586492",
+    "name": "名谷パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-158614",
+    "name": "室津パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-36924",
+    "name": "社パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-37245",
+    "name": "安富パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-28-264625",
+    "name": "和田山パーキングエリア",
+    "prefecture_code": 28
+  },
+  {
+    "id": "sa-29-37702",
+    "name": "香芝サービスエリア",
+    "prefecture_code": 29
+  },
+  {
+    "id": "sa-29-36959",
+    "name": "高峰サービスエリア",
+    "prefecture_code": 29
+  },
+  {
+    "id": "sa-29-37704",
+    "name": "天理パーキングエリア",
+    "prefecture_code": 29
+  },
+  {
+    "id": "sa-29-36963",
+    "name": "五月橋サービスエリア",
+    "prefecture_code": 29
+  },
+  {
+    "id": "sa-30-37680",
+    "name": "印南サービスエリア",
+    "prefecture_code": 30
+  },
+  {
+    "id": "sa-30-37683",
+    "name": "紀ノ川サービスエリア",
+    "prefecture_code": 30
+  },
+  {
+    "id": "sa-30-343155",
+    "name": "吉備湯浅パーキングエリア",
+    "prefecture_code": 30
+  },
+  {
+    "id": "sa-30-3242963",
+    "name": "道の駅くちくまの",
+    "prefecture_code": 30
+  },
+  {
+    "id": "sa-31-1353612",
+    "name": "明石パーキングエリア",
+    "prefecture_code": 31
+  },
+  {
+    "id": "sa-31-2487740",
+    "name": "琴浦パーキングエリア",
+    "prefecture_code": 31
+  },
+  {
+    "id": "sa-31-36366",
+    "name": "大山パーキングエリア",
+    "prefecture_code": 31
+  },
+  {
+    "id": "sa-31-36466",
+    "name": "はわいサービスエリア",
+    "prefecture_code": 31
+  },
+  {
+    "id": "sa-31-1374827",
+    "name": "福原パーキングエリア",
+    "prefecture_code": 31
+  },
+  {
+    "id": "sa-31-1720553",
+    "name": "用瀬インターチェンジ",
+    "prefecture_code": 31
+  },
+  {
+    "id": "sa-32-193963",
+    "name": "朝倉パーキングエリア",
+    "prefecture_code": 32
+  },
+  {
+    "id": "sa-32-37234",
+    "name": "金城パーキングエリア",
+    "prefecture_code": 32
+  },
+  {
+    "id": "sa-32-297783",
+    "name": "加茂岩倉パーキングエリア",
+    "prefecture_code": 32
+  },
+  {
+    "id": "sa-32-36465",
+    "name": "宍道湖サービスエリア",
+    "prefecture_code": 32
+  },
+  {
+    "id": "sa-32-38336",
+    "name": "道の駅ゆうひパーク浜田",
+    "prefecture_code": 32
+  },
+  {
+    "id": "sa-33-37233",
+    "name": "上野パーキングエリア (岡山県)",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36379",
+    "name": "大佐サービスエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36357",
+    "name": "吉備サービスエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36538",
+    "name": "鴻ノ池サービスエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-235912",
+    "name": "篠坂パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36464",
+    "name": "勝央サービスエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-37241",
+    "name": "神郷パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36452",
+    "name": "瀬戸パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-37232",
+    "name": "総社パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36372",
+    "name": "高梁サービスエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-39135",
+    "name": "粒江パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-37237",
+    "name": "楢原パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-37231",
+    "name": "二宮パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36362",
+    "name": "蒜山高原サービスエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-37610",
+    "name": "福石パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36367",
+    "name": "真庭パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-36375",
+    "name": "道口パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-33-37230",
+    "name": "美作追分パーキングエリア",
+    "prefecture_code": 33
+  },
+  {
+    "id": "sa-34-36441",
+    "name": "安佐サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-364284",
+    "name": "今津パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-144637",
+    "name": "大浜パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36448",
+    "name": "奥屋パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-328074",
+    "name": "尾道西パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36966",
+    "name": "寒曳山パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36447",
+    "name": "久地パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-37240",
+    "name": "江の川パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36355",
+    "name": "小谷サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-564940",
+    "name": "坂パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-686427",
+    "name": "佐方サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-143723",
+    "name": "瀬戸田パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36378",
+    "name": "帝釈峡パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-194067",
+    "name": "筒賀パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36377",
+    "name": "七塚原サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-348730",
+    "name": "温品パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36446",
+    "name": "沼田パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36354",
+    "name": "福山サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36442",
+    "name": "本郷パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-37238",
+    "name": "本村パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36445",
+    "name": "宮島サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36451",
+    "name": "八幡パーキングエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-34-36443",
+    "name": "吉和サービスエリア",
+    "prefecture_code": 34
+  },
+  {
+    "id": "sa-35-194064",
+    "name": "伊佐パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36530",
+    "name": "王司パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36459",
+    "name": "鹿野サービスエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36454",
+    "name": "玖珂パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36455",
+    "name": "下松サービスエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36457",
+    "name": "佐波川サービスエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-136890",
+    "name": "周防灘パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36531",
+    "name": "壇之浦パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-78721",
+    "name": "富海パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-193960",
+    "name": "荷卸峠パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-193964",
+    "name": "深谷パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36462",
+    "name": "美東サービスエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-35-36458",
+    "name": "湯田温泉パーキングエリア",
+    "prefecture_code": 35
+  },
+  {
+    "id": "sa-36-39821",
+    "name": "阿波パーキングエリア",
+    "prefecture_code": 36
+  },
+  {
+    "id": "sa-36-331647",
+    "name": "池田パーキングエリア",
+    "prefecture_code": 36
+  },
+  {
+    "id": "sa-36-39820",
+    "name": "上板サービスエリア",
+    "prefecture_code": 36
+  },
+  {
+    "id": "sa-36-331651",
+    "name": "鳴門西パーキングエリア",
+    "prefecture_code": 36
+  },
+  {
+    "id": "sa-36-3044529",
+    "name": "松茂パーキングエリア",
+    "prefecture_code": 36
+  },
+  {
+    "id": "sa-36-39819",
+    "name": "吉野川サービスエリア",
+    "prefecture_code": 36
+  },
+  {
+    "id": "sa-37-331670",
+    "name": "高瀬パーキングエリア",
+    "prefecture_code": 37
+  },
+  {
+    "id": "sa-37-39742",
+    "name": "津田の松原サービスエリア",
+    "prefecture_code": 37
+  },
+  {
+    "id": "sa-37-39730",
+    "name": "豊浜サービスエリア",
+    "prefecture_code": 37
+  },
+  {
+    "id": "sa-37-39729",
+    "name": "府中湖パーキングエリア",
+    "prefecture_code": 37
+  },
+  {
+    "id": "sa-37-39137",
+    "name": "与島パーキングエリア",
+    "prefecture_code": 37
+  },
+  {
+    "id": "sa-38-39814",
+    "name": "石鎚山サービスエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-39815",
+    "name": "伊予灘サービスエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-39811",
+    "name": "入野パーキングエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-71078",
+    "name": "内子パーキングエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-39731",
+    "name": "馬立パーキングエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-389106",
+    "name": "上浦パーキングエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-339004",
+    "name": "上分パーキングエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-388490",
+    "name": "来島海峡サービスエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-38-331687",
+    "name": "桜三里パーキングエリア",
+    "prefecture_code": 38
+  },
+  {
+    "id": "sa-39-39733",
+    "name": "立川パーキングエリア",
+    "prefecture_code": 39
+  },
+  {
+    "id": "sa-39-161477",
+    "name": "土佐パーキングエリア",
+    "prefecture_code": 39
+  },
+  {
+    "id": "sa-39-39737",
+    "name": "南国サービスエリア",
+    "prefecture_code": 39
+  },
+  {
+    "id": "sa-40-39714",
+    "name": "井上パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-2511962",
+    "name": "今川パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38510",
+    "name": "吉志パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38518",
+    "name": "基山パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38512",
+    "name": "鞍手パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-2404459",
+    "name": "上毛パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38514",
+    "name": "古賀サービスエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-348687",
+    "name": "山路パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38516",
+    "name": "須恵パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-39716",
+    "name": "大刀洗パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-348694",
+    "name": "富野パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38511",
+    "name": "直方パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38522",
+    "name": "広川サービスエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-36532",
+    "name": "めかりパーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-38524",
+    "name": "山川パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-39721",
+    "name": "山田サービスエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-40-345184",
+    "name": "門司パーキングエリア",
+    "prefecture_code": 40
+  },
+  {
+    "id": "sa-41-39713",
+    "name": "小城パーキングエリア",
+    "prefecture_code": 41
+  },
+  {
+    "id": "sa-41-39706",
+    "name": "川登サービスエリア",
+    "prefecture_code": 41
+  },
+  {
+    "id": "sa-41-39698",
+    "name": "金立サービスエリア",
+    "prefecture_code": 41
+  },
+  {
+    "id": "sa-41-39700",
+    "name": "多久西パーキングエリア",
+    "prefecture_code": 41
+  },
+  {
+    "id": "sa-41-183068",
+    "name": "山浦パーキングエリア",
+    "prefecture_code": 41
+  },
+  {
+    "id": "sa-42-39712",
+    "name": "今村パーキングエリア",
+    "prefecture_code": 42
+  },
+  {
+    "id": "sa-42-39708",
+    "name": "大村湾パーキングエリア",
+    "prefecture_code": 42
+  },
+  {
+    "id": "sa-42-39710",
+    "name": "木場パーキングエリア",
+    "prefecture_code": 42
+  },
+  {
+    "id": "sa-42-682282",
+    "name": "高畑パーキングエリア",
+    "prefecture_code": 42
+  },
+  {
+    "id": "sa-43-38560",
+    "name": "北熊本サービスエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-43-38525",
+    "name": "坂本パーキングエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-43-183731",
+    "name": "託麻パーキングエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-43-38561",
+    "name": "玉名パーキングエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-43-38559",
+    "name": "緑川パーキングエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-43-38558",
+    "name": "宮原サービスエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-43-38527",
+    "name": "山江サービスエリア",
+    "prefecture_code": 43
+  },
+  {
+    "id": "sa-44-2633605",
+    "name": "相原パーキングエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-183083",
+    "name": "大分松岡パーキングエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-39723",
+    "name": "玖珠サービスエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-1276216",
+    "name": "佐伯弥生パーキングエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-183062",
+    "name": "萩尾パーキングエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-39725",
+    "name": "別府湾サービスエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-183064",
+    "name": "水分パーキングエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-44-183065",
+    "name": "由布岳パーキングエリア",
+    "prefecture_code": 44
+  },
+  {
+    "id": "sa-45-38533",
+    "name": "えびのパーキングエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-45-2323801",
+    "name": "川南パーキングエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-45-343064",
+    "name": "清武パーキングエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-45-39110",
+    "name": "霧島サービスエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-45-343059",
+    "name": "日向高崎パーキングエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-45-183623",
+    "name": "宮崎パーキングエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-45-39114",
+    "name": "山之口サービスエリア",
+    "prefecture_code": 45
+  },
+  {
+    "id": "sa-46-255267",
+    "name": "国分パーキングエリア",
+    "prefecture_code": 46
+  },
+  {
+    "id": "sa-46-38554",
+    "name": "桜島サービスエリア",
+    "prefecture_code": 46
+  },
+  {
+    "id": "sa-46-38550",
+    "name": "溝辺パーキングエリア",
+    "prefecture_code": 46
+  },
+  {
+    "id": "sa-46-346103",
+    "name": "美山パーキングエリア",
+    "prefecture_code": 46
+  },
+  {
+    "id": "sa-46-38556",
+    "name": "吉松パーキングエリア",
+    "prefecture_code": 46
+  },
+  {
+    "id": "sa-47-36780",
+    "name": "伊芸サービスエリア",
+    "prefecture_code": 47
+  },
+  {
+    "id": "sa-47-36782",
+    "name": "中城パーキングエリア",
+    "prefecture_code": 47
+  }
+]

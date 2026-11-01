@@ -63,3 +63,13 @@ const PREF_FULL: Record<number, string> = {
 }
 
 export const getPrefectureFullName = (code: number) => PREF_FULL[code] ?? ''
+
+// テスターフィードバック対応（2026-10-23）：全都道府県表示時に一覧の間へ都道府県見出しを挟むための共通グルーピング関数
+export function groupSpotsByPrefecture<T extends { prefecture_code: number }>(
+  spots: T[]
+): { code: number; name: string; items: T[] }[] {
+  return [
+    ...PREFECTURES.map((p) => ({ code: p.code, name: p.name, items: spots.filter((s) => s.prefecture_code === p.code) })),
+    { code: 0, name: 'その他', items: spots.filter((s) => s.prefecture_code === 0) },
+  ].filter((g) => g.items.length > 0)
+}

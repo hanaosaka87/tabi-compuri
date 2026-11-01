@@ -63,9 +63,17 @@ export const calcBadges = (visitedCodes: Set<number>, spotCounts: SpotCounts = {
     { id: 'michi-10', emoji: '🚗', label: '道の駅スタンプラリー', description: '道の駅を10か所記録',    earned: spot('michi-no-eki') >= 10,  category: 'spot' },
     { id: 'michi-50', emoji: '🛣️', label: '道の駅マスター', description: '道の駅を50か所記録',           earned: spot('michi-no-eki') >= 50,  category: 'spot' },
 
+    // ── サービスエリア ──
+    { id: 'sa-10', emoji: '⛽', label: 'SAめぐり',     description: 'サービスエリアを10か所記録', earned: spot('service-area') >= 10, category: 'spot' },
+    { id: 'sa-50', emoji: '🛻', label: 'SA/PAマスター', description: 'サービスエリアを50か所記録', earned: spot('service-area') >= 50, category: 'spot' },
+
     // ── 動物園・水族館 ──
     { id: 'zoo-5',    emoji: '🦁', label: '動物好き',        description: '動物園を5か所記録',            earned: spot('zoo') >= 5,       category: 'spot' },
     { id: 'aqua-5',   emoji: '🐠', label: '水族館好き',      description: '水族館を5か所記録',            earned: spot('aquarium') >= 5,  category: 'spot' },
+
+    // ── ゲームセンター ──
+    { id: 'gamecenter-10', emoji: '🕹️', label: 'ゲーセン巡り', description: 'ゲームセンターを10か所記録', earned: spot('game-center') >= 10, category: 'spot' },
+    { id: 'gamecenter-50', emoji: '🎮', label: 'アーケード制覇王', description: 'ゲームセンターを50か所記録', earned: spot('game-center') >= 50, category: 'spot' },
 
     // ── 神社 ──
     { id: 'shrine-10', emoji: '⛩️', label: '参拝者',         description: '神社を10か所記録',             earned: spot('shrine') >= 10,  category: 'spot' },

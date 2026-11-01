@@ -36,12 +36,30 @@ export default function Header() {
       {/* トップヘッダー */}
       <header className="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-slate-900/80 backdrop-blur sticky top-0 z-10">
         <Link href="/dashboard" className="flex items-center gap-2 flex-shrink-0">
-          <span className="text-xl">🗾</span>
-          <span className="text-lg font-bold text-white">旅コンプリ</span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/icon-512.png" alt="" className="w-8 h-8 rounded-lg" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-text.png" alt="旅コンプリ" className="h-5 w-auto" />
+        </Link>
+
+        {/* 遊び方リンク（テスターフィードバック対応：2026-10-23） */}
+        <Link
+          href="/howto"
+          className={`sm:hidden flex items-center gap-1 text-xs flex-shrink-0 ml-auto mr-3 transition ${
+            isActive('/howto') ? 'text-emerald-400' : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          📖 遊び方
         </Link>
 
         {/* デスクトップナビ */}
         <nav className="hidden sm:flex items-center gap-4 text-sm">
+          <Link
+            href="/howto"
+            className={`transition ${isActive('/howto') ? 'text-white font-medium' : 'text-slate-400 hover:text-white'}`}
+          >
+            📖 遊び方
+          </Link>
           {NAV.map((item) => (
             <Link
               key={item.href}

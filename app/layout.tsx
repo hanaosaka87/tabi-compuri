@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import AuthHashHandler from "./components/AuthHashHandler";
 import AdsenseLoader from "./components/AdsenseLoader";
 import GA4Loader from "./components/GA4Loader";
+import ServiceWorkerLoader from "./components/ServiceWorkerLoader";
+import IOSInstallBanner from "./components/IOSInstallBanner";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -55,6 +57,14 @@ export const metadata: Metadata = {
     icon: '/favicon-32.png',
     apple: '/apple-touch-icon.png',
   },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: '旅コンプリ',
+  },
+  other: {
+    'apple-mobile-web-app-capable': 'yes',
+  },
 };
 
 export default function RootLayout({
@@ -68,9 +78,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col pb-14 sm:pb-0">
+        <ServiceWorkerLoader />
         <AdsenseLoader />
         <GA4Loader />
         <AuthHashHandler />
+        <IOSInstallBanner />
         {children}
         <footer className="bg-white border-t text-center text-xs text-gray-400 py-2 px-4 flex gap-4 justify-center flex-wrap">
           <a href="/about" className="hover:text-gray-600">このアプリについて</a>

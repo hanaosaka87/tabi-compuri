@@ -1,7 +1,8 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { Suspense, useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 import { PREFECTURES, getPrefectureName } from '@/lib/prefectures'
 import Header from '@/app/components/Header'
@@ -20,6 +21,18 @@ type Diary = {
 const EMPTY_FORM = { prefecture_code: 1, title: '', body: '', visited_date: '' }
 
 export default function DiaryPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
+    }>
+      <DiaryPageInner />
+    </Suspense>
+  )
+}
+
+function DiaryPageInner() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [userId, setUserId] = useState<string | null>(null)
   const [isGuest, setIsGuest] = useState(false)
   const [diaries, setDiaries] = useState<Diary[]>([])
@@ -44,10 +57,24 @@ export default function DiaryPage() {
       }
       setUserId(user.id)
       await fetchDiaries(user.id)
+
+      // スポット詳細ページの「📷 記念の1枚を残す」から遷移してきた場合、
+      // 都道府県・タイトルを引き継いでフォームを開く（2026-09-22、テスターフィードバック対応）
+      const prefParam = searchParams.get('pref')
+      const titleParam = searchParams.get('title')
+      if (prefParam || titleParam) {
+        setForm(prev => ({
+          ...prev,
+          prefecture_code: prefParam ? Number(prefParam) || prev.prefecture_code : prev.prefecture_code,
+          title: titleParam ?? prev.title,
+        }))
+        setShowForm(true)
+      }
+
       setLoading(false)
     }
     init()
-  }, [])
+  }, [searchParams])
 
   const fetchDiaries = async (uid: string) => {
     const { data } = await supabase
@@ -107,6 +134,8 @@ export default function DiaryPage() {
     if (error) {
       setError('保存に失敗しました')
     } else {
+      const dateText = form.visited_date ? ` (${form.visited_date})` : ''
+      setShareText(`📔 ${getPrefectureName(form.prefecture_code)}の旅「${form.title.trim()}」${dateText} #旅コンプリ`)
       setForm(EMPTY_FORM)
       setPhotoFile(null)
       setPhotoPreview(null)
@@ -173,6 +202,13 @@ export default function DiaryPage() {
         {shareText && (
           <ShareModal text={shareText} onClose={() => setShareText('')} />
         )}
+
+        <button
+          onClick={() => router.back()}
+          className="text-slate-400 hover:text-white transition text-sm mb-4 inline-flex items-center gap-1"
+        >
+          ← 戻る
+        </button>
 
         <div className="flex items-center justify-between mb-6">
           <div>

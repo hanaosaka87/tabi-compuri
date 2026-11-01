@@ -21,9 +21,16 @@ export default function LoginPage() {
     setMessage('')
 
     if (isSignUp) {
-      const { error } = await supabase.auth.signUp({ email, password })
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: { emailRedirectTo: `${window.location.origin}/login` },
+      })
       if (error) {
         setError(error.message)
+      } else if (data.user && data.user.identities && data.user.identities.length === 0) {
+        // このメールアドレスは既に登録済み（Supabaseの仕様で新規メールは送信されない）
+        setError('このメールアドレスは既に登録されています。ログインしてください。')
       } else {
         setMessage('確認メールを送信しました。メールをご確認ください。')
       }
@@ -41,11 +48,19 @@ export default function LoginPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-900 to-emerald-900 flex flex-col items-center justify-center px-6">
       <div className="w-full max-w-sm">
+        {/* 戻るボタン */}
+        <button
+          onClick={() => router.back()}
+          className="text-slate-400 hover:text-white transition text-sm mb-4 inline-flex items-center gap-1"
+        >
+          ← 戻る
+        </button>
+
         {/* ロゴ */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex flex-col items-center gap-2">
-            <span className="text-5xl">🗾</span>
-            <span className="text-2xl font-bold text-white tracking-wide">旅コンプリ</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/icon-512.png" alt="旅コンプリ" className="w-20 h-20 rounded-2xl shadow-lg" />
           </Link>
         </div>
 

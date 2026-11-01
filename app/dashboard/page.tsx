@@ -12,6 +12,7 @@ import AiRecommend from '@/app/components/AiRecommend'
 import CompleteModal from '@/app/components/CompleteModal'
 import AppFeedbackButtons from '@/app/components/AppFeedbackButtons'
 import PremiumUpgradeButton from '@/app/components/PremiumUpgradeButton'
+import { getCategoryColorClasses } from '@/lib/spotCategoryColors'
 
 const REGIONS = ['北海道', '東北', '関東', '中部', '近畿', '中国', '四国', '九州']
 
@@ -27,10 +28,12 @@ const SPOT_CATEGORIES = [
   { id: 'japan-heritage', label: '日本遺産',   icon: '🏛️', total: 463,  href: '/spots/japan-heritage' },
   { id: 'onsen',          label: '温泉',       icon: '♨️', total: 1774, href: '/spots/onsen' },
   { id: 'michi-no-eki',   label: '道の駅',     icon: '🚗', total: 1238, href: '/spots/michi-no-eki' },
+  { id: 'service-area',   label: 'サービスエリア', icon: '⛽', total: 581,  href: '/spots/service-area' },
   { id: 'dam',            label: 'ダム',        icon: '🏞️', total: 898,  href: '/spots/dam' },
   { id: 'super-sento',   label: 'スーパー銭湯', icon: '🛁', total: 217,  href: '/spots/super-sento' },
   { id: 'festival',      label: 'お祭り',      icon: '🏮', total: 152,  href: '/spots/festival' },
   { id: 'fireworks',     label: '花火大会',    icon: '🎆', total: 763,  href: '/spots/fireworks' },
+  { id: 'game-center',   label: 'ゲームセンター', icon: '🕹️', total: 708, href: '/spots/game-center' },
 ]
 const TOTAL_SPOTS = SPOT_CATEGORIES.reduce((s, c) => s + c.total, 0)
 const TOTAL_CITIES = 1741
@@ -73,6 +76,7 @@ export default function DashboardPage() {
   const [cityCount, setCityCount] = useState(0)
   const [spotCounts, setSpotCounts] = useState<SpotCounts>({})
   const [loading, setLoading] = useState(true)
+  const [loadError, setLoadError] = useState(false)
   const [isGuest, setIsGuest] = useState(false)
   const [isPremium, setIsPremium] = useState(false)
   const [showLoginPrompt, setShowLoginPrompt] = useState(false)
@@ -80,31 +84,44 @@ export default function DashboardPage() {
   const [showCompleteModal, setShowCompleteModal] = useState(false)
 
   useEffect(() => {
-    const init = async () => {
-      const { data: { user } } = await supabase.auth.getUser()
-      if (!user) { setIsGuest(true); setLoading(false); return }
-      setUserId(user.id)
-
-      const [prefRes, cityRes, spotRes, subRes] = await Promise.all([
-        supabase.from('visits').select('prefecture_code').eq('user_id', user.id),
-        supabase.from('city_visits').select('*', { count: 'exact', head: true }).eq('user_id', user.id),
-        supabase.from('spot_visits').select('category').eq('user_id', user.id),
-        supabase.from('subscriptions').select('status,current_period_end').eq('user_id', user.id).maybeSingle(),
+    const timeout = <T,>(p: Promise<T>, ms: number) =>
+      Promise.race([
+        p,
+        new Promise<T>((_, reject) => setTimeout(() => reject(new Error('timeout')), ms)),
       ])
 
-      if (subRes.data?.status === 'active' && subRes.data.current_period_end) {
-        setIsPremium(new Date(subRes.data.current_period_end) > new Date())
-      }
+    const init = async () => {
+      setLoadError(false)
+      try {
+        const { data: { user } } = await timeout(supabase.auth.getUser(), 12000)
+        if (!user) { setIsGuest(true); return }
+        setUserId(user.id)
 
-      if (prefRes.data) setVisitedCodes(new Set(prefRes.data.map((v) => v.prefecture_code)))
-      setCityCount(cityRes.count ?? 0)
+        const [prefRes, cityRes, spotRes, subRes] = await timeout(Promise.all([
+          supabase.from('visits').select('prefecture_code').eq('user_id', user.id),
+          supabase.from('city_visits').select('*', { count: 'exact', head: true }).eq('user_id', user.id),
+          supabase.from('spot_visits').select('category').eq('user_id', user.id),
+          supabase.from('subscriptions').select('status,current_period_end').eq('user_id', user.id).maybeSingle(),
+        ]), 12000)
 
-      const counts: SpotCounts = {}
-      for (const row of spotRes.data ?? []) {
-        counts[row.category] = (counts[row.category] ?? 0) + 1
+        if (subRes.data?.status === 'active' && subRes.data.current_period_end) {
+          setIsPremium(new Date(subRes.data.current_period_end) > new Date())
+        }
+
+        if (prefRes.data) setVisitedCodes(new Set(prefRes.data.map((v) => v.prefecture_code)))
+        setCityCount(cityRes.count ?? 0)
+
+        const counts: SpotCounts = {}
+        for (const row of spotRes.data ?? []) {
+          counts[row.category] = (counts[row.category] ?? 0) + 1
+        }
+        setSpotCounts(counts)
+      } catch {
+        // ネットワーク不調・一時的なAPIエラー等でも「読み込み中」のまま固まらないようにする
+        setLoadError(true)
+      } finally {
+        setLoading(false)
       }
-      setSpotCounts(counts)
-      setLoading(false)
     }
     init()
   }, [])
@@ -142,6 +159,19 @@ export default function DashboardPage() {
     <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-xl">読み込み中...</div>
   )
 
+  if (loadError) return (
+    <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white text-center px-6 gap-4">
+      <p className="text-lg">データの読み込みに失敗しました</p>
+      <p className="text-slate-400 text-sm">通信環境をご確認の上、もう一度お試しください</p>
+      <button
+        onClick={() => window.location.reload()}
+        className="bg-emerald-500 hover:bg-emerald-400 text-white px-6 py-3 rounded-full font-bold transition"
+      >
+        再読み込み
+      </button>
+    </div>
+  )
+
   return (
     <>
     {showShareModal && (
@@ -159,16 +189,26 @@ export default function DashboardPage() {
       />
     )}
     <main className="min-h-screen bg-slate-900 text-white pb-24">
-      <Header />
+      <div className="relative overflow-hidden">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/hero-fuji.jpg"
+          alt="富士山と桜"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-slate-950/45 to-slate-900" />
 
-      {isGuest && (
-        <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-6 py-3 flex items-center justify-between">
-          <p className="text-emerald-400 text-sm">👀 ゲストモードで体験中 — 記録するにはログインが必要です</p>
-          <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-1.5 rounded-full text-xs font-bold transition flex-shrink-0 ml-4">
-            ログインして始める
-          </Link>
-        </div>
-      )}
+        <div className="relative z-10">
+          <Header />
+
+          {isGuest && (
+            <div className="bg-emerald-500/10 border-b border-emerald-500/30 px-6 py-3 flex items-center justify-between">
+              <p className="text-emerald-400 text-sm">👀 ゲストモードで体験中 — 記録するにはログインが必要です</p>
+              <Link href="/login" className="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-1.5 rounded-full text-xs font-bold transition flex-shrink-0 ml-4">
+                ログインして始める
+              </Link>
+            </div>
+          )}
 
       {showLoginPrompt && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 px-6" onClick={() => setShowLoginPrompt(false)}>
@@ -186,43 +226,46 @@ export default function DashboardPage() {
         </div>
       )}
 
-      <div className="max-w-3xl mx-auto px-4 py-6">
-
-        {/* ── 全体制覇サマリー ── */}
-        <div className="bg-gradient-to-br from-slate-800 to-emerald-950 border border-emerald-500/20 rounded-2xl p-5 mb-5">
-          <div className="mb-4">
-            <p className="text-slate-400 text-xs mb-0.5">現在のランク</p>
-            <p className={`text-base font-bold ${rank.color}`}>{rank.label}</p>
-          </div>
-
-          <StatRow icon="🗾" label="都道府県" visited={isGuest ? 0 : prefCount} total={47} />
-          <StatRow icon="🏘" label="市区町村" visited={isGuest ? 0 : cityCount} total={TOTAL_CITIES} />
-          <StatRow icon="📍" label="スポット合計" visited={isGuest ? 0 : totalSpotVisited} total={TOTAL_SPOTS} />
-
-          {!isGuest && <ShareIcons text={shareText} />}
-
-          {!isGuest && (
-            <div className="mt-4 pt-4 border-t border-white/10">
-              <PremiumUpgradeButton isPremium={isPremium} />
-            </div>
-          )}
-
-          {!isGuest && earnedBadges.length > 0 && (
-            <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
-              <p className="text-slate-400 text-xs">獲得バッジ</p>
-              <div className="flex items-center gap-1">
-                {earnedBadges.slice(0, 5).map((b) => (
-                  <span key={b.id} className="text-2xl" title={b.label}>{b.emoji}</span>
-                ))}
-                {earnedBadges.length > 5 && (
-                  <span className="text-slate-400 text-xs ml-1">+{earnedBadges.length - 5}</span>
-                )}
-                <Link href="/badges" className="text-slate-500 hover:text-white text-xs ml-2 transition">全部見る →</Link>
+          <div className="max-w-3xl mx-auto px-4 pt-6 pb-5">
+            {/* ── 全体制覇サマリー ── */}
+            <div className="bg-gradient-to-br from-slate-800/55 to-emerald-950/55 backdrop-blur-[2px] border border-emerald-500/20 rounded-2xl p-5">
+              <div className="mb-4">
+                <p className="text-slate-400 text-xs mb-0.5">現在のランク</p>
+                <p className={`text-base font-bold ${rank.color}`}>{rank.label}</p>
               </div>
-            </div>
-          )}
-        </div>
 
+              <StatRow icon="🗾" label="都道府県" visited={isGuest ? 0 : prefCount} total={47} />
+              <StatRow icon="🏘" label="市区町村" visited={isGuest ? 0 : cityCount} total={TOTAL_CITIES} />
+              <StatRow icon="📍" label="スポット合計" visited={isGuest ? 0 : totalSpotVisited} total={TOTAL_SPOTS} />
+
+              {!isGuest && <ShareIcons text={shareText} />}
+
+              {!isGuest && (
+                <div className="mt-4 pt-4 border-t border-white/10">
+                  <PremiumUpgradeButton isPremium={isPremium} />
+                </div>
+              )}
+
+              {!isGuest && earnedBadges.length > 0 && (
+                <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
+                  <p className="text-slate-400 text-xs">獲得バッジ</p>
+                  <div className="flex items-center gap-1">
+                    {earnedBadges.slice(0, 5).map((b) => (
+                      <span key={b.id} className="text-2xl" title={b.label}>{b.emoji}</span>
+                    ))}
+                    {earnedBadges.length > 5 && (
+                      <span className="text-slate-400 text-xs ml-1">+{earnedBadges.length - 5}</span>
+                    )}
+                    <Link href="/badges" className="text-slate-500 hover:text-white text-xs ml-2 transition">全部見る →</Link>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-3xl mx-auto px-4 pb-6">
         {/* ── AI旅提案 ── */}
         {!isGuest && (
           <AiRecommend
@@ -238,24 +281,25 @@ export default function DashboardPage() {
           {SPOT_CATEGORIES.map((cat) => {
             const visited = isGuest ? 0 : (spotCounts[cat.id] ?? 0)
             const pct = Math.round((visited / cat.total) * 100)
+            const colors = getCategoryColorClasses(cat.id)
             return (
               <Link
                 key={cat.id}
                 href={cat.href}
-                className="bg-white/5 border border-white/10 hover:border-emerald-500/40 hover:bg-white/10 rounded-2xl p-4 transition"
+                className={`bg-white/5 border-2 ${colors.border} hover:bg-white/10 rounded-2xl p-4 transition`}
               >
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-xl">{cat.icon}</span>
-                  <span className="text-sm font-medium leading-tight">{cat.label}</span>
+                  <span className={`text-2xl rounded-lg p-1 ${colors.icon}`}>{cat.icon}</span>
+                  <span className="text-base font-bold leading-tight">{cat.label}</span>
                 </div>
-                <p className="text-xl font-bold tabular-nums">
+                <p className="text-2xl font-bold tabular-nums">
                   {visited.toLocaleString()}
-                  <span className="text-slate-500 text-xs font-normal"> / {cat.total.toLocaleString()}</span>
+                  <span className="text-slate-400 text-sm font-normal"> / {cat.total.toLocaleString()}</span>
                 </p>
                 <div className="w-full bg-slate-700 rounded-full h-1.5 mt-2">
                   <div className="bg-emerald-500 h-1.5 rounded-full transition-all" style={{ width: `${pct}%` }} />
                 </div>
-                <p className="text-emerald-400 text-xs mt-1">{pct}%</p>
+                <p className={`text-sm font-bold mt-1 ${colors.text}`}>{pct}%</p>
               </Link>
             )
           })}

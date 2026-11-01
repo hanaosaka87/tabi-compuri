@@ -1,0 +1,5738 @@
+[
+  {
+    "id": "game-center-node-12620497317",
+    "name": "GiGO ココノススキノ",
+    "prefecture_code": 1,
+    "lat": 43.0551731,
+    "lon": 141.3526162,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-386997140",
+    "name": "GiGOドリームタウン白樺（帯広市）",
+    "prefecture_code": 1,
+    "lat": 42.9194882,
+    "lon": 143.1743128,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-406211236",
+    "name": "PALO 網走店",
+    "prefecture_code": 1,
+    "lat": 44.0009134,
+    "lon": 144.2839618,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3686513525",
+    "name": "Vegagio",
+    "prefecture_code": 1,
+    "lat": 43.057247,
+    "lon": 141.351917,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12592423289",
+    "name": "アピナ Amusement Place",
+    "prefecture_code": 1,
+    "lat": 42.7873035,
+    "lon": 141.6803902,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-723294098",
+    "name": "キャッツアイ",
+    "prefecture_code": 1,
+    "lat": 42.8759306,
+    "lon": 141.5835127,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-451557146",
+    "name": "キャッツアイ 清田店",
+    "prefecture_code": 1,
+    "lat": 43.0029894,
+    "lon": 141.4363475,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10895347472",
+    "name": "キャッツアイ（ゲーム） 静内店",
+    "prefecture_code": 1,
+    "lat": 42.3414242,
+    "lon": 142.3544151,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12591845736",
+    "name": "ゲームコーナー",
+    "prefecture_code": 1,
+    "lat": 43.0611742,
+    "lon": 141.3565647,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9880819679",
+    "name": "ソユーゲームフィールド（旭川市宮下通）",
+    "prefecture_code": 1,
+    "lat": 43.7641988,
+    "lon": 142.3577665,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7168732788",
+    "name": "タイトーステーション 札幌狸小路４丁目店",
+    "prefecture_code": 1,
+    "lat": 43.0573042,
+    "lon": 141.3522853,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-469589259",
+    "name": "ディノスパーク北見",
+    "prefecture_code": 1,
+    "lat": 43.7964785,
+    "lon": 143.8426047,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12419227303",
+    "name": "ナムコ（札幌市）",
+    "prefecture_code": 1,
+    "lat": 43.0644059,
+    "lon": 141.3622544,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7698425122",
+    "name": "ベガジオ 美しが丘店",
+    "prefecture_code": 1,
+    "lat": 42.9808698,
+    "lon": 141.462855,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11299982539",
+    "name": "モーリーファンタジー（中標津町）",
+    "prefecture_code": 1,
+    "lat": 43.5363772,
+    "lon": 144.9785712,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5678443221",
+    "name": "ラウンドワン 札幌すすきの店",
+    "prefecture_code": 1,
+    "lat": 43.0542467,
+    "lon": 141.3539768,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-530759213",
+    "name": "遊ランド富良野店",
+    "prefecture_code": 1,
+    "lat": 43.344201,
+    "lon": 142.3785378,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11975117066",
+    "name": "Another World",
+    "prefecture_code": 2,
+    "lat": 45.931973,
+    "lon": 133.7258086,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11975117067",
+    "name": "Another World",
+    "prefecture_code": 2,
+    "lat": 45.4635524,
+    "lon": 133.4041087,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10701449224",
+    "name": "BIG BANG GAME",
+    "prefecture_code": 2,
+    "lat": 41.7891455,
+    "lon": 140.7445591,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3688648541",
+    "name": "BIG BANG 室蘭店",
+    "prefecture_code": 2,
+    "lat": 42.3535346,
+    "lon": 141.0144808,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10776078845",
+    "name": "GAME LAND",
+    "prefecture_code": 2,
+    "lat": 40.8012409,
+    "lon": 140.4174089,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10776078844",
+    "name": "あそび王国 ぴぃかぁぶぅ",
+    "prefecture_code": 2,
+    "lat": 40.8011937,
+    "lon": 140.4172124,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-274159800",
+    "name": "ゲームフェスタ ミタマ",
+    "prefecture_code": 2,
+    "lat": 40.5983649,
+    "lon": 140.4835693,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-360445497",
+    "name": "ゲオディノス ディノス室蘭",
+    "prefecture_code": 2,
+    "lat": 42.342593,
+    "lon": 141.026246,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6215501351",
+    "name": "スペースファンタジー インフィニ",
+    "prefecture_code": 2,
+    "lat": 40.6069774,
+    "lon": 140.4958776,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-476122052",
+    "name": "セガ弘前",
+    "prefecture_code": 2,
+    "lat": 40.6041367,
+    "lon": 140.4999178,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7086170466",
+    "name": "タイトーFステーション 八戸店",
+    "prefecture_code": 2,
+    "lat": 40.5092599,
+    "lon": 141.4906126,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12099905870",
+    "name": "ナムコ（五所川原市）",
+    "prefecture_code": 2,
+    "lat": 40.799427,
+    "lon": 140.4541266,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-729226044",
+    "name": "ナムコ大館店（大館市）",
+    "prefecture_code": 2,
+    "lat": 40.2736622,
+    "lon": 140.5300082,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11500529126",
+    "name": "パロ",
+    "prefecture_code": 2,
+    "lat": 40.590806,
+    "lon": 140.5665125,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13334039845",
+    "name": "ハロータイトー",
+    "prefecture_code": 2,
+    "lat": 40.7186706,
+    "lon": 141.1562089,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13334039853",
+    "name": "ハロータイトー2",
+    "prefecture_code": 2,
+    "lat": 40.7185383,
+    "lon": 141.1561224,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10776078842",
+    "name": "モーリーファンタジー（つがる市）",
+    "prefecture_code": 2,
+    "lat": 40.8010737,
+    "lon": 140.4172653,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5709221485",
+    "name": "ゲームヴィクト盛岡",
+    "prefecture_code": 3,
+    "lat": 39.7037064,
+    "lon": 141.1452239,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14072160549",
+    "name": "ゲームランド 盛岡店",
+    "prefecture_code": 3,
+    "lat": 39.7111018,
+    "lon": 141.0982556,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13815064351",
+    "name": "ソユーゲームフィールド 江釣子店",
+    "prefecture_code": 3,
+    "lat": 39.29373,
+    "lon": 141.0924262,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8962134224",
+    "name": "バギバギ",
+    "prefecture_code": 3,
+    "lat": 39.6422227,
+    "lon": 141.9557517,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14008426817",
+    "name": "万代",
+    "prefecture_code": 3,
+    "lat": 39.6861415,
+    "lon": 141.1278025,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13298247050",
+    "name": "BANDAI NAMCO Cross Store 仙台",
+    "prefecture_code": 4,
+    "lat": 38.1636187,
+    "lon": 140.8977911,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8308034817",
+    "name": "GAME BANK 仙台泉店",
+    "prefecture_code": 4,
+    "lat": 38.352722,
+    "lon": 140.877393,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8477595921",
+    "name": "GiGO 石巻",
+    "prefecture_code": 4,
+    "lat": 38.4295188,
+    "lon": 141.2852377,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13246317573",
+    "name": "GiGO 仙台コロナワールド",
+    "prefecture_code": 4,
+    "lat": 38.2600984,
+    "lon": 140.9687207,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11124615795",
+    "name": "GiGO 名取",
+    "prefecture_code": 4,
+    "lat": 38.1565426,
+    "lon": 140.8884333,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4538596389",
+    "name": "GiGO（仙台市）",
+    "prefecture_code": 4,
+    "lat": 38.299235,
+    "lon": 140.828828,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-9092366621",
+    "name": "namco（利府町新中道）",
+    "prefecture_code": 4,
+    "lat": 38.3240445,
+    "lon": 140.9731025,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-9092366622",
+    "name": "VS PARK イオンモール新利府 南館店",
+    "prefecture_code": 4,
+    "lat": 38.3238458,
+    "lon": 140.9731068,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11597460244",
+    "name": "アクアランド",
+    "prefecture_code": 4,
+    "lat": 38.1248444,
+    "lon": 140.8719761,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9061002790",
+    "name": "アピナ",
+    "prefecture_code": 4,
+    "lat": 38.3270007,
+    "lon": 140.9718736,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8166723119",
+    "name": "アミュージアム ヨークタウン市名坂店",
+    "prefecture_code": 4,
+    "lat": 38.3153896,
+    "lon": 140.9056918,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14103783087",
+    "name": "キッズパーク",
+    "prefecture_code": 4,
+    "lat": 38.1576152,
+    "lon": 140.8867121,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12072664108",
+    "name": "クラブセガ 仙台",
+    "prefecture_code": 4,
+    "lat": 38.261478,
+    "lon": 140.8768484,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-374225845",
+    "name": "ゲームコーナー（BIng）",
+    "prefecture_code": 4,
+    "lat": 38.2467442,
+    "lon": 140.8484696,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10312327885",
+    "name": "ゲームフィールド",
+    "prefecture_code": 4,
+    "lat": 38.2259234,
+    "lon": 140.8766956,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13204280350",
+    "name": "ゲームフィールド",
+    "prefecture_code": 4,
+    "lat": 38.2756727,
+    "lon": 140.8728315,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11780031289",
+    "name": "こころっこ",
+    "prefecture_code": 4,
+    "lat": 38.160898,
+    "lon": 140.8568029,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5124057833",
+    "name": "スーパーノヴァ（利府町加瀬）",
+    "prefecture_code": 4,
+    "lat": 38.3280082,
+    "lon": 140.9756544,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8175910825",
+    "name": "スターベアリー 富谷店",
+    "prefecture_code": 4,
+    "lat": 38.3706693,
+    "lon": 140.8735897,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-762794564",
+    "name": "セガ ワールド 佐沼",
+    "prefecture_code": 4,
+    "lat": 38.6903831,
+    "lon": 141.1892,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9404247788",
+    "name": "ソーユー",
+    "prefecture_code": 4,
+    "lat": 38.5991026,
+    "lon": 140.9734538,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9740954170",
+    "name": "タイトーステーション 仙台名掛丁店",
+    "prefecture_code": 4,
+    "lat": 38.2619317,
+    "lon": 140.8792322,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10719949662",
+    "name": "タイトーステーション（仙台市）",
+    "prefecture_code": 4,
+    "lat": 38.261064,
+    "lon": 140.8756149,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5205810133",
+    "name": "タイトーステーション（仙台市太白区西多賀）",
+    "prefecture_code": 4,
+    "lat": 38.2192089,
+    "lon": 140.8489969,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13720594751",
+    "name": "ナムコ（仙台市）",
+    "prefecture_code": 4,
+    "lat": 38.2610586,
+    "lon": 140.8835371,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5319926231",
+    "name": "ビーカム 松森店（仙台市泉区松森）",
+    "prefecture_code": 4,
+    "lat": 38.3045265,
+    "lon": 140.9099897,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13590765184",
+    "name": "モーリーファンタジー（大崎市）",
+    "prefecture_code": 4,
+    "lat": 38.5675121,
+    "lon": 140.972722,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-769588180",
+    "name": "万代アミューズ 気仙沼本郷店",
+    "prefecture_code": 4,
+    "lat": 38.8977907,
+    "lon": 141.5659438,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5577034008",
+    "name": "G3ポロス 横手南店",
+    "prefecture_code": 5,
+    "lat": 39.2946273,
+    "lon": 140.5516793,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12174386514",
+    "name": "アミューズパーク",
+    "prefecture_code": 5,
+    "lat": 39.717774,
+    "lon": 140.1281595,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1155423977",
+    "name": "ゲームアルファ",
+    "prefecture_code": 5,
+    "lat": 39.232379,
+    "lon": 140.5246392,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10794439178",
+    "name": "ゲームフィールド",
+    "prefecture_code": 5,
+    "lat": 39.2156394,
+    "lon": 140.5209133,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12679857618",
+    "name": "ゲームフィールド",
+    "prefecture_code": 5,
+    "lat": 39.7183458,
+    "lon": 140.0962828,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12082220371",
+    "name": "ソユーゲームフィールド",
+    "prefecture_code": 5,
+    "lat": 39.6637221,
+    "lon": 140.1608441,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12378748230",
+    "name": "ソユーゲームフィールド",
+    "prefecture_code": 5,
+    "lat": 40.1881056,
+    "lon": 140.0820559,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5485825838",
+    "name": "トム・ソーヤのなかまたち 鷹巣店",
+    "prefecture_code": 5,
+    "lat": 40.2303262,
+    "lon": 140.3846627,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5303915549",
+    "name": "ファンタジープラザ",
+    "prefecture_code": 5,
+    "lat": 39.7150549,
+    "lon": 140.1088077,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12046172431",
+    "name": "プラザカプコン",
+    "prefecture_code": 5,
+    "lat": 39.4365256,
+    "lon": 140.509549,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5285397821",
+    "name": "ペニーポット 秋田店",
+    "prefecture_code": 5,
+    "lat": 39.7164859,
+    "lon": 140.1273198,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-464798765",
+    "name": "万代 横手店",
+    "prefecture_code": 5,
+    "lat": 39.2986219,
+    "lon": 140.5563686,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-464798764",
+    "name": "万代 別館 横手店",
+    "prefecture_code": 5,
+    "lat": 39.298282,
+    "lon": 140.5567094,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-956443777",
+    "name": "90N",
+    "prefecture_code": 6,
+    "lat": 38.3717955,
+    "lon": 140.2901569,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11842611239",
+    "name": "Freedom（村上市）",
+    "prefecture_code": 6,
+    "lat": 38.1193281,
+    "lon": 139.4538653,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-864858476",
+    "name": "あそビレッジ山形店",
+    "prefecture_code": 6,
+    "lat": 38.2085472,
+    "lon": 140.317749,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-381188481",
+    "name": "アピナ 鶴岡店",
+    "prefecture_code": 6,
+    "lat": 38.7581025,
+    "lon": 139.8443952,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-303165276",
+    "name": "ゲームプラザＢｅｉｎ２",
+    "prefecture_code": 6,
+    "lat": 38.2297692,
+    "lon": 140.3040477,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1034950273",
+    "name": "セガワールド",
+    "prefecture_code": 6,
+    "lat": 38.2682448,
+    "lon": 140.3312738,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5031844949",
+    "name": "ソユーゲームフィールド",
+    "prefecture_code": 6,
+    "lat": 38.8163581,
+    "lon": 139.8367737,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-106103221",
+    "name": "G3ポロス原町店",
+    "prefecture_code": 7,
+    "lat": 37.6268198,
+    "lon": 140.9879763,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13834683746",
+    "name": "GiGO 会津若松（会津若松市）",
+    "prefecture_code": 7,
+    "lat": 37.5183059,
+    "lon": 139.9221537,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-177258739",
+    "name": "GiGO 米沢（米沢市）",
+    "prefecture_code": 7,
+    "lat": 37.9109269,
+    "lon": 140.1336875,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1430785895",
+    "name": "iクレーンbyおたちゅう 米沢店",
+    "prefecture_code": 7,
+    "lat": 37.9113708,
+    "lon": 140.1336781,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1430785896",
+    "name": "iクレーンbyおたちゅう 米沢店",
+    "prefecture_code": 7,
+    "lat": 37.9114819,
+    "lon": 140.1341425,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1430884428",
+    "name": "iクレーンbyおたちゅう 米沢店",
+    "prefecture_code": 7,
+    "lat": 37.9113563,
+    "lon": 140.1338246,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-625192309",
+    "name": "セガ",
+    "prefecture_code": 7,
+    "lat": 36.8891671,
+    "lon": 140.7845609,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6041303498",
+    "name": "セガワールド白河",
+    "prefecture_code": 7,
+    "lat": 37.1192112,
+    "lon": 140.1944857,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6756080635",
+    "name": "ナムコ（郡山市）",
+    "prefecture_code": 7,
+    "lat": 37.3890443,
+    "lon": 140.390583,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10132699020",
+    "name": "Gigo（龍ケ崎市）",
+    "prefecture_code": 8,
+    "lat": 35.9384937,
+    "lon": 140.1958038,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7926847302",
+    "name": "アミューズメントPLABI",
+    "prefecture_code": 8,
+    "lat": 36.6166675,
+    "lon": 140.6785008,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1543136021",
+    "name": "ウチダ",
+    "prefecture_code": 8,
+    "lat": 36.1707466,
+    "lon": 139.9664724,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6382982889",
+    "name": "ジョイカム 多賀店",
+    "prefecture_code": 8,
+    "lat": 36.5536265,
+    "lon": 140.6295552,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9964186036",
+    "name": "セガワールド",
+    "prefecture_code": 8,
+    "lat": 35.9182167,
+    "lon": 140.4849029,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4450660937",
+    "name": "セガ水戸 水戸店",
+    "prefecture_code": 8,
+    "lat": 36.3694576,
+    "lon": 140.474784,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10139089449",
+    "name": "タイトーステーション（つくば市）",
+    "prefecture_code": 8,
+    "lat": 36.0805051,
+    "lon": 140.112038,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1542868975",
+    "name": "ピンクパンサー",
+    "prefecture_code": 8,
+    "lat": 36.1702685,
+    "lon": 139.9665094,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-549670705",
+    "name": "ピンクパンサー 赤塚店",
+    "prefecture_code": 8,
+    "lat": 36.3804453,
+    "lon": 140.4137858,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9301852944",
+    "name": "Amusement Park ダイナム",
+    "prefecture_code": 9,
+    "lat": 36.9651461,
+    "lon": 140.0256786,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6011377718",
+    "name": "AMUSEMENT TATSUMI",
+    "prefecture_code": 9,
+    "lat": 36.5604182,
+    "lon": 139.8825745,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-509380474",
+    "name": "DORAMA",
+    "prefecture_code": 9,
+    "lat": 36.322494,
+    "lon": 139.4502243,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-537310437",
+    "name": "FESTA古河店",
+    "prefecture_code": 9,
+    "lat": 36.2097521,
+    "lon": 139.7096687,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9722368481",
+    "name": "FUNFUN",
+    "prefecture_code": 9,
+    "lat": 36.9532647,
+    "lon": 140.0541504,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12311204236",
+    "name": "GiGO（宇都宮市）",
+    "prefecture_code": 9,
+    "lat": 36.5581188,
+    "lon": 139.9088556,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-425970517",
+    "name": "GiGO（小山市東城南）",
+    "prefecture_code": 9,
+    "lat": 36.2991369,
+    "lon": 139.8101908,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5453988483",
+    "name": "GIGO西那須野（那須塩原市）",
+    "prefecture_code": 9,
+    "lat": 36.8950741,
+    "lon": 139.9823155,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6846408479",
+    "name": "namcoステーション（小山市）",
+    "prefecture_code": 9,
+    "lat": 36.3127615,
+    "lon": 139.8053738,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-425970519",
+    "name": "アピナ",
+    "prefecture_code": 9,
+    "lat": 36.3004109,
+    "lon": 139.8090944,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-666577421",
+    "name": "アミパ",
+    "prefecture_code": 9,
+    "lat": 36.2950124,
+    "lon": 139.5948432,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-689280415",
+    "name": "シーサイドリゾートアミューズメントパーク",
+    "prefecture_code": 9,
+    "lat": 36.5632966,
+    "lon": 139.8604608,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5456545468",
+    "name": "セガワールド",
+    "prefecture_code": 9,
+    "lat": 36.7412044,
+    "lon": 139.7101288,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12813793012",
+    "name": "タイトーステーション（宇都宮市）",
+    "prefecture_code": 9,
+    "lat": 36.5600326,
+    "lon": 139.8971112,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12813846378",
+    "name": "タイトーステーション（宇都宮市）",
+    "prefecture_code": 9,
+    "lat": 36.5560486,
+    "lon": 139.9283612,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6821551699",
+    "name": "タイトーステーション（小山市）",
+    "prefecture_code": 9,
+    "lat": 36.3126079,
+    "lon": 139.8053042,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7695307121",
+    "name": "テクモピア",
+    "prefecture_code": 9,
+    "lat": 36.5742314,
+    "lon": 139.9005829,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9301640775",
+    "name": "フィーバー黒磯",
+    "prefecture_code": 9,
+    "lat": 36.9517985,
+    "lon": 140.0346921,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9724038469",
+    "name": "マルハン黒磯店",
+    "prefecture_code": 9,
+    "lat": 36.9522695,
+    "lon": 140.0546393,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9611989582",
+    "name": "有楽会館 黒磯店",
+    "prefecture_code": 9,
+    "lat": 36.9645326,
+    "lon": 140.0669209,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1041685966",
+    "name": "namco伊勢崎店（伊勢崎市）",
+    "prefecture_code": 10,
+    "lat": 36.3303158,
+    "lon": 139.1645258,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7221558306",
+    "name": "THE 3RD PLANET",
+    "prefecture_code": 10,
+    "lat": 36.3190889,
+    "lon": 139.014001,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1041685963",
+    "name": "インターワールド伊勢崎店",
+    "prefecture_code": 10,
+    "lat": 36.3315165,
+    "lon": 139.1624919,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1043697327",
+    "name": "クラブセガ",
+    "prefecture_code": 10,
+    "lat": 36.6567517,
+    "lon": 139.0780536,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11559344586",
+    "name": "ゲームコルソ",
+    "prefecture_code": 10,
+    "lat": 36.3793211,
+    "lon": 139.0080916,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12143371399",
+    "name": "ともえや",
+    "prefecture_code": 10,
+    "lat": 36.6223358,
+    "lon": 138.5967739,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9635041805",
+    "name": "ピンクボム 藤岡店",
+    "prefecture_code": 10,
+    "lat": 36.2517643,
+    "lon": 139.0780187,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1162481701",
+    "name": "マトリクス前橋",
+    "prefecture_code": 10,
+    "lat": 36.3727492,
+    "lon": 139.0596924,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9568802310",
+    "name": "ムー大陸",
+    "prefecture_code": 10,
+    "lat": 36.2470989,
+    "lon": 139.1908345,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-628814312",
+    "name": "群馬レジャーランド 伊勢崎店",
+    "prefecture_code": 10,
+    "lat": 36.3182029,
+    "lon": 139.1723991,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9498222286",
+    "name": "群馬レジャーランド藤岡店",
+    "prefecture_code": 10,
+    "lat": 36.2745318,
+    "lon": 139.0716697,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9224019815",
+    "name": "射的場　えびす屋　段べえ",
+    "prefecture_code": 10,
+    "lat": 36.4977495,
+    "lon": 138.9165277,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12143371398",
+    "name": "射的本舗 まんだら堂",
+    "prefecture_code": 10,
+    "lat": 36.6223305,
+    "lon": 138.5967384,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-182470435",
+    "name": "DORAMA",
+    "prefecture_code": 11,
+    "lat": 35.665083,
+    "lon": 139.3664776,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6579735698",
+    "name": "GAME MAGMAX!",
+    "prefecture_code": 11,
+    "lat": 35.9099459,
+    "lon": 139.4824968,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12876838454",
+    "name": "GAME PRIMOPIA（鴻巣市）",
+    "prefecture_code": 11,
+    "lat": 36.1129214,
+    "lon": 139.439342,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12888143963",
+    "name": "GiGO フジモール吹上",
+    "prefecture_code": 11,
+    "lat": 36.0959567,
+    "lon": 139.4662632,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12187812783",
+    "name": "GiGO ワカバウォーク店",
+    "prefecture_code": 11,
+    "lat": 35.9494763,
+    "lon": 139.4116472,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1423488165",
+    "name": "GIGO（太田市）",
+    "prefecture_code": 11,
+    "lat": 36.2745543,
+    "lon": 139.3781154,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13022191264",
+    "name": "GiGO（立川市）",
+    "prefecture_code": 11,
+    "lat": 35.6972187,
+    "lon": 139.414493,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5714822695",
+    "name": "HALOS GARDEN",
+    "prefecture_code": 11,
+    "lat": 35.9345179,
+    "lon": 139.4798537,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2218464025",
+    "name": "SAP",
+    "prefecture_code": 11,
+    "lat": 35.6759634,
+    "lon": 139.3705476,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5762118421",
+    "name": "SEGA",
+    "prefecture_code": 11,
+    "lat": 35.7884329,
+    "lon": 139.4717926,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1739357833",
+    "name": "SEGA WORLD",
+    "prefecture_code": 11,
+    "lat": 35.7446699,
+    "lon": 139.3242592,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2924130845",
+    "name": "アドアーズ 八王子店",
+    "prefecture_code": 11,
+    "lat": 35.6579498,
+    "lon": 139.3386079,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2230679210",
+    "name": "アピナ",
+    "prefecture_code": 11,
+    "lat": 35.9037554,
+    "lon": 139.5154186,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2934986729",
+    "name": "アピナ",
+    "prefecture_code": 11,
+    "lat": 35.6311557,
+    "lon": 139.3289314,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13895914358",
+    "name": "アピナ",
+    "prefecture_code": 11,
+    "lat": 36.2829405,
+    "lon": 139.3983642,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13154580835",
+    "name": "アピナ（上尾市）",
+    "prefecture_code": 11,
+    "lat": 35.9882436,
+    "lon": 139.5808469,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2293271676",
+    "name": "アミューズランド モナコ 川越店",
+    "prefecture_code": 11,
+    "lat": 35.9132637,
+    "lon": 139.483098,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4836770335",
+    "name": "エブリデイ 行田店",
+    "prefecture_code": 11,
+    "lat": 36.1222034,
+    "lon": 139.4626943,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13006703658",
+    "name": "キャッチラボ瑞穂店",
+    "prefecture_code": 11,
+    "lat": 35.775762,
+    "lon": 139.3421115,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-511029333",
+    "name": "キャロム 栗橋店",
+    "prefecture_code": 11,
+    "lat": 36.1172727,
+    "lon": 139.6736383,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6579722384",
+    "name": "クレーンゲーム専門店",
+    "prefecture_code": 11,
+    "lat": 35.9090566,
+    "lon": 139.4823507,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2735677005",
+    "name": "ゲームタウン西東京",
+    "prefecture_code": 11,
+    "lat": 35.7831908,
+    "lon": 139.3179571,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3476039933",
+    "name": "ゲームプラザセントラル八王子店",
+    "prefecture_code": 11,
+    "lat": 35.6579945,
+    "lon": 139.3382478,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2924130601",
+    "name": "シルクハット八王子店",
+    "prefecture_code": 11,
+    "lat": 35.6564149,
+    "lon": 139.3384769,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2297526676",
+    "name": "タイトーFステーション",
+    "prefecture_code": 11,
+    "lat": 35.9138161,
+    "lon": 139.4829376,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14070359601",
+    "name": "タイトーFステーション（鴻巣市）",
+    "prefecture_code": 11,
+    "lat": 36.0596192,
+    "lon": 139.5098398,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13022191263",
+    "name": "タイトーステーション（立川市）",
+    "prefecture_code": 11,
+    "lat": 35.6991251,
+    "lon": 139.4122263,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6442971230",
+    "name": "ドラマ 瑞穂店",
+    "prefecture_code": 11,
+    "lat": 35.7633203,
+    "lon": 139.356849,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12287338276",
+    "name": "ナムコ（所沢市）",
+    "prefecture_code": 11,
+    "lat": 35.7849691,
+    "lon": 139.4699722,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13022191265",
+    "name": "ナムコ（立川市）",
+    "prefecture_code": 11,
+    "lat": 35.7006986,
+    "lon": 139.4120371,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13022191266",
+    "name": "ナムコ（立川市）",
+    "prefecture_code": 11,
+    "lat": 35.7122319,
+    "lon": 139.4173656,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5817811787",
+    "name": "ビリヤードDAN",
+    "prefecture_code": 11,
+    "lat": 36.002589,
+    "lon": 139.3934533,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1883427728",
+    "name": "フロンティア 小作店",
+    "prefecture_code": 11,
+    "lat": 35.7783429,
+    "lon": 139.3021904,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12995945310",
+    "name": "ルパン122",
+    "prefecture_code": 11,
+    "lat": 36.2699011,
+    "lon": 139.4597741,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2204415910",
+    "name": "快活CLUB",
+    "prefecture_code": 11,
+    "lat": 35.6644772,
+    "lon": 139.3596424,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13094552972",
+    "name": "群馬レジャーランド太田店",
+    "prefecture_code": 11,
+    "lat": 36.2680797,
+    "lon": 139.3759111,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6423523588",
+    "name": "八王子N広場",
+    "prefecture_code": 11,
+    "lat": 35.6428419,
+    "lon": 139.2817887,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12014747951",
+    "name": "CAPSULE TOYS",
+    "prefecture_code": 12,
+    "lat": 35.3318642,
+    "lon": 139.8989787,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11896299065",
+    "name": "Felicidad",
+    "prefecture_code": 12,
+    "lat": 35.610031,
+    "lon": 140.1184678,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3123975230",
+    "name": "Game Fuji",
+    "prefecture_code": 12,
+    "lat": 35.698897,
+    "lon": 139.98678,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10816453606",
+    "name": "GiGO 千葉店",
+    "prefecture_code": 12,
+    "lat": 35.6114938,
+    "lon": 140.1159167,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12367246528",
+    "name": "GiGO（成田市）",
+    "prefecture_code": 12,
+    "lat": 35.7781908,
+    "lon": 140.2900999,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12378508084",
+    "name": "GiGO（千葉市）",
+    "prefecture_code": 12,
+    "lat": 35.651281,
+    "lon": 140.0452639,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-3298002961",
+    "name": "アクアワールド",
+    "prefecture_code": 12,
+    "lat": 35.686655,
+    "lon": 139.988474,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3437548383",
+    "name": "アドアーズ 船橋店",
+    "prefecture_code": 12,
+    "lat": 35.7005818,
+    "lon": 139.9844718,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5775252647",
+    "name": "アドアーズ新習志野店（習志野市）",
+    "prefecture_code": 12,
+    "lat": 35.6667408,
+    "lon": 140.0142412,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2637844897",
+    "name": "アミューズメントエース津田沼",
+    "prefecture_code": 12,
+    "lat": 35.692237,
+    "lon": 140.020084,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10813142535",
+    "name": "クラブセガ",
+    "prefecture_code": 12,
+    "lat": 35.7235168,
+    "lon": 140.6395872,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13086344589",
+    "name": "クレーンひろばnicomaru（我孫子市本町）",
+    "prefecture_code": 12,
+    "lat": 35.8718884,
+    "lon": 140.0132769,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11368160245",
+    "name": "ゲームスクエア茂原店",
+    "prefecture_code": 12,
+    "lat": 35.4306814,
+    "lon": 140.311199,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-446471401",
+    "name": "ゲームセンターイスカンダル",
+    "prefecture_code": 12,
+    "lat": 35.3697438,
+    "lon": 139.9176233,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4879583031",
+    "name": "スポーツウェーブ鉄腕24 稲毛長沼店",
+    "prefecture_code": 12,
+    "lat": 35.6617056,
+    "lon": 140.1263502,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9604630537",
+    "name": "セガ幕張",
+    "prefecture_code": 12,
+    "lat": 35.6501324,
+    "lon": 140.0424671,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11609786485",
+    "name": "タイトーステーション（千葉市）",
+    "prefecture_code": 12,
+    "lat": 35.6119027,
+    "lon": 140.1155397,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13464241863",
+    "name": "タイトーステーション（船橋市）",
+    "prefecture_code": 12,
+    "lat": 35.6998399,
+    "lon": 139.9860383,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12378521023",
+    "name": "ナムコ（千葉市）",
+    "prefecture_code": 12,
+    "lat": 35.6544985,
+    "lon": 140.0302529,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-9401720638",
+    "name": "モーリーファンタジー（八街市文違）",
+    "prefecture_code": 12,
+    "lat": 35.6812829,
+    "lon": 140.310975,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6433519303",
+    "name": "ヤングボウル",
+    "prefecture_code": 12,
+    "lat": 35.63811,
+    "lon": 140.0930502,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1923592468",
+    "name": "ラッキーフェリシダ 千葉店",
+    "prefecture_code": 12,
+    "lat": 35.6102954,
+    "lon": 140.1182094,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-344125432",
+    "name": "千葉レジャーランド",
+    "prefecture_code": 12,
+    "lat": 35.7986974,
+    "lon": 140.1167298,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2426764256",
+    "name": "AZ.Place",
+    "prefecture_code": 13,
+    "lat": 35.706434,
+    "lon": 139.680744,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12124715861",
+    "name": "Blazin Buckaroo",
+    "prefecture_code": 13,
+    "lat": 35.6246951,
+    "lon": 139.8888793,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13021997838",
+    "name": "CLUB EXA",
+    "prefecture_code": 13,
+    "lat": 35.6961814,
+    "lon": 139.4283734,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13021997839",
+    "name": "CLUB EXA ２号館",
+    "prefecture_code": 13,
+    "lat": 35.6961975,
+    "lon": 139.4292642,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9892845482",
+    "name": "DareDemoRacer",
+    "prefecture_code": 13,
+    "lat": 35.7005687,
+    "lon": 139.7705537,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7850149929",
+    "name": "GAME IMMIGRANT?",
+    "prefecture_code": 13,
+    "lat": 35.6005456,
+    "lon": 139.6144751,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5295380536",
+    "name": "GAME INN FIRST",
+    "prefecture_code": 13,
+    "lat": 35.7070156,
+    "lon": 139.7748162,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1900408945",
+    "name": "Game Newton Itabashi",
+    "prefecture_code": 13,
+    "lat": 35.7778521,
+    "lon": 139.6855758,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11180904710",
+    "name": "GAME PANIC",
+    "prefecture_code": 13,
+    "lat": 35.8422344,
+    "lon": 139.8548176,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10120440600",
+    "name": "Game! Medal Arcade Video",
+    "prefecture_code": 13,
+    "lat": 35.52951,
+    "lon": 139.700695,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11534705512",
+    "name": "GIGO 総本店",
+    "prefecture_code": 13,
+    "lat": 35.7296031,
+    "lon": 139.7148759,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6631063212",
+    "name": "GiGO 池袋1号館",
+    "prefecture_code": 13,
+    "lat": 35.7299681,
+    "lon": 139.7160579,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6631063209",
+    "name": "GiGO 池袋2号館",
+    "prefecture_code": 13,
+    "lat": 35.7301132,
+    "lon": 139.7158191,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13084061797",
+    "name": "GIGO 池袋3号館",
+    "prefecture_code": 13,
+    "lat": 35.7298953,
+    "lon": 139.7133189,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13953375616",
+    "name": "GiGO 府中（府中市）",
+    "prefecture_code": 13,
+    "lat": 35.6824165,
+    "lon": 139.4600439,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-9931815708",
+    "name": "GiGO（越谷市）",
+    "prefecture_code": 13,
+    "lat": 35.8751275,
+    "lon": 139.7931974,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-14177772214",
+    "name": "GiGO（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.4650123,
+    "lon": 139.6198147,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10539040807",
+    "name": "GIGO（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.5445246,
+    "lon": 139.5745326,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12311623470",
+    "name": "GIGO（志木市）",
+    "prefecture_code": 13,
+    "lat": 35.8584874,
+    "lon": 139.5490435,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11113089646",
+    "name": "GIGO（松戸市）",
+    "prefecture_code": 13,
+    "lat": 35.7912938,
+    "lon": 139.9376087,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4957686538",
+    "name": "GiGO（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.6951529,
+    "lon": 139.7013644,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12305485003",
+    "name": "GiGO（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.7136719,
+    "lon": 139.7037197,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13321018132",
+    "name": "GiGO（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.6895191,
+    "lon": 139.6974173,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11155615563",
+    "name": "GIGO（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.7016531,
+    "lon": 139.699631,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13762783342",
+    "name": "GIGO（板橋区）",
+    "prefecture_code": 13,
+    "lat": 35.7776835,
+    "lon": 139.6312653,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-14027786960",
+    "name": "GiGO（品川区）",
+    "prefecture_code": 13,
+    "lat": 35.6189999,
+    "lon": 139.7051883,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12981977882",
+    "name": "GIGO（目黒区）",
+    "prefecture_code": 13,
+    "lat": 35.6084469,
+    "lon": 139.6676132,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11017003645",
+    "name": "GIGO2号館（千代田区）",
+    "prefecture_code": 13,
+    "lat": 35.697745,
+    "lon": 139.7714492,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-89181581",
+    "name": "GIGO3号館（千代田区）",
+    "prefecture_code": 13,
+    "lat": 35.6992568,
+    "lon": 139.7709791,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7656396948",
+    "name": "GIGO5号館（千代田区）",
+    "prefecture_code": 13,
+    "lat": 35.6987515,
+    "lon": 139.770659,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-1915268184",
+    "name": "Hey（千代田区）",
+    "prefecture_code": 13,
+    "lat": 35.6990461,
+    "lon": 139.7708377,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11173889340",
+    "name": "JACK Akasaka（港区赤坂）",
+    "prefecture_code": 13,
+    "lat": 35.6725836,
+    "lon": 139.7379221,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6926073710",
+    "name": "JFlight（横浜市中区花咲町）",
+    "prefecture_code": 13,
+    "lat": 35.4520569,
+    "lon": 139.6286043,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5817443390",
+    "name": "KICONA",
+    "prefecture_code": 13,
+    "lat": 35.7909922,
+    "lon": 139.9378323,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5817443394",
+    "name": "Kikona",
+    "prefecture_code": 13,
+    "lat": 35.7909336,
+    "lon": 139.9376465,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-363667978",
+    "name": "MAGMA 草加店",
+    "prefecture_code": 13,
+    "lat": 35.8282215,
+    "lon": 139.8025119,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10312284180",
+    "name": "ME TOKYO IKEBUKURO",
+    "prefecture_code": 13,
+    "lat": 35.730702,
+    "lon": 139.7143042,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12995300077",
+    "name": "ME TOKYO SHIBUYA Limited",
+    "prefecture_code": 13,
+    "lat": 35.6606253,
+    "lon": 139.7003777,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1013237500",
+    "name": "namco（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.5198589,
+    "lon": 139.5534659,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13586618463",
+    "name": "namco新百合ヶ丘ファミリーパーク（川崎市）",
+    "prefecture_code": 13,
+    "lat": 35.602516,
+    "lon": 139.5067616,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10313541064",
+    "name": "Natsuge Museum",
+    "prefecture_code": 13,
+    "lat": 35.7136858,
+    "lon": 139.703481,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6362659613",
+    "name": "PIA",
+    "prefecture_code": 13,
+    "lat": 35.5359636,
+    "lon": 139.6333578,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6657638108",
+    "name": "Play Land 54 street 草加松原店",
+    "prefecture_code": 13,
+    "lat": 35.8396565,
+    "lon": 139.7978246,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4987989062",
+    "name": "RIBBON",
+    "prefecture_code": 13,
+    "lat": 35.7657513,
+    "lon": 139.7275469,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5336219481",
+    "name": "Sam's Town",
+    "prefecture_code": 13,
+    "lat": 35.7087969,
+    "lon": 139.7741684,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2403561341",
+    "name": "SAM'S TOWN",
+    "prefecture_code": 13,
+    "lat": 35.529893,
+    "lon": 139.699376,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10313536329",
+    "name": "Shinjuku Sports Land",
+    "prefecture_code": 13,
+    "lat": 35.6932391,
+    "lon": 139.7019059,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9389718961",
+    "name": "Silk Hat",
+    "prefecture_code": 13,
+    "lat": 35.5891209,
+    "lon": 139.7272951,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13709798517",
+    "name": "Silk Hat",
+    "prefecture_code": 13,
+    "lat": 35.5306676,
+    "lon": 139.699469,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-821386686",
+    "name": "Sonic",
+    "prefecture_code": 13,
+    "lat": 35.7844318,
+    "lon": 139.9020543,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4803599564",
+    "name": "St. Tropez",
+    "prefecture_code": 13,
+    "lat": 35.4427864,
+    "lon": 139.6300509,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1638453449",
+    "name": "SUPER FREAK",
+    "prefecture_code": 13,
+    "lat": 35.6795458,
+    "lon": 139.6367228,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12946316131",
+    "name": "SWING 駒込店",
+    "prefecture_code": 13,
+    "lat": 35.7367634,
+    "lon": 139.7496753,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11871381159",
+    "name": "TINK Arcade",
+    "prefecture_code": 13,
+    "lat": 35.438387,
+    "lon": 139.620058,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5123631888",
+    "name": "UFO",
+    "prefecture_code": 13,
+    "lat": 35.7209017,
+    "lon": 139.7804207,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4801396949",
+    "name": "UFOキャッチャー専門店",
+    "prefecture_code": 13,
+    "lat": 35.4388467,
+    "lon": 139.6250092,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13924397185",
+    "name": "WARUサーキット",
+    "prefecture_code": 13,
+    "lat": 35.5453569,
+    "lon": 139.6017735,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1417119784",
+    "name": "WGC APPEND 別館",
+    "prefecture_code": 13,
+    "lat": 35.696197,
+    "lon": 139.4291061,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13021997840",
+    "name": "WGC UPPER",
+    "prefecture_code": 13,
+    "lat": 35.6964499,
+    "lon": 139.4288009,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1417119783",
+    "name": "WORLD GAME CIRCUS 本館（立川市）",
+    "prefecture_code": 13,
+    "lat": 35.6964117,
+    "lon": 139.4287886,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13062596348",
+    "name": "アイドルマスターツアーズ",
+    "prefecture_code": 13,
+    "lat": 35.6984774,
+    "lon": 139.7724399,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6794463087",
+    "name": "アドアース",
+    "prefecture_code": 13,
+    "lat": 35.7087635,
+    "lon": 139.6656181,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4459519589",
+    "name": "アドアーズ（渋谷区）",
+    "prefecture_code": 13,
+    "lat": 35.6612413,
+    "lon": 139.6982062,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5141050320",
+    "name": "アドアーズ（台東区）",
+    "prefecture_code": 13,
+    "lat": 35.7100113,
+    "lon": 139.7743455,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6631063210",
+    "name": "アドアーズ（豊島区）",
+    "prefecture_code": 13,
+    "lat": 35.7300098,
+    "lon": 139.7148846,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6631225911",
+    "name": "アドアーズ（豊島区）",
+    "prefecture_code": 13,
+    "lat": 35.7317062,
+    "lon": 139.7131693,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10312922781",
+    "name": "アドアーズ（木更津市）",
+    "prefecture_code": 13,
+    "lat": 35.464569,
+    "lon": 139.8743831,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13111248492",
+    "name": "アピナ",
+    "prefecture_code": 13,
+    "lat": 35.866083,
+    "lon": 139.858888,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13762783341",
+    "name": "アピナ",
+    "prefecture_code": 13,
+    "lat": 35.7781597,
+    "lon": 139.6304793,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3388749702",
+    "name": "アピナ（杉並区）",
+    "prefecture_code": 13,
+    "lat": 35.7050265,
+    "lon": 139.6181836,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-591421340",
+    "name": "アピナ（草加市）",
+    "prefecture_code": 13,
+    "lat": 35.8308927,
+    "lon": 139.791995,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6332667388",
+    "name": "アミューズメントパーク　ウエアハウス",
+    "prefecture_code": 13,
+    "lat": 35.8401531,
+    "lon": 139.9051099,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13103701010",
+    "name": "アミューズメントパークガーデン",
+    "prefecture_code": 13,
+    "lat": 35.8736992,
+    "lon": 139.7905762,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-630161871",
+    "name": "アミューズメントパークベネクス 川崎店",
+    "prefecture_code": 13,
+    "lat": 35.5119687,
+    "lon": 139.7138418,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13833203828",
+    "name": "アンパンマンカーニバル王国",
+    "prefecture_code": 13,
+    "lat": 35.463416,
+    "lon": 139.6287095,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6500518594",
+    "name": "ウェアハウス",
+    "prefecture_code": 13,
+    "lat": 35.9158088,
+    "lon": 139.5958435,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7235658866",
+    "name": "ウェアハウス",
+    "prefecture_code": 13,
+    "lat": 35.9411022,
+    "lon": 139.6860632,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10727165104",
+    "name": "エブリデイとってき屋",
+    "prefecture_code": 13,
+    "lat": 35.8212745,
+    "lon": 139.8245619,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13738968717",
+    "name": "カプセル薬局",
+    "prefecture_code": 13,
+    "lat": 35.6624699,
+    "lon": 139.5841903,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12560713953",
+    "name": "ギーゴ（江東区）",
+    "prefecture_code": 13,
+    "lat": 35.6376994,
+    "lon": 139.7929783,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11327794179",
+    "name": "キッズランド",
+    "prefecture_code": 13,
+    "lat": 35.8231842,
+    "lon": 139.574474,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1608597731",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.7008617,
+    "lon": 139.7418836,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1669670165",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.6606391,
+    "lon": 139.6977964,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5649326902",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.7048979,
+    "lon": 139.7539281,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5898524117",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.6847423,
+    "lon": 139.8639355,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6220778086",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.7052761,
+    "lon": 139.7537355,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6563011914",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.7947501,
+    "lon": 139.7923749,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9116189362",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.5900034,
+    "lon": 139.7283394,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12008273496",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.832764,
+    "lon": 139.9316907,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12098126658",
+    "name": "クラブセガ",
+    "prefecture_code": 13,
+    "lat": 35.5364106,
+    "lon": 139.6327941,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4553422390",
+    "name": "クラブセガ 秋葉原4号館",
+    "prefecture_code": 13,
+    "lat": 35.6980637,
+    "lon": 139.7724439,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10972412764",
+    "name": "クレーンゲーム王国",
+    "prefecture_code": 13,
+    "lat": 35.507066,
+    "lon": 139.6166749,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13061871495",
+    "name": "ゲームコーナーレインボータウン",
+    "prefecture_code": 13,
+    "lat": 36.0206781,
+    "lon": 139.7151759,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12500335928",
+    "name": "ゲームセンター ル・モンド巣鴨",
+    "prefecture_code": 13,
+    "lat": 35.7339947,
+    "lon": 139.7397224,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9635184958",
+    "name": "ゲームパーク",
+    "prefecture_code": 13,
+    "lat": 35.7428018,
+    "lon": 139.6045206,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11558309329",
+    "name": "ゲームプラザGAO",
+    "prefecture_code": 13,
+    "lat": 35.6940404,
+    "lon": 139.7027181,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10743601018",
+    "name": "こち亀ゲームぱ～く",
+    "prefecture_code": 13,
+    "lat": 35.7643447,
+    "lon": 139.8527488,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6631063211",
+    "name": "サントロペ池袋（豊島区）",
+    "prefecture_code": 13,
+    "lat": 35.7304936,
+    "lon": 139.7164531,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1915127703",
+    "name": "シルクハット秋葉原",
+    "prefecture_code": 13,
+    "lat": 35.6987113,
+    "lon": 139.7710243,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13788992765",
+    "name": "スマートゴルフ",
+    "prefecture_code": 13,
+    "lat": 35.739691,
+    "lon": 139.7472204,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11752946500",
+    "name": "タイトーFステーション オリナス錦糸町店",
+    "prefecture_code": 13,
+    "lat": 35.7002534,
+    "lon": 139.8156914,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4841478823",
+    "name": "タイトーステーション 渋谷店",
+    "prefecture_code": 13,
+    "lat": 35.6599334,
+    "lon": 139.7020353,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2197500913",
+    "name": "タイトーステーション 新宿東口店",
+    "prefecture_code": 13,
+    "lat": 35.6932616,
+    "lon": 139.7014957,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2331413818",
+    "name": "タイトーステーション 柏店",
+    "prefecture_code": 13,
+    "lat": 35.8613564,
+    "lon": 139.9726479,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5520541735",
+    "name": "タイトーステーション 府中くるる店",
+    "prefecture_code": 13,
+    "lat": 35.6715323,
+    "lon": 139.4808979,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-183434771",
+    "name": "タイトーステーション 和光店",
+    "prefecture_code": 13,
+    "lat": 35.7866462,
+    "lon": 139.613816,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12804681078",
+    "name": "タイトーステーション（さいたま市）",
+    "prefecture_code": 13,
+    "lat": 35.9067282,
+    "lon": 139.6258724,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13770228494",
+    "name": "タイトーステーション（さいたま市）",
+    "prefecture_code": 13,
+    "lat": 35.9073541,
+    "lon": 139.6253232,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2142326240",
+    "name": "タイトーステーション（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.4646,
+    "lon": 139.61961,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12269493092",
+    "name": "タイトーステーション（市川市）",
+    "prefecture_code": 13,
+    "lat": 35.692325,
+    "lon": 139.9267343,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-1116460139",
+    "name": "タイトーステーション（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.7126814,
+    "lon": 139.704183,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2280501076",
+    "name": "タイトーステーション（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.6898664,
+    "lon": 139.7022343,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11871381160",
+    "name": "タイトーステーション（千代田区）",
+    "prefecture_code": 13,
+    "lat": 35.6981297,
+    "lon": 139.7731211,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-217379772",
+    "name": "タイトーステーション（千代田区）",
+    "prefecture_code": 13,
+    "lat": 35.7002351,
+    "lon": 139.7717414,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7559921935",
+    "name": "タイトーステーション（川崎市）",
+    "prefecture_code": 13,
+    "lat": 35.5999987,
+    "lon": 139.6123132,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12101783131",
+    "name": "タイトーステーション（川崎市）",
+    "prefecture_code": 13,
+    "lat": 35.6164092,
+    "lon": 139.56513,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6139862290",
+    "name": "タイトーステーション（多摩市）",
+    "prefecture_code": 13,
+    "lat": 35.6233425,
+    "lon": 139.4265568,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5141051822",
+    "name": "タイトーステーション（台東区）",
+    "prefecture_code": 13,
+    "lat": 35.7105536,
+    "lon": 139.7743957,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10692944607",
+    "name": "タイトーステーション（台東区）",
+    "prefecture_code": 13,
+    "lat": 35.708804,
+    "lon": 139.774138,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10689653253",
+    "name": "タイトーステーション（武蔵野市）",
+    "prefecture_code": 13,
+    "lat": 35.704244,
+    "lon": 139.5796151,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12904088000",
+    "name": "タイトーステーション（豊島区）",
+    "prefecture_code": 13,
+    "lat": 35.7305802,
+    "lon": 139.7096398,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13762344502",
+    "name": "タイトーステーション（豊島区）",
+    "prefecture_code": 13,
+    "lat": 35.7324055,
+    "lon": 139.7091624,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6661636329",
+    "name": "ディスコ",
+    "prefecture_code": 13,
+    "lat": 35.7435931,
+    "lon": 139.7764039,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-965405267",
+    "name": "ドラマ",
+    "prefecture_code": 13,
+    "lat": 35.5192516,
+    "lon": 139.5847976,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12134031077",
+    "name": "ナビゲーションセンター",
+    "prefecture_code": 13,
+    "lat": 35.6256759,
+    "lon": 139.8854242,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13989175079",
+    "name": "ナムコ ラゾーナ川崎店",
+    "prefecture_code": 13,
+    "lat": 35.5329062,
+    "lon": 139.6946782,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12750121851",
+    "name": "ナムコ 中野店",
+    "prefecture_code": 13,
+    "lat": 35.7090872,
+    "lon": 139.6662709,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6433502018",
+    "name": "ナムコ（越谷市レイクタウン）",
+    "prefecture_code": 13,
+    "lat": 35.8823233,
+    "lon": 139.8277138,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4717783634",
+    "name": "ナムコ（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.5182192,
+    "lon": 139.5660607,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4803599561",
+    "name": "ナムコ（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.4427574,
+    "lon": 139.6303227,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5537067523",
+    "name": "ナムコ（横浜市）",
+    "prefecture_code": 13,
+    "lat": 35.453995,
+    "lon": 139.6390232,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13130922641",
+    "name": "ナムコ（葛飾区）",
+    "prefecture_code": 13,
+    "lat": 35.7695131,
+    "lon": 139.8659472,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13668099713",
+    "name": "ナムコ（新宿区）",
+    "prefecture_code": 13,
+    "lat": 35.695864,
+    "lon": 139.7006341,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11391425131",
+    "name": "ナムコ（流山市）",
+    "prefecture_code": 13,
+    "lat": 35.8706475,
+    "lon": 139.9264059,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-1681588662",
+    "name": "ハイテクランド SEGA EST",
+    "prefecture_code": 13,
+    "lat": 35.6600441,
+    "lon": 139.7025426,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1883487674",
+    "name": "ハイテクランドセガ",
+    "prefecture_code": 13,
+    "lat": 35.7791899,
+    "lon": 139.9105617,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10271365974",
+    "name": "バンダイナムコ Cross Store 横浜",
+    "prefecture_code": 13,
+    "lat": 35.4544106,
+    "lon": 139.6380731,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11261817743",
+    "name": "ビーワン",
+    "prefecture_code": 13,
+    "lat": 35.8626999,
+    "lon": 139.9692085,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4803484841",
+    "name": "ピロピロ",
+    "prefecture_code": 13,
+    "lat": 35.4395025,
+    "lon": 139.6257863,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2273425631",
+    "name": "まあじゃん ひかり",
+    "prefecture_code": 13,
+    "lat": 35.6716662,
+    "lon": 139.6146235,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6138055942",
+    "name": "ミカドゲーセン 池袋",
+    "prefecture_code": 13,
+    "lat": 35.7324136,
+    "lon": 139.7135956,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12525336079",
+    "name": "みさと囲碁サロン",
+    "prefecture_code": 13,
+    "lat": 35.84695,
+    "lon": 139.8842624,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9136704032",
+    "name": "モナコ",
+    "prefecture_code": 13,
+    "lat": 35.6511988,
+    "lon": 139.5443026,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-340592960",
+    "name": "ヤングボウル",
+    "prefecture_code": 13,
+    "lat": 35.8459853,
+    "lon": 139.9570111,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13104746057",
+    "name": "ユーズランド",
+    "prefecture_code": 13,
+    "lat": 35.8770025,
+    "lon": 139.8241719,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13103687522",
+    "name": "ラクガキ王国",
+    "prefecture_code": 13,
+    "lat": 35.8431099,
+    "lon": 139.8539788,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9932028074",
+    "name": "わいわいランド",
+    "prefecture_code": 13,
+    "lat": 35.8784364,
+    "lon": 139.8442009,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1774529403",
+    "name": "俺のフレンチ 横浜",
+    "prefecture_code": 13,
+    "lat": 35.4639762,
+    "lon": 139.6168243,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4691022889",
+    "name": "高田馬場ゲーセンミカド",
+    "prefecture_code": 13,
+    "lat": 35.7127016,
+    "lon": 139.7034358,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12488755591",
+    "name": "埼玉レジャーランド大宮駅東口店",
+    "prefecture_code": 13,
+    "lat": 35.9079722,
+    "lon": 139.6246632,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10137268617",
+    "name": "東京レジャーランド",
+    "prefecture_code": 13,
+    "lat": 35.6987529,
+    "lon": 139.7701168,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10854272129",
+    "name": "東京レジャーランド",
+    "prefecture_code": 13,
+    "lat": 35.7035879,
+    "lon": 139.5786914,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5760263315",
+    "name": "東京レジャーランド秋葉原2号店",
+    "prefecture_code": 13,
+    "lat": 35.700663,
+    "lon": 139.7718022,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12588898413",
+    "name": "南ASOBI諸島",
+    "prefecture_code": 13,
+    "lat": 35.7285881,
+    "lon": 139.5401607,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4069459648",
+    "name": "遊技場",
+    "prefecture_code": 13,
+    "lat": 35.7026007,
+    "lon": 139.7706629,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13738968716",
+    "name": "αアドアーズ（調布市）",
+    "prefecture_code": 13,
+    "lat": 35.6624647,
+    "lon": 139.5841897,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10807465114",
+    "name": "GiGO（相模原市）",
+    "prefecture_code": 14,
+    "lat": 35.5839496,
+    "lon": 139.3618084,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11520447115",
+    "name": "GiGO（相模原市）",
+    "prefecture_code": 14,
+    "lat": 35.5322092,
+    "lon": 139.4358373,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7653146568",
+    "name": "GiGO（町田市）",
+    "prefecture_code": 14,
+    "lat": 35.543843,
+    "lon": 139.4469738,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10178443084",
+    "name": "GiGO（町田市）",
+    "prefecture_code": 14,
+    "lat": 35.5102229,
+    "lon": 139.4701076,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10178443089",
+    "name": "GiGO（町田市）",
+    "prefecture_code": 14,
+    "lat": 35.5082381,
+    "lon": 139.4711606,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-909413763",
+    "name": "Never Land",
+    "prefecture_code": 14,
+    "lat": 35.4800742,
+    "lon": 139.4321636,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13394442759",
+    "name": "S.Y.N.C",
+    "prefecture_code": 14,
+    "lat": 35.5428389,
+    "lon": 139.4482029,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5871096300",
+    "name": "SILK HAT",
+    "prefecture_code": 14,
+    "lat": 35.3532851,
+    "lon": 139.5325843,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2261363740",
+    "name": "The Earth",
+    "prefecture_code": 14,
+    "lat": 35.406829,
+    "lon": 139.59599,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12022106195",
+    "name": "アドアーズ（八王子市）",
+    "prefecture_code": 14,
+    "lat": 35.6144994,
+    "lon": 139.3799225,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4069891607",
+    "name": "アピナ",
+    "prefecture_code": 14,
+    "lat": 35.5974486,
+    "lon": 139.3381786,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3914316025",
+    "name": "イミグランデ",
+    "prefecture_code": 14,
+    "lat": 35.4917131,
+    "lon": 139.4546113,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12460809909",
+    "name": "おたちゅう相模原店",
+    "prefecture_code": 14,
+    "lat": 35.5744647,
+    "lon": 139.3664865,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-34824402",
+    "name": "カーニバルハウス",
+    "prefecture_code": 14,
+    "lat": 35.3380441,
+    "lon": 139.6453246,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8209534555",
+    "name": "キキトコ",
+    "prefecture_code": 14,
+    "lat": 35.4326731,
+    "lon": 139.461448,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2222096462",
+    "name": "クラブセガ",
+    "prefecture_code": 14,
+    "lat": 35.385642,
+    "lon": 139.6189225,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3078486068",
+    "name": "クラブセガ 二俣川店",
+    "prefecture_code": 14,
+    "lat": 35.4643627,
+    "lon": 139.5319265,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4914807571",
+    "name": "ゲームイミグランデ",
+    "prefecture_code": 14,
+    "lat": 35.439461,
+    "lon": 139.3615273,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6317801588",
+    "name": "ゲームインファンファン 藤沢店",
+    "prefecture_code": 14,
+    "lat": 35.3366676,
+    "lon": 139.4891439,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10182453553",
+    "name": "コパⅢ",
+    "prefecture_code": 14,
+    "lat": 35.3681446,
+    "lon": 139.2726738,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9333988510",
+    "name": "シルクハット本厚木",
+    "prefecture_code": 14,
+    "lat": 35.4399703,
+    "lon": 139.3630158,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1135400856",
+    "name": "スパイダー",
+    "prefecture_code": 14,
+    "lat": 35.3719995,
+    "lon": 139.3751698,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6361691016",
+    "name": "セガ海老名（海老名市中央）",
+    "prefecture_code": 14,
+    "lat": 35.4514893,
+    "lon": 139.3924931,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13895069435",
+    "name": "ソユーゲームフィールド",
+    "prefecture_code": 14,
+    "lat": 35.5964751,
+    "lon": 139.3340222,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6318208300",
+    "name": "タイトーステーション 海老名ビナウォーク店",
+    "prefecture_code": 14,
+    "lat": 35.4522404,
+    "lon": 139.3956589,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13111667277",
+    "name": "タイトーステーション（小田原市）",
+    "prefecture_code": 14,
+    "lat": 35.2549461,
+    "lon": 139.1561699,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4167164222",
+    "name": "タイトーステーション（町田市）",
+    "prefecture_code": 14,
+    "lat": 35.5425999,
+    "lon": 139.4483434,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-3977603523",
+    "name": "トイロパーク",
+    "prefecture_code": 14,
+    "lat": 35.4900825,
+    "lon": 139.4571424,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-641739444",
+    "name": "ドラマ",
+    "prefecture_code": 14,
+    "lat": 35.3581295,
+    "lon": 139.4681654,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11062961615",
+    "name": "ナムコ（横須賀市）",
+    "prefecture_code": 14,
+    "lat": 35.2826431,
+    "lon": 139.6619703,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5842065958",
+    "name": "パームトップスSEGA厚木",
+    "prefecture_code": 14,
+    "lat": 35.4391713,
+    "lon": 139.3618685,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-890514135",
+    "name": "ハッピーアシベ 伊豆高原店",
+    "prefecture_code": 14,
+    "lat": 34.8661399,
+    "lon": 139.0952875,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5606556025",
+    "name": "ハローズ",
+    "prefecture_code": 14,
+    "lat": 35.5332878,
+    "lon": 139.329039,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4071143420",
+    "name": "ビッグバン",
+    "prefecture_code": 14,
+    "lat": 35.4722545,
+    "lon": 139.4606725,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5596005799",
+    "name": "ミリアンパーク(跡地)",
+    "prefecture_code": 14,
+    "lat": 35.4350484,
+    "lon": 139.357978,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7289015887",
+    "name": "モーリーファンタジー（大和市）",
+    "prefecture_code": 14,
+    "lat": 35.4342359,
+    "lon": 139.4665158,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-311346485",
+    "name": "ラウンドワン（町田市）",
+    "prefecture_code": 14,
+    "lat": 35.5439651,
+    "lon": 139.4432539,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10036548442",
+    "name": "ラウンドワン（平塚市）",
+    "prefecture_code": 14,
+    "lat": 35.3360555,
+    "lon": 139.3538781,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-9495089542",
+    "name": "わくわくゲームパラダイス",
+    "prefecture_code": 14,
+    "lat": 35.6137946,
+    "lon": 139.3813702,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6585208664",
+    "name": "神奈川レジャーランド",
+    "prefecture_code": 14,
+    "lat": 35.4482142,
+    "lon": 139.3428669,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12882582865",
+    "name": "大船囲碁センター",
+    "prefecture_code": 14,
+    "lat": 35.3527228,
+    "lon": 139.5336715,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7816794854",
+    "name": "町田将棋愛好会（町田市原町田）",
+    "prefecture_code": 14,
+    "lat": 35.5404599,
+    "lon": 139.4541034,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13016853231",
+    "name": "N-1万代店",
+    "prefecture_code": 15,
+    "lat": 37.9255389,
+    "lon": 139.0655798,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1266668486",
+    "name": "アピナ 上越インター店",
+    "prefecture_code": 15,
+    "lat": 37.1542898,
+    "lon": 138.2556353,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-381075379",
+    "name": "カプコサーカス",
+    "prefecture_code": 15,
+    "lat": 37.9261134,
+    "lon": 139.11509,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11940789682",
+    "name": "タイトーステーション（燕市）",
+    "prefecture_code": 15,
+    "lat": 37.6504504,
+    "lon": 138.9364389,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13999305629",
+    "name": "トップボーイ新大駅前店",
+    "prefecture_code": 15,
+    "lat": 37.8683787,
+    "lon": 138.9572319,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-152779625",
+    "name": "プチメジャー",
+    "prefecture_code": 15,
+    "lat": 37.868009,
+    "lon": 139.0167673,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-909588144",
+    "name": "プレイハウスエリナ",
+    "prefecture_code": 15,
+    "lat": 37.7175506,
+    "lon": 138.8906444,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-177769870",
+    "name": "メジャーロード",
+    "prefecture_code": 15,
+    "lat": 37.7605889,
+    "lon": 139.022219,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-913878554",
+    "name": "メジャーロード 見附店",
+    "prefecture_code": 15,
+    "lat": 37.5430492,
+    "lon": 138.8914898,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-152779621",
+    "name": "メジャーロード 黒埼店",
+    "prefecture_code": 15,
+    "lat": 37.8682155,
+    "lon": 139.017268,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-292874987",
+    "name": "メジャーロード24",
+    "prefecture_code": 15,
+    "lat": 37.5435542,
+    "lon": 138.8917964,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-422350684",
+    "name": "ラウンドワンスタジアム（新潟市）",
+    "prefecture_code": 15,
+    "lat": 37.8881274,
+    "lon": 139.0177116,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-587700682",
+    "name": "ゲームスポットアップル",
+    "prefecture_code": 16,
+    "lat": 36.8255042,
+    "lon": 137.414239,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5400775181",
+    "name": "タイトーステーション（富山市）",
+    "prefecture_code": 16,
+    "lat": 36.6627908,
+    "lon": 137.1724765,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6167405837",
+    "name": "GiGO（金沢市）",
+    "prefecture_code": 17,
+    "lat": 36.5791869,
+    "lon": 136.6159478,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13455603668",
+    "name": "Kid's Circus",
+    "prefecture_code": 17,
+    "lat": 36.6391306,
+    "lon": 136.6246078,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12045338144",
+    "name": "Warpoint",
+    "prefecture_code": 17,
+    "lat": 42.7793187,
+    "lon": 132.8536804,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12870681089",
+    "name": "ナムコランド輪島（輪島市）",
+    "prefecture_code": 17,
+    "lat": 37.3863138,
+    "lon": 136.9052129,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13947936610",
+    "name": "バイパスレジャーランド",
+    "prefecture_code": 17,
+    "lat": 36.5839631,
+    "lon": 136.6215511,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13947936611",
+    "name": "バイパスレジャーランド",
+    "prefecture_code": 17,
+    "lat": 36.5837633,
+    "lon": 136.6206542,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-377720819",
+    "name": "ラウンドワンスタジアム金沢店（金沢市横川）",
+    "prefecture_code": 17,
+    "lat": 36.5420499,
+    "lon": 136.6260186,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11726797833",
+    "name": "Кибер Куб",
+    "prefecture_code": 17,
+    "lat": 42.8342951,
+    "lon": 132.8771549,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13951443569",
+    "name": "Кран（Михайловка）",
+    "prefecture_code": 17,
+    "lat": 43.9268742,
+    "lon": 132.0036634,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13951424925",
+    "name": "Кран（Новоникольск）",
+    "prefecture_code": 17,
+    "lat": 43.8493731,
+    "lon": 131.8663762,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12096758989",
+    "name": "Муравейник",
+    "prefecture_code": 17,
+    "lat": 42.7775193,
+    "lon": 132.8542409,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6899238236",
+    "name": "Тутти фрутти",
+    "prefecture_code": 17,
+    "lat": 43.3522814,
+    "lon": 132.1752482,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11726827231",
+    "name": "Фан-Чулан",
+    "prefecture_code": 17,
+    "lat": 43.8101899,
+    "lon": 131.9355816,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12387512485",
+    "name": "GiGO（越前市）",
+    "prefecture_code": 18,
+    "lat": 35.9052185,
+    "lon": 136.1534745,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11212269717",
+    "name": "GiGO（福井市）",
+    "prefecture_code": 18,
+    "lat": 36.073329,
+    "lon": 136.2430156,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12050635566",
+    "name": "テクモピア",
+    "prefecture_code": 18,
+    "lat": 36.0827502,
+    "lon": 136.2357602,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13415100577",
+    "name": "FANTASYPLAZA",
+    "prefecture_code": 19,
+    "lat": 35.1680494,
+    "lon": 138.6804494,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-620108855",
+    "name": "キッズフジQ",
+    "prefecture_code": 19,
+    "lat": 35.2926557,
+    "lon": 138.784539,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13072308659",
+    "name": "ゲームQ",
+    "prefecture_code": 19,
+    "lat": 35.4834946,
+    "lon": 138.7957039,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-753863308",
+    "name": "サープラ富士あそびタウン（富士市）",
+    "prefecture_code": 19,
+    "lat": 35.1631428,
+    "lon": 138.6698705,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14026186935",
+    "name": "タイトーステーション（甲斐市）",
+    "prefecture_code": 19,
+    "lat": 35.6851202,
+    "lon": 138.4820208,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2087963744",
+    "name": "プラット",
+    "prefecture_code": 19,
+    "lat": 35.489508,
+    "lon": 138.782172,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14026132785",
+    "name": "メルヘンランド",
+    "prefecture_code": 19,
+    "lat": 35.6847768,
+    "lon": 138.4833755,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13919297280",
+    "name": "楽市楽座",
+    "prefecture_code": 19,
+    "lat": 35.6222615,
+    "lon": 138.527855,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14142780330",
+    "name": "忍術カーニバル",
+    "prefecture_code": 19,
+    "lat": 35.4874068,
+    "lon": 138.7816532,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1108110757",
+    "name": "APINA",
+    "prefecture_code": 20,
+    "lat": 36.6264528,
+    "lon": 138.200261,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4511482290",
+    "name": "GiGO（上田市）",
+    "prefecture_code": 20,
+    "lat": 36.412748,
+    "lon": 138.2619195,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-274787027",
+    "name": "PALO 諏訪店（諏訪市沖田町）",
+    "prefecture_code": 20,
+    "lat": 36.005479,
+    "lon": 138.1284057,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7039846501",
+    "name": "アピナ",
+    "prefecture_code": 20,
+    "lat": 36.6454766,
+    "lon": 138.1868418,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11734491892",
+    "name": "アピナ",
+    "prefecture_code": 20,
+    "lat": 36.2104811,
+    "lon": 137.9612544,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11854270916",
+    "name": "アピナ",
+    "prefecture_code": 20,
+    "lat": 36.4159287,
+    "lon": 138.2234993,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-612799651",
+    "name": "アピナ",
+    "prefecture_code": 20,
+    "lat": 36.6678937,
+    "lon": 138.2633693,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-885324798",
+    "name": "アピナ",
+    "prefecture_code": 20,
+    "lat": 36.1415186,
+    "lon": 137.9537757,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-911813269",
+    "name": "アピナ",
+    "prefecture_code": 20,
+    "lat": 36.5980748,
+    "lon": 138.1575773,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-658036707",
+    "name": "クラブセガ",
+    "prefecture_code": 20,
+    "lat": 36.2325528,
+    "lon": 137.9558963,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1075993855",
+    "name": "ゲームピコ 若里店",
+    "prefecture_code": 20,
+    "lat": 36.6311314,
+    "lon": 138.1969046,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9916988373",
+    "name": "スマートボール",
+    "prefecture_code": 20,
+    "lat": 36.7346523,
+    "lon": 138.4321198,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13243119718",
+    "name": "GAME PICO 鵜沼店",
+    "prefecture_code": 21,
+    "lat": 35.4010914,
+    "lon": 136.9366137,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11477686134",
+    "name": "GiGO（大垣市）",
+    "prefecture_code": 21,
+    "lat": 35.3687517,
+    "lon": 136.6167577,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-823024453",
+    "name": "ゲームセンターアリババ",
+    "prefecture_code": 21,
+    "lat": 35.3840339,
+    "lon": 136.5956386,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14067321961",
+    "name": "テルマエ射的",
+    "prefecture_code": 21,
+    "lat": 35.8096752,
+    "lon": 137.2416471,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-714628084",
+    "name": "岐阜レジャーランド穂積店",
+    "prefecture_code": 21,
+    "lat": 35.3842965,
+    "lon": 136.6846147,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13997680748",
+    "name": "PLAZA CAPCOM",
+    "prefecture_code": 22,
+    "lat": 34.6974585,
+    "lon": 137.6530904,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-567733518",
+    "name": "PORT24 浜松店",
+    "prefecture_code": 22,
+    "lat": 34.6801005,
+    "lon": 137.6443608,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-554589812",
+    "name": "THE 3RD PLANET サープラOZ浜松あそびタウン",
+    "prefecture_code": 22,
+    "lat": 34.7222942,
+    "lon": 137.7654799,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7843970878",
+    "name": "XCUBE（浜松市中央区）",
+    "prefecture_code": 22,
+    "lat": 34.7028088,
+    "lon": 137.7315212,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-749318731",
+    "name": "アピナ",
+    "prefecture_code": 22,
+    "lat": 35.5299275,
+    "lon": 137.8597195,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2651213703",
+    "name": "アピナ 浜松店",
+    "prefecture_code": 22,
+    "lat": 34.7672748,
+    "lon": 137.7082143,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6050994301",
+    "name": "アミューズメント・スポット 篠原店",
+    "prefecture_code": 22,
+    "lat": 34.6829513,
+    "lon": 137.6271508,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13081280591",
+    "name": "クラブセガ",
+    "prefecture_code": 22,
+    "lat": 34.9739551,
+    "lon": 138.381777,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-245950899",
+    "name": "タイトーステーション（静岡市）",
+    "prefecture_code": 22,
+    "lat": 34.9744571,
+    "lon": 138.383264,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11092913064",
+    "name": "もってきーな",
+    "prefecture_code": 22,
+    "lat": 34.6893958,
+    "lon": 137.6772922,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4137751992",
+    "name": "#C-pla",
+    "prefecture_code": 23,
+    "lat": 35.1585969,
+    "lon": 136.905462,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1395703878",
+    "name": "ADX MAMY 春日井出川店",
+    "prefecture_code": 23,
+    "lat": 35.2674963,
+    "lon": 137.0130563,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10728729784",
+    "name": "Game Box Q3",
+    "prefecture_code": 23,
+    "lat": 35.1730118,
+    "lon": 136.8766174,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11288361163",
+    "name": "GiGO 豊田（豊田市）",
+    "prefecture_code": 23,
+    "lat": 35.067927,
+    "lon": 137.1238562,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-3747832568",
+    "name": "GREA",
+    "prefecture_code": 23,
+    "lat": 35.1674698,
+    "lon": 136.9370003,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-3690992658",
+    "name": "SEGA",
+    "prefecture_code": 23,
+    "lat": 35.1426792,
+    "lon": 136.9022548,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14088955033",
+    "name": "SHIMIZUYA",
+    "prefecture_code": 23,
+    "lat": 35.349527,
+    "lon": 137.1046969,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13901091923",
+    "name": "Taito Station（名古屋市）",
+    "prefecture_code": 23,
+    "lat": 35.1594885,
+    "lon": 136.9052486,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5468546327",
+    "name": "TAITO Station（弥富市）",
+    "prefecture_code": 23,
+    "lat": 35.1144317,
+    "lon": 136.7192142,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-571621338",
+    "name": "アピナ四日市店",
+    "prefecture_code": 23,
+    "lat": 34.9393539,
+    "lon": 136.6068816,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6428493922",
+    "name": "エムズパーク 豊田店",
+    "prefecture_code": 23,
+    "lat": 35.0565199,
+    "lon": 137.1402902,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-733497154",
+    "name": "カーニバルドーム",
+    "prefecture_code": 23,
+    "lat": 34.8727893,
+    "lon": 137.0455086,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2109008159",
+    "name": "クラブセガ",
+    "prefecture_code": 23,
+    "lat": 34.9112939,
+    "lon": 137.1690841,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5374535180",
+    "name": "クラブセガ",
+    "prefecture_code": 23,
+    "lat": 35.3090901,
+    "lon": 136.7715789,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13090565097",
+    "name": "ゲームキングジョイ（名古屋市中区栄3丁目）",
+    "prefecture_code": 23,
+    "lat": 35.1680352,
+    "lon": 136.9049057,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7236168202",
+    "name": "ゲームファンタジアン岡崎店",
+    "prefecture_code": 23,
+    "lat": 34.9736938,
+    "lon": 137.16005,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9796129027",
+    "name": "ゲーム半田メトロポリス",
+    "prefecture_code": 23,
+    "lat": 34.8745992,
+    "lon": 136.9218618,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13943006789",
+    "name": "タイトーステーション（名古屋市）",
+    "prefecture_code": 23,
+    "lat": 35.1694868,
+    "lon": 136.8860263,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5052530467",
+    "name": "タイトーステーション豊橋（豊橋市）",
+    "prefecture_code": 23,
+    "lat": 34.7439719,
+    "lon": 137.3719552,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-568520061",
+    "name": "ナイル",
+    "prefecture_code": 23,
+    "lat": 35.0629713,
+    "lon": 136.9124369,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12366479444",
+    "name": "ミライノ",
+    "prefecture_code": 23,
+    "lat": 34.8240006,
+    "lon": 137.3519591,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9061455502",
+    "name": "メトロポリス",
+    "prefecture_code": 23,
+    "lat": 34.8023614,
+    "lon": 137.3847306,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10117757578",
+    "name": "安城メトロポリス",
+    "prefecture_code": 23,
+    "lat": 34.95513,
+    "lon": 137.0973551,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-585480387",
+    "name": "松風園別館 以奈弥寿",
+    "prefecture_code": 23,
+    "lat": 34.8062937,
+    "lon": 137.2572088,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5255214624",
+    "name": "GiGO 伊勢",
+    "prefecture_code": 24,
+    "lat": 34.4920348,
+    "lon": 136.6782731,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11218865631",
+    "name": "GiGO（津市）",
+    "prefecture_code": 24,
+    "lat": 34.684072,
+    "lon": 136.4667328,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7607443184",
+    "name": "GIGO（名張市）",
+    "prefecture_code": 24,
+    "lat": 34.6235086,
+    "lon": 136.1035435,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6174447919",
+    "name": "ナムコ（鈴鹿市庄野羽山）",
+    "prefecture_code": 24,
+    "lat": 34.8724955,
+    "lon": 136.5320402,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6174366668",
+    "name": "モーリーファンタジー 伊勢",
+    "prefecture_code": 24,
+    "lat": 34.5071081,
+    "lon": 136.7217046,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-305806453",
+    "name": "ACT 南草津店",
+    "prefecture_code": 25,
+    "lat": 34.9994075,
+    "lon": 135.946167,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13586302053",
+    "name": "AREA52",
+    "prefecture_code": 25,
+    "lat": 35.0036173,
+    "lon": 135.9485019,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5138773224",
+    "name": "SEGAワールド",
+    "prefecture_code": 25,
+    "lat": 35.0244225,
+    "lon": 135.959277,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13586302054",
+    "name": "じゃんけんポーカー",
+    "prefecture_code": 25,
+    "lat": 35.0035664,
+    "lon": 135.9484731,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12378721473",
+    "name": "タイトーステーション（近江八幡市）",
+    "prefecture_code": 25,
+    "lat": 35.1207169,
+    "lon": 136.1034923,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11871365412",
+    "name": "a-cho",
+    "prefecture_code": 26,
+    "lat": 35.004461,
+    "lon": 135.766801,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11975234118",
+    "name": "GiGO 京都新京極（京都市）",
+    "prefecture_code": 26,
+    "lat": 35.0071636,
+    "lon": 135.7673901,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4520313134",
+    "name": "THE 3RD PLANET サープラ京都あそびタウン",
+    "prefecture_code": 26,
+    "lat": 35.0103409,
+    "lon": 135.7412565,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-193843669",
+    "name": "あそびば",
+    "prefecture_code": 26,
+    "lat": 34.8954174,
+    "lon": 135.7479776,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10298151594",
+    "name": "アミューズスペース ミール(MiR)",
+    "prefecture_code": 26,
+    "lat": 34.8807962,
+    "lon": 135.2294733,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1126182908",
+    "name": "アミューズスペース ミール(MiR)（三田市対中町）",
+    "prefecture_code": 26,
+    "lat": 34.8807754,
+    "lon": 135.229558,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14204347013",
+    "name": "ガシャココ",
+    "prefecture_code": 26,
+    "lat": 34.963971,
+    "lon": 135.7083996,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14204344446",
+    "name": "ガシャポン バンダイオフィシャルショップイオンシネマ京都桂川",
+    "prefecture_code": 26,
+    "lat": 34.962504,
+    "lon": 135.7067296,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10585412581",
+    "name": "ドライブインダルマ",
+    "prefecture_code": 26,
+    "lat": 35.4705185,
+    "lon": 135.2777746,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6874571870",
+    "name": "ハリケーン寺町京極店",
+    "prefecture_code": 26,
+    "lat": 35.0060877,
+    "lon": 135.7670564,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10598175517",
+    "name": "プレイランド",
+    "prefecture_code": 26,
+    "lat": 35.5123942,
+    "lon": 135.1013023,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-263196818",
+    "name": "ミリオンダラー",
+    "prefecture_code": 26,
+    "lat": 34.8753215,
+    "lon": 135.7783884,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14204344437",
+    "name": "楽市楽座",
+    "prefecture_code": 26,
+    "lat": 34.963925,
+    "lon": 135.7076177,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13358823915",
+    "name": "3249ROOM",
+    "prefecture_code": 27,
+    "lat": 34.6859652,
+    "lon": 135.4832475,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2308950377",
+    "name": "ABC",
+    "prefecture_code": 27,
+    "lat": 34.702795,
+    "lon": 135.502242,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11129125503",
+    "name": "AMUSEMENT SPACE",
+    "prefecture_code": 27,
+    "lat": 34.6511609,
+    "lon": 135.5060735,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11648791435",
+    "name": "Atari Pong",
+    "prefecture_code": 27,
+    "lat": 34.6723803,
+    "lon": 135.4987584,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9491930562",
+    "name": "ATCあそびマーレ",
+    "prefecture_code": 27,
+    "lat": 34.6379836,
+    "lon": 135.4110083,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4907407544",
+    "name": "Bb（ビィビィ）",
+    "prefecture_code": 27,
+    "lat": 34.8228816,
+    "lon": 135.4944372,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5738431674",
+    "name": "BIG ECHO",
+    "prefecture_code": 27,
+    "lat": 34.6666137,
+    "lon": 135.5036096,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12463424782",
+    "name": "BorneLund PLAYCUBE",
+    "prefecture_code": 27,
+    "lat": 34.7060805,
+    "lon": 135.4924408,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9589548413",
+    "name": "BRAVO",
+    "prefecture_code": 27,
+    "lat": 34.757424,
+    "lon": 135.4953215,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9365151082",
+    "name": "CQB Limited",
+    "prefecture_code": 27,
+    "lat": 34.7579975,
+    "lon": 135.4965191,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4811257542",
+    "name": "ENTERTAINMENT FIELD",
+    "prefecture_code": 27,
+    "lat": 34.8040875,
+    "lon": 135.5344087,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13232059829",
+    "name": "Game Panic",
+    "prefecture_code": 27,
+    "lat": 34.6724913,
+    "lon": 135.4987469,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7936698568",
+    "name": "GAME PANIC堺",
+    "prefecture_code": 27,
+    "lat": 34.5977396,
+    "lon": 135.4472062,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13025724590",
+    "name": "GIGO なんば戎橋",
+    "prefecture_code": 27,
+    "lat": 34.6658237,
+    "lon": 135.5013582,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2296860546",
+    "name": "GiGO 難波アビオン",
+    "prefecture_code": 27,
+    "lat": 34.6627559,
+    "lon": 135.5032503,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7577448042",
+    "name": "GiGO（大阪市）",
+    "prefecture_code": 27,
+    "lat": 34.6686253,
+    "lon": 135.5016727,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4374202105",
+    "name": "GiGO（東大阪市）",
+    "prefecture_code": 27,
+    "lat": 34.6641061,
+    "lon": 135.5630611,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7693724551",
+    "name": "Gパラ",
+    "prefecture_code": 27,
+    "lat": 34.6422139,
+    "lon": 135.5111901,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14005630593",
+    "name": "Molly fantasy（吹田市）",
+    "prefecture_code": 27,
+    "lat": 34.7628951,
+    "lon": 135.5254041,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8879083318",
+    "name": "namco（神戸市）",
+    "prefecture_code": 27,
+    "lat": 34.6929398,
+    "lon": 135.1924886,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4905603599",
+    "name": "NAMCOLAND（箕面市）",
+    "prefecture_code": 27,
+    "lat": 34.8335275,
+    "lon": 135.4913104,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-14068654765",
+    "name": "NEXUS",
+    "prefecture_code": 27,
+    "lat": 34.2756724,
+    "lon": 135.1494753,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13919909265",
+    "name": "NICOPA",
+    "prefecture_code": 27,
+    "lat": 34.7891515,
+    "lon": 135.5393553,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9692611391",
+    "name": "PLAY STATION NAVEL",
+    "prefecture_code": 27,
+    "lat": 34.7425128,
+    "lon": 135.3541572,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-220079661",
+    "name": "ROUND1（大阪市）",
+    "prefecture_code": 27,
+    "lat": 34.6674995,
+    "lon": 135.5027776,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4807760609",
+    "name": "SEGA",
+    "prefecture_code": 27,
+    "lat": 34.6444165,
+    "lon": 135.5111534,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5584442707",
+    "name": "SEGA",
+    "prefecture_code": 27,
+    "lat": 34.7658072,
+    "lon": 135.6507165,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11126680879",
+    "name": "SOYU",
+    "prefecture_code": 27,
+    "lat": 34.6682063,
+    "lon": 135.4385484,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13195199814",
+    "name": "The Silver Ball Planet",
+    "prefecture_code": 27,
+    "lat": 34.672466,
+    "lon": 135.4986452,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10600358295",
+    "name": "UFOキャッチャー専門店",
+    "prefecture_code": 27,
+    "lat": 34.688379,
+    "lon": 135.18917,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-385867618",
+    "name": "VS PARK",
+    "prefecture_code": 27,
+    "lat": 34.8061996,
+    "lon": 135.5343026,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4462975726",
+    "name": "YOU'S LAND",
+    "prefecture_code": 27,
+    "lat": 34.2763766,
+    "lon": 135.1488693,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2293447295",
+    "name": "アテナ",
+    "prefecture_code": 27,
+    "lat": 34.6630123,
+    "lon": 135.5049668,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2332488205",
+    "name": "エム",
+    "prefecture_code": 27,
+    "lat": 34.7352361,
+    "lon": 135.5646904,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10164714472",
+    "name": "エンジョイパラダイス",
+    "prefecture_code": 27,
+    "lat": 34.6648504,
+    "lon": 135.5716648,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12066423175",
+    "name": "ガチャガチャの森",
+    "prefecture_code": 27,
+    "lat": 34.7080101,
+    "lon": 135.4993563,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12132442358",
+    "name": "キウイゲームズ 新大阪南方店",
+    "prefecture_code": 27,
+    "lat": 34.729578,
+    "lon": 135.4998991,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5533245321",
+    "name": "クラブセガ",
+    "prefecture_code": 27,
+    "lat": 34.7030607,
+    "lon": 135.5040677,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5580363514",
+    "name": "クラブセガ 神戸umieサウスモール",
+    "prefecture_code": 27,
+    "lat": 34.6796154,
+    "lon": 135.1830949,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8627358143",
+    "name": "ゲームポイント シャトーEX",
+    "prefecture_code": 27,
+    "lat": 34.6978973,
+    "lon": 135.5339494,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-467602765",
+    "name": "ザ・インドアゲーム",
+    "prefecture_code": 27,
+    "lat": 34.7295389,
+    "lon": 135.5440502,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9730047546",
+    "name": "ザリガニ",
+    "prefecture_code": 27,
+    "lat": 34.6534094,
+    "lon": 135.5057614,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12981867339",
+    "name": "しきつ囲碁将棋サロン",
+    "prefecture_code": 27,
+    "lat": 34.6565612,
+    "lon": 135.4981539,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-314067139",
+    "name": "ジャンカラ",
+    "prefecture_code": 27,
+    "lat": 34.7578671,
+    "lon": 135.4948068,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5301524421",
+    "name": "ジャンカラ 阪急茨木店",
+    "prefecture_code": 27,
+    "lat": 34.8181109,
+    "lon": 135.5764004,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6926374706",
+    "name": "ストライクス",
+    "prefecture_code": 27,
+    "lat": 34.3619226,
+    "lon": 135.2737168,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7597259385",
+    "name": "セガワールドアポロ",
+    "prefecture_code": 27,
+    "lat": 34.6464674,
+    "lon": 135.5117235,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6943084137",
+    "name": "ソユーゲームフィールド",
+    "prefecture_code": 27,
+    "lat": 34.3796527,
+    "lon": 135.2669897,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14067953411",
+    "name": "タイトーステーション（高槻市）",
+    "prefecture_code": 27,
+    "lat": 34.83692,
+    "lon": 135.5895522,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-180244930",
+    "name": "タイトーステーション（大阪市）",
+    "prefecture_code": 27,
+    "lat": 34.6633461,
+    "lon": 135.5031948,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-247204550",
+    "name": "タイトーステーション（大阪市）",
+    "prefecture_code": 27,
+    "lat": 34.6603671,
+    "lon": 135.5061649,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8668800005",
+    "name": "タイトーステーション（八尾市）",
+    "prefecture_code": 27,
+    "lat": 34.6331605,
+    "lon": 135.6055154,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-586023075",
+    "name": "チャレンジャー ガムガム店",
+    "prefecture_code": 27,
+    "lat": 34.7748871,
+    "lon": 135.5423285,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13375196630",
+    "name": "チャンピオン",
+    "prefecture_code": 27,
+    "lat": 34.6510047,
+    "lon": 135.5056421,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11434467678",
+    "name": "テレビゲーム かすが",
+    "prefecture_code": 27,
+    "lat": 34.6498558,
+    "lon": 135.5062027,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8878597301",
+    "name": "ナムコ 梅田店",
+    "prefecture_code": 27,
+    "lat": 34.7027647,
+    "lon": 135.5002742,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-2293447277",
+    "name": "ナムコ（大阪市）",
+    "prefecture_code": 27,
+    "lat": 34.6630328,
+    "lon": 135.5043865,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11910294232",
+    "name": "ニコパ",
+    "prefecture_code": 27,
+    "lat": 34.7155807,
+    "lon": 135.5301078,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10294686811",
+    "name": "パスカ",
+    "prefecture_code": 27,
+    "lat": 34.6440121,
+    "lon": 135.5125951,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-223928705",
+    "name": "メインストリート",
+    "prefecture_code": 27,
+    "lat": 34.6688402,
+    "lon": 135.5028391,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2293447410",
+    "name": "メモリアルロード きらめき",
+    "prefecture_code": 27,
+    "lat": 34.6602011,
+    "lon": 135.504816,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7961272053",
+    "name": "モーリーファンタジーf（茨木市）",
+    "prefecture_code": 27,
+    "lat": 34.8098416,
+    "lon": 135.5578566,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5963527849",
+    "name": "モンキートリック",
+    "prefecture_code": 27,
+    "lat": 34.7832923,
+    "lon": 135.6287932,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-660488594",
+    "name": "ラウンドワン 伊丹店",
+    "prefecture_code": 27,
+    "lat": 34.7790717,
+    "lon": 135.3934321,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13866919761",
+    "name": "楽市楽座",
+    "prefecture_code": 27,
+    "lat": 34.6702215,
+    "lon": 135.4776587,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11129125501",
+    "name": "元祖新世界射的秘宝館",
+    "prefecture_code": 27,
+    "lat": 34.6511411,
+    "lon": 135.506137,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11126810483",
+    "name": "射的",
+    "prefecture_code": 27,
+    "lat": 34.6528048,
+    "lon": 135.5059609,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14135241345",
+    "name": "十三棋道舘道場",
+    "prefecture_code": 27,
+    "lat": 34.7199925,
+    "lon": 135.4848135,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7512323333",
+    "name": "淡路棋院",
+    "prefecture_code": 27,
+    "lat": 34.7388874,
+    "lon": 135.5177921,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10600379694",
+    "name": "中華的射的場",
+    "prefecture_code": 27,
+    "lat": 34.6880429,
+    "lon": 135.1877066,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11653222837",
+    "name": "日本一 射的",
+    "prefecture_code": 27,
+    "lat": 34.6540005,
+    "lon": 135.5055702,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-751328637",
+    "name": "宝石さがし",
+    "prefecture_code": 27,
+    "lat": 34.414578,
+    "lon": 135.530687,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1928575946",
+    "name": "Aivis",
+    "prefecture_code": 28,
+    "lat": 34.8321733,
+    "lon": 134.6000561,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13229906450",
+    "name": "GiGO明石（明石市）",
+    "prefecture_code": 28,
+    "lat": 34.7207226,
+    "lon": 134.8973074,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12801691181",
+    "name": "PLAY CITY ポパイ",
+    "prefecture_code": 28,
+    "lat": 34.6722813,
+    "lon": 134.5325968,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7616781930",
+    "name": "キッズパーク",
+    "prefecture_code": 28,
+    "lat": 35.5448463,
+    "lon": 134.8148697,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6257315023",
+    "name": "ゴールドキング会館",
+    "prefecture_code": 28,
+    "lat": 34.8756529,
+    "lon": 134.3581922,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7615827048",
+    "name": "ナムコ（豊岡市）",
+    "prefecture_code": 28,
+    "lat": 35.5551028,
+    "lon": 134.8122313,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10858696803",
+    "name": "プラザパル",
+    "prefecture_code": 28,
+    "lat": 34.9089384,
+    "lon": 135.1875125,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1414057134",
+    "name": "モーリーファンタジー 社店",
+    "prefecture_code": 28,
+    "lat": 34.9148656,
+    "lon": 134.9610443,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6132396101",
+    "name": "旭遊技場",
+    "prefecture_code": 28,
+    "lat": 35.6255993,
+    "lon": 134.8073638,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1852355859",
+    "name": "TAITO STATION（奈良市）",
+    "prefecture_code": 29,
+    "lat": 34.6821103,
+    "lon": 135.8203691,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-14124900740",
+    "name": "TAITO STATION（奈良市）",
+    "prefecture_code": 29,
+    "lat": 34.724498,
+    "lon": 135.791049,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12582293141",
+    "name": "アミュージアム 木津川店",
+    "prefecture_code": 29,
+    "lat": 34.7190911,
+    "lon": 135.8161148,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-302553196",
+    "name": "アミューズメント CUE 奈良三条店",
+    "prefecture_code": 29,
+    "lat": 34.6817355,
+    "lon": 135.8221305,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10933911432",
+    "name": "namco パームシティ和歌山店",
+    "prefecture_code": 30,
+    "lat": 34.2554462,
+    "lon": 135.1403841,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-474156276",
+    "name": "タイトーステーション（新宮市）",
+    "prefecture_code": 30,
+    "lat": 33.6721026,
+    "lon": 135.9704138,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-4462930002",
+    "name": "ピタゴラス",
+    "prefecture_code": 30,
+    "lat": 34.2523566,
+    "lon": 135.1460693,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6006879273",
+    "name": "プレイランドサーカス",
+    "prefecture_code": 30,
+    "lat": 34.2299279,
+    "lon": 135.1932185,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4462937354",
+    "name": "ラウンドワンスタジアム 和歌山店",
+    "prefecture_code": 30,
+    "lat": 34.1979265,
+    "lon": 135.186211,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11155929620",
+    "name": "Flybywire simulations",
+    "prefecture_code": 31,
+    "lat": 43.1110268,
+    "lon": 131.8769619,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1978813606",
+    "name": "GiGO 米子（米子市）",
+    "prefecture_code": 31,
+    "lat": 35.4597992,
+    "lon": 133.3221608,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11083620770",
+    "name": "Starbricks",
+    "prefecture_code": 31,
+    "lat": 43.0901969,
+    "lon": 131.8597904,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12656685238",
+    "name": "Vrlab.play",
+    "prefecture_code": 31,
+    "lat": 43.113419,
+    "lon": 131.914372,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10576367140",
+    "name": "Warpoint",
+    "prefecture_code": 31,
+    "lat": 43.1462995,
+    "lon": 131.9310835,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12096727964",
+    "name": "ЛилиЛэнд",
+    "prefecture_code": 31,
+    "lat": 43.1602746,
+    "lon": 131.9126943,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-318051606",
+    "name": "アミパラ（松江市）",
+    "prefecture_code": 32,
+    "lat": 35.4636953,
+    "lon": 133.0741948,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-679760578",
+    "name": "クラブセガ 松江",
+    "prefecture_code": 32,
+    "lat": 35.4500962,
+    "lon": 133.0478266,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6168094685",
+    "name": "SEGA",
+    "prefecture_code": 33,
+    "lat": 34.6618868,
+    "lon": 133.917492,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-314405991",
+    "name": "アミパラ テクノランド店",
+    "prefecture_code": 33,
+    "lat": 34.6791511,
+    "lon": 133.9275616,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12581610807",
+    "name": "アミパラ 岡山店",
+    "prefecture_code": 33,
+    "lat": 34.6362776,
+    "lon": 133.9199248,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1081655515",
+    "name": "アミパラ 岡山店",
+    "prefecture_code": 33,
+    "lat": 34.6364592,
+    "lon": 133.9202993,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12289515677",
+    "name": "アミパラ 東岡山店",
+    "prefecture_code": 33,
+    "lat": 34.6724578,
+    "lon": 133.967095,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1038776315",
+    "name": "あみぱらんど 福山店（福山市三吉町南）",
+    "prefecture_code": 33,
+    "lat": 34.4883925,
+    "lon": 133.3784708,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12542149232",
+    "name": "アミューズメントPLABI",
+    "prefecture_code": 33,
+    "lat": 34.6718838,
+    "lon": 133.9468949,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-276265449",
+    "name": "クラブセガ 倉敷",
+    "prefecture_code": 33,
+    "lat": 34.583897,
+    "lon": 133.7699103,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13111347060",
+    "name": "ゲームセンター５",
+    "prefecture_code": 33,
+    "lat": 34.6238784,
+    "lon": 133.8829264,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-640482082",
+    "name": "ゲームセンターMAX",
+    "prefecture_code": 33,
+    "lat": 34.6040695,
+    "lon": 133.9007371,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6033198049",
+    "name": "ゲーム戦隊アマレンジャー",
+    "prefecture_code": 33,
+    "lat": 34.5992339,
+    "lon": 133.8974565,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-443722147",
+    "name": "スターダスト",
+    "prefecture_code": 33,
+    "lat": 34.6663335,
+    "lon": 133.9208529,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-626707198",
+    "name": "パチスロ専門店GAME333",
+    "prefecture_code": 33,
+    "lat": 34.607458,
+    "lon": 133.8565898,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-625063241",
+    "name": "ファンタジスタ",
+    "prefecture_code": 33,
+    "lat": 34.5583168,
+    "lon": 133.6767498,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12535750876",
+    "name": "ふぇすたらんど 平島店",
+    "prefecture_code": 33,
+    "lat": 34.707679,
+    "lon": 134.0496082,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14063047571",
+    "name": "プロバックス",
+    "prefecture_code": 33,
+    "lat": 34.6518818,
+    "lon": 134.0310672,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12558465390",
+    "name": "ユーズランド",
+    "prefecture_code": 33,
+    "lat": 34.6047388,
+    "lon": 133.7454913,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13013276851",
+    "name": "ゆめランド",
+    "prefecture_code": 33,
+    "lat": 34.6664361,
+    "lon": 134.0930781,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-573013778",
+    "name": "玉島プレイランド",
+    "prefecture_code": 33,
+    "lat": 34.5471548,
+    "lon": 133.6832747,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7196075684",
+    "name": "GiGO 広島本通",
+    "prefecture_code": 34,
+    "lat": 34.3925373,
+    "lon": 132.4608118,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6297092223",
+    "name": "SEGA",
+    "prefecture_code": 34,
+    "lat": 34.4029931,
+    "lon": 133.1863118,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14161756691",
+    "name": "アミパラ フォレオ広島東店（広島市）",
+    "prefecture_code": 34,
+    "lat": 34.4085161,
+    "lon": 132.5032504,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11164692847",
+    "name": "アミパラここじゃ（東広島市）",
+    "prefecture_code": 34,
+    "lat": 34.4075892,
+    "lon": 132.7154862,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-391871029",
+    "name": "スペースV1",
+    "prefecture_code": 34,
+    "lat": 34.3517703,
+    "lon": 132.3340967,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-305106330",
+    "name": "セガワールド・福山",
+    "prefecture_code": 34,
+    "lat": 34.476067,
+    "lon": 133.3159237,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10095172266",
+    "name": "セガ海田",
+    "prefecture_code": 34,
+    "lat": 34.3676047,
+    "lon": 132.5337476,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5022231122",
+    "name": "タイトーステーション 広島本通店",
+    "prefecture_code": 34,
+    "lat": 34.3929847,
+    "lon": 132.4604406,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8200255999",
+    "name": "タイトーステーション（広島市）",
+    "prefecture_code": 34,
+    "lat": 34.3940206,
+    "lon": 132.4560269,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12345053554",
+    "name": "タイトーステーション（広島市）",
+    "prefecture_code": 34,
+    "lat": 34.3959339,
+    "lon": 132.4749095,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8694987185",
+    "name": "ファンタジア（広島市安佐南区緑井）",
+    "prefecture_code": 34,
+    "lat": 34.4733952,
+    "lon": 132.4868628,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11448944144",
+    "name": "ファンタジープラザ",
+    "prefecture_code": 34,
+    "lat": 34.4418063,
+    "lon": 133.259567,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14162300846",
+    "name": "ふぇすたらんど サンリブ府中店",
+    "prefecture_code": 34,
+    "lat": 34.3981965,
+    "lon": 132.5005577,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-4561715996",
+    "name": "ラウンドワン 広島店",
+    "prefecture_code": 34,
+    "lat": 34.3937352,
+    "lon": 132.4601166,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12058747244",
+    "name": "ONE GAME",
+    "prefecture_code": 36,
+    "lat": 34.1426726,
+    "lon": 134.5761722,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8205308003",
+    "name": "ゲームコーナー",
+    "prefecture_code": 36,
+    "lat": 34.0134639,
+    "lon": 134.5191832,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10536645474",
+    "name": "Amusement Park MG inn Shido",
+    "prefecture_code": 37,
+    "lat": 34.3153847,
+    "lon": 134.1704924,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1106570568",
+    "name": "GiGO丸亀（丸亀市）",
+    "prefecture_code": 37,
+    "lat": 34.2948726,
+    "lon": 133.7852138,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-628944010",
+    "name": "MAX PLAZA",
+    "prefecture_code": 37,
+    "lat": 34.2436062,
+    "lon": 133.7640521,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10246429553",
+    "name": "アミパラ 丸亀店（丸亀市）",
+    "prefecture_code": 37,
+    "lat": 34.2846893,
+    "lon": 133.8209115,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10290750413",
+    "name": "スマイルパーク多度津",
+    "prefecture_code": 37,
+    "lat": 34.2740348,
+    "lon": 133.7685045,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10216671338",
+    "name": "タイトーステーション（丸亀市）",
+    "prefecture_code": 37,
+    "lat": 34.2427951,
+    "lon": 133.8350724,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-11340955008",
+    "name": "ふぇすたらんど宇多津",
+    "prefecture_code": 37,
+    "lat": 34.3138547,
+    "lon": 133.8308723,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10292821101",
+    "name": "マルゲ",
+    "prefecture_code": 37,
+    "lat": 34.3392551,
+    "lon": 134.0492154,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-6168545756",
+    "name": "モーリーファンタジー 高松",
+    "prefecture_code": 37,
+    "lat": 34.3516298,
+    "lon": 134.0040073,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12367152757",
+    "name": "GiGO（今治市）",
+    "prefecture_code": 38,
+    "lat": 34.0564019,
+    "lon": 132.9800784,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8200513975",
+    "name": "タイトーステーション（今治市）",
+    "prefecture_code": 38,
+    "lat": 34.0427758,
+    "lon": 133.0278835,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10767459120",
+    "name": "タイトーステーション（松山市）",
+    "prefecture_code": 38,
+    "lat": 33.8540308,
+    "lon": 132.7466883,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12365032864",
+    "name": "ナムコ（宇和島市）",
+    "prefecture_code": 38,
+    "lat": 33.2346763,
+    "lon": 132.5694278,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8202040720",
+    "name": "ナムコ（今治市）",
+    "prefecture_code": 38,
+    "lat": 34.0621021,
+    "lon": 133.0157747,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10275133193",
+    "name": "バンバン衣山",
+    "prefecture_code": 38,
+    "lat": 33.8524913,
+    "lon": 132.7457736,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-251129383",
+    "name": "アミュージアム",
+    "prefecture_code": 39,
+    "lat": 33.5652542,
+    "lon": 133.6095066,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1168509219",
+    "name": "アミューズメントパークMG 伊予三島店",
+    "prefecture_code": 39,
+    "lat": 33.9745631,
+    "lon": 133.5287458,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13442215101",
+    "name": "ゲーム えの木2",
+    "prefecture_code": 39,
+    "lat": 33.5557615,
+    "lon": 133.5061511,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11076560855",
+    "name": "タイトーステーション（香南市）",
+    "prefecture_code": 39,
+    "lat": 33.5597414,
+    "lon": 133.6958133,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13308313096",
+    "name": "ナムコ（西条市）",
+    "prefecture_code": 39,
+    "lat": 33.9305099,
+    "lon": 133.2015487,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10683103443",
+    "name": "プラザカプコン",
+    "prefecture_code": 39,
+    "lat": 33.9529766,
+    "lon": 133.2696455,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1451303897",
+    "name": "回遊館（西条市）",
+    "prefecture_code": 39,
+    "lat": 33.931407,
+    "lon": 133.1907485,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13325292380",
+    "name": "#C-pla",
+    "prefecture_code": 40,
+    "lat": 33.8856653,
+    "lon": 130.8810509,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-506871407",
+    "name": "G-PALA",
+    "prefecture_code": 40,
+    "lat": 33.325384,
+    "lon": 130.9115029,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-548062241",
+    "name": "G-stage飯塚",
+    "prefecture_code": 40,
+    "lat": 33.6364943,
+    "lon": 130.6759768,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12557967519",
+    "name": "GiGO 福岡天神",
+    "prefecture_code": 40,
+    "lat": 33.5898055,
+    "lon": 130.3965457,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12735699401",
+    "name": "GiGO（福岡市）",
+    "prefecture_code": 40,
+    "lat": 33.5884233,
+    "lon": 130.4215069,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12804353018",
+    "name": "GiGO（福岡市）",
+    "prefecture_code": 40,
+    "lat": 33.5926861,
+    "lon": 130.3985253,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-557860534",
+    "name": "ジャンボパンチ希林",
+    "prefecture_code": 40,
+    "lat": 33.6222886,
+    "lon": 130.6723752,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10271342785",
+    "name": "タイトーステーション（福岡市）",
+    "prefecture_code": 40,
+    "lat": 33.589176,
+    "lon": 130.4109791,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-378132626",
+    "name": "タイトーステーション（福岡市）",
+    "prefecture_code": 40,
+    "lat": 33.5896096,
+    "lon": 130.3973231,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-9219283267",
+    "name": "ナムコ 博多バスターミナル店",
+    "prefecture_code": 40,
+    "lat": 33.5915871,
+    "lon": 130.4198133,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-8920896084",
+    "name": "バナナパーティーガチャ 長浜店",
+    "prefecture_code": 40,
+    "lat": 33.5929507,
+    "lon": 130.3854589,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-10271374220",
+    "name": "バンダイナムコ Cross Store 博多",
+    "prefecture_code": 40,
+    "lat": 33.5888107,
+    "lon": 130.4106505,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-6168025601",
+    "name": "モーリーファンタジー 筑紫野",
+    "prefecture_code": 40,
+    "lat": 33.4806917,
+    "lon": 130.5253136,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12788219857",
+    "name": "楽市楽座",
+    "prefecture_code": 40,
+    "lat": 33.5769869,
+    "lon": 130.2565644,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1185125662",
+    "name": "楽市楽座",
+    "prefecture_code": 40,
+    "lat": 33.5688315,
+    "lon": 130.31346,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-824816820",
+    "name": "楽市楽座 くりえいと宗像店",
+    "prefecture_code": 40,
+    "lat": 33.8105433,
+    "lon": 130.5635717,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5581879772",
+    "name": "楽市楽座210トリアス店",
+    "prefecture_code": 40,
+    "lat": 33.652904,
+    "lon": 130.4920228,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1169102669",
+    "name": "秋峰",
+    "prefecture_code": 40,
+    "lat": 33.4796251,
+    "lon": 130.5531982,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1076222284",
+    "name": "ナムコ（柳川市）",
+    "prefecture_code": 41,
+    "lat": 33.1608036,
+    "lon": 130.4244867,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1473482454",
+    "name": "サープラ佐世保あそびタウン",
+    "prefecture_code": 42,
+    "lat": 33.2086137,
+    "lon": 129.7168555,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1296720545",
+    "name": "マンガ倉庫 佐々店",
+    "prefecture_code": 42,
+    "lat": 33.2405959,
+    "lon": 129.6517738,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1062751627",
+    "name": "楽市楽座　諫早店",
+    "prefecture_code": 42,
+    "lat": 32.8335519,
+    "lon": 130.0758893,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-8494485046",
+    "name": "在日米軍針尾ゲーミングルーム",
+    "prefecture_code": 42,
+    "lat": 33.0831176,
+    "lon": 129.7811212,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13903214406",
+    "name": "自遊空間",
+    "prefecture_code": 42,
+    "lat": 32.8333983,
+    "lon": 129.8408333,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-464920723",
+    "name": "festa 人吉店",
+    "prefecture_code": 43,
+    "lat": 32.2120821,
+    "lon": 130.7482485,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-410904384",
+    "name": "namcoワンダーシティ南熊本店（熊本市）",
+    "prefecture_code": 43,
+    "lat": 32.7868159,
+    "lon": 130.714694,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-way-1372395084",
+    "name": "パスカワールドグリーンランド（荒尾市）",
+    "prefecture_code": 43,
+    "lat": 32.9879685,
+    "lon": 130.4713349,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-1108534241",
+    "name": "クラブセガ",
+    "prefecture_code": 44,
+    "lat": 32.5499065,
+    "lon": 131.6779113,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-412633470",
+    "name": "ハイテクランド セガ ハーバープレイス（大分県別府市）",
+    "prefecture_code": 44,
+    "lat": 33.2955232,
+    "lon": 131.5030584,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-12125544755",
+    "name": "楽市楽座",
+    "prefecture_code": 45,
+    "lat": 31.921889,
+    "lon": 131.4578766,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-7983266591",
+    "name": "The 3rd Planet",
+    "prefecture_code": 46,
+    "lat": 31.7411723,
+    "lon": 130.7378143,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-1309062098",
+    "name": "Urban Square",
+    "prefecture_code": 46,
+    "lat": 31.5898092,
+    "lon": 130.5559254,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13121304552",
+    "name": "ザ･サードプラネット",
+    "prefecture_code": 46,
+    "lat": 31.5702667,
+    "lon": 130.5655307,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-2247611123",
+    "name": "サン アミューズ",
+    "prefecture_code": 46,
+    "lat": 31.399841,
+    "lon": 130.872872,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5745365754",
+    "name": "サンゲームス",
+    "prefecture_code": 46,
+    "lat": 31.7225172,
+    "lon": 130.2728268,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9081875345",
+    "name": "楽市楽座",
+    "prefecture_code": 46,
+    "lat": 31.5438216,
+    "lon": 130.5451249,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-way-666292330",
+    "name": "電撃",
+    "prefecture_code": 46,
+    "lat": 31.6022903,
+    "lon": 130.5657203,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14068656083",
+    "name": "Feedy Diner & Arcade",
+    "prefecture_code": 47,
+    "lat": 26.2012011,
+    "lon": 127.7387259,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13058208147",
+    "name": "GiGO（那覇市）",
+    "prefecture_code": 47,
+    "lat": 26.2143933,
+    "lon": 127.6821388,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12680553797",
+    "name": "GiGO（豊見城市）",
+    "prefecture_code": 47,
+    "lat": 26.1593912,
+    "lon": 127.6559529,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5234826259",
+    "name": "GiGO（北谷町）",
+    "prefecture_code": 47,
+    "lat": 26.3171255,
+    "lon": 127.7556151,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13686162475",
+    "name": "namcoイオンタウン読谷SC点 イオン読谷店",
+    "prefecture_code": 47,
+    "lat": 26.36799,
+    "lon": 127.7460242,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-12108384925",
+    "name": "あそびタウン",
+    "prefecture_code": 47,
+    "lat": 26.3530946,
+    "lon": 127.8251936,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-14068656077",
+    "name": "あそびタウン",
+    "prefecture_code": 47,
+    "lat": 26.1226083,
+    "lon": 127.6682892,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-11612997019",
+    "name": "アミュージアム",
+    "prefecture_code": 47,
+    "lat": 26.2033786,
+    "lon": 127.7359423,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5467744380",
+    "name": "ジョイジャングル",
+    "prefecture_code": 47,
+    "lat": 26.3173082,
+    "lon": 127.7572082,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-13476374221",
+    "name": "トレトレ倉庫",
+    "prefecture_code": 47,
+    "lat": 26.1405236,
+    "lon": 127.6726675,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-9773067211",
+    "name": "ナムコ（うるま市）",
+    "prefecture_code": 47,
+    "lat": 26.3389604,
+    "lon": 127.845132,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-5469497208",
+    "name": "ナムコ（那覇市）",
+    "prefecture_code": 47,
+    "lat": 26.2254437,
+    "lon": 127.6946596,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-7653289686",
+    "name": "ナムコ（豊見城市）",
+    "prefecture_code": 47,
+    "lat": 26.1568613,
+    "lon": 127.6510492,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-10833636208",
+    "name": "ナムコ（豊見城市）",
+    "prefecture_code": 47,
+    "lat": 26.1894787,
+    "lon": 127.687975,
+    "tier": "S"
+  },
+  {
+    "id": "game-center-node-13408775379",
+    "name": "ハピピランド",
+    "prefecture_code": 47,
+    "lat": 26.1735609,
+    "lon": 127.7443416,
+    "tier": "C"
+  },
+  {
+    "id": "game-center-node-5747745927",
+    "name": "楽市楽座",
+    "prefecture_code": 47,
+    "lat": 26.313915,
+    "lon": 127.7967975,
+    "tier": "C"
+  }
+]
