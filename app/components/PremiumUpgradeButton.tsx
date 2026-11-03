@@ -1,5 +1,6 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { isNativeIOSApp } from '@/lib/iosApp'
 
 // NEXT_PUBLIC_PREMIUM_ENABLED=true になるまで非表示
 const PREMIUM_ENABLED = process.env.NEXT_PUBLIC_PREMIUM_ENABLED === 'true'
@@ -10,6 +11,14 @@ interface Props {
 
 export default function PremiumUpgradeButton({ isPremium }: Props) {
   const [loading, setLoading] = useState(false)
+  const [isIOSApp, setIsIOSApp] = useState(false)
+
+  useEffect(() => {
+    setIsIOSApp(isNativeIOSApp())
+  }, [])
+
+  // Apple App Store審査ガイドライン3.1.1対応：iOSアプリ版ではStripeの購入・管理導線を表示しない
+  if (isIOSApp) return null
 
   if (!PREMIUM_ENABLED) return null
 

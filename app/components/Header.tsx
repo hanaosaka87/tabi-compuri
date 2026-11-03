@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <>
       {/* トップヘッダー */}
-      <header className="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-slate-900/80 backdrop-blur sticky top-0 z-10">
+      <header className="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-slate-900/80 backdrop-blur sticky top-0 z-10" style={{ paddingTop: 'max(0.75rem, env(safe-area-inset-top))' }}>
         <Link href="/dashboard" className="flex items-center gap-2 flex-shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/icon-512.png" alt="" className="w-8 h-8 rounded-lg" />
@@ -110,7 +110,7 @@ export default function Header() {
       </header>
 
       {/* スマホ用下部タブバー */}
-      <nav className="sm:hidden fixed bottom-0 left-0 right-0 z-20 bg-slate-900/95 backdrop-blur border-t border-white/10 flex">
+      <nav className="sm:hidden fixed bottom-0 left-0 right-0 z-20 bg-slate-900/95 backdrop-blur border-t border-white/10 flex" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
         {NAV.map((item) => (
           <Link
             key={item.href}

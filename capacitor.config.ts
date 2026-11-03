@@ -10,6 +10,15 @@ const config: CapacitorConfig = {
     url: 'https://tabi-compuri.hana.trickster.biz',
     cleartext: false,
   },
+  ios: {
+    // コンテンツがステータスバー/ホームインジケーターに重なる問題の対策（クレゲーで確立済み）。
+    // 常にセーフエリア分の余白を確保してWebViewを配置する
+    contentInset: 'always',
+    // サーバー側でiOSアプリからのリクエストを判別するためのUser-Agentマーカー
+    // （将来NEXT_PUBLIC_PREMIUM_ENABLED=trueにした際、Apple審査ガイドライン3.1.1対応で
+    // iOSアプリ内ではStripe購入導線を表示しないための備え。lib/iosApp.ts参照）
+    appendUserAgent: 'TabiCompuriIOSApp',
+  },
 };
 
 export default config;

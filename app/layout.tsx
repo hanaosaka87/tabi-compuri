@@ -22,6 +22,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   themeColor: '#10b981',
+  viewportFit: 'cover',
 }
 
 const BASE_URL = 'https://tabi-compuri.hana.trickster.biz'
