@@ -13,6 +13,33 @@ export default function ProfilePage() {
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
+  const [deleteOpen, setDeleteOpen] = useState(false)
+  const [deleteConfirmText, setDeleteConfirmText] = useState('')
+  const [deleting, setDeleting] = useState(false)
+  const [deleteError, setDeleteError] = useState('')
+
+  const handleDeleteAccount = async () => {
+    if (deleteConfirmText !== '削除') return
+    setDeleting(true)
+    setDeleteError('')
+    try {
+      const { data: sessionData } = await supabase.auth.getSession()
+      const token = sessionData.session?.access_token
+      if (!token) throw new Error('認証情報の取得に失敗しました')
+      const res = await fetch('/api/account/delete', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || '削除に失敗しました')
+      await supabase.auth.signOut()
+      window.location.href = '/'
+    } catch (e) {
+      setDeleteError(e instanceof Error ? e.message : '削除に失敗しました。もう一度お試しください。')
+    } finally {
+      setDeleting(false)
+    }
+  }
 
   useEffect(() => {
     const init = async () => {
@@ -85,6 +112,49 @@ export default function ProfilePage() {
         <p className="text-slate-600 text-xs text-center mt-6">
           名前は全ユーザーのランキングに公開されます
         </p>
+
+        <div className="mt-10 pt-6 border-t border-white/10">
+          <button
+            type="button"
+            onClick={() => setDeleteOpen((v) => !v)}
+            className="text-slate-500 hover:text-red-400 text-xs transition"
+          >
+            ⚠️ アカウントを削除する
+          </button>
+          {deleteOpen && (
+            <div className="mt-3 bg-white/5 border border-red-500/30 rounded-2xl p-4">
+              <p className="text-sm text-slate-300 mb-2">
+                アカウントを削除すると、プロフィール・訪問記録・日記・グループ・バッジ等、あなたのすべてのデータが削除されます。<strong className="text-red-400">この操作は取り消せません。</strong>
+              </p>
+              <p className="text-xs text-slate-500 mb-3">削除を実行するには「削除」と入力してください。</p>
+              <input
+                type="text"
+                value={deleteConfirmText}
+                onChange={(e) => setDeleteConfirmText(e.target.value)}
+                placeholder="削除"
+                className="w-full bg-slate-800 border border-white/10 rounded-xl px-4 py-2 text-white text-sm mb-3 focus:outline-none focus:border-red-400"
+              />
+              {deleteError && <p className="text-red-400 text-xs mb-3">{deleteError}</p>}
+              <div className="flex gap-3">
+                <button
+                  type="button"
+                  onClick={handleDeleteAccount}
+                  disabled={deleteConfirmText !== '削除' || deleting}
+                  className="bg-red-500 hover:bg-red-400 disabled:bg-slate-700 disabled:text-slate-500 text-white text-sm font-bold px-4 py-2 rounded-xl transition"
+                >
+                  {deleting ? '削除中...' : 'アカウントを完全に削除する'}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { setDeleteOpen(false); setDeleteConfirmText(''); setDeleteError('') }}
+                  className="text-slate-400 hover:text-white text-sm transition"
+                >
+                  キャンセル
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </main>
   )
